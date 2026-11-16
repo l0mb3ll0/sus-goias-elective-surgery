@@ -1,0 +1,52 @@
+{
+ "cap_roll": 3,
+ "pi": 6.0,
+ "obs_2019": 0.834661955444478,
+ "obs_2023": 0.8549471904299216,
+ "runs": [
+  {
+   "label": "A. 2019 demand, 2019 options",
+   "travel_opt": 0.5946912569483345,
+   "travel_adj": 0.5946912569483346,
+   "served": 3867.8333333333335,
+   "unmet": 0.0,
+   "unmet_share": 0.0,
+   "demand_total": 3867.833333333333,
+   "unmet_no_option": 0.0,
+   "scope_pairs": 563
+  },
+  {
+   "label": "B. 2023 demand, 2019 options+caps",
+   "travel_opt": 0.7245242724635836,
+   "travel_adj": 1.8229964541244468,
+   "served": 5228.833333333333,
+   "unmet": 1375.0833333333333,
+   "unmet_share": 0.2082223932767171,
+   "demand_total": 6603.916666666666,
+   "unmet_no_option": 0.0,
+   "scope_pairs": 563
+  },
+  {
+   "label": "C. 2023 demand, 2019 options, 23 cap",
+   "travel_opt": 0.7746765557285983,
+   "travel_adj": 1.3754406873634075,
+   "served": 5844.653378192504,
+   "unmet": 759.2632884741627,
+   "unmet_share": 0.1149716640590805,
+   "demand_total": 6603.916666666666,
+   "unmet_no_option": 0.0,
+   "scope_pairs": 554
+  },
+  {
+   "label": "D. 2023 demand, 2023 options",
+   "travel_opt": 0.587325555919073,
+   "travel_adj": 0.587325555919073,
+   "served": 6603.916666666666,
+   "unmet": 0.0,
+   "unmet_share": 0.0,
+   "demand_total": 6603.916666666666,
+   "unmet_no_option": 0.0,
+   "scope_pairs": 637
+  }
+ ]
+}

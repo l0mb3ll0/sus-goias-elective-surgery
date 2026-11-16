@@ -1,0 +1,35 @@
+pairs 2019 574, 2023 666; new 284, lost 192; new-pair cases 21,845; share of 2023 volume 0.2750
+
+== 1. New pairs by group (rule: hospital_panel_v2 group) ==
+                    pairs  cases
+g                               
+always_state           43   6330
+excluded                5     60
+municipal_at_break    191  13326
+transferred            42   2096
+unknown                 3     33
+TOTAL pairs 284 cases 21845
+three named groups: pairs 276 cases 21752
+RESIDUAL (not in the three groups): pairs 8 cases 93
+
+residual pair list (CNES, subgroup, cases 2023, group):
+  4063112 0407 14 unknown
+  4063112 0409 11 unknown
+  4063112 0415 8 unknown
+  5419662 0401 13 excluded
+  5419662 0403 2 excluded
+  5419662 0406 43 excluded
+  5419662 0409 1 excluded
+  5419662 0412 1 excluded
+
+== 2. Section 3.2 subgroup counts and intervening activity (2020-2022) ==
+NOTE: paper text says "active in some month of 2020 to 2022"; the stored numbers use 2019-2022 on NEW pairs (absent in calendar 2019, so identical by construction).
+  with intervening activity (2020-22): 195 of 284; any 2019-22: 195
+  cases with intervening activity: 20,568 of 21,845 (0.9415); points of 2023 volume 25.9 vs no activity 1.6
+  median active months before 2023 (2019-22 window): 5; median cases 10; total prior cases 13,132
+  median active months, 2020-22 only: 5
+  0407: pairs 32, cases 7,401; pair share with intervening 78.1%, case share 97.2%
+  0409: pairs 35, cases 4,094; pair share with intervening 80.0%, case share 87.2%
+  0408: pairs 19, cases 3,490; pair share with intervening 78.9%, case share 99.8%
+
+== 3. lost pairs active again 2024/25: 62 of 192

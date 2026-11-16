@@ -1,0 +1,141 @@
+\section{Introduction}
+\label{sec:intro}
+
+Between 2019 and 2025 the Brazilian state of Goi\'as roughly doubled its monthly
+volume of elective surgery in the public health system, from 3{,}896 admissions
+per month to 8{,}013, while urgent surgical volume rose by 15 per cent. The
+increase is not pandemic recovery: elective volume had returned to its
+pre-2020 level by early 2022 and stopped there, and the post-2022 level has no
+precedent in the panel. This paper describes what that expansion consisted of and how far the resulting allocation sits from a transparent benchmark.
+
+The paper asks four descriptive questions. Which facility-procedure pairs
+account for the gain between 2019 and 2023, and do they appear in the intervening records? Were hospital beds limiting? How far is the realised allocation from the optimum of a
+linear program that sends each municipality's patients to the facilities at least travel cost, and did the mean coded cost index change? And how much of what we compute
+about the program's constraints survives our own tests? None of these questions identifies the cause of the expansion, and the paper does not.
+
+We formulate the allocation of elective surgery across facilities as a
+capacitated assignment problem with a travel-penalised access objective, and
+solve it on administrative microdata covering 2{,}719{,}254 hospital
+authorisation records, of which 430{,}802 are elective surgical admissions
+across 201 facilities over 84 months. Four findings follow, each stated with the tests that bound it.
+
+First, facility-procedure activity in the administrative record is intermittent, so a comparison of two endpoint years classifies as new many pairs that appear in the intervening records. A pair counts as active in a month when it records at least one elective surgical admission. Of the 284 pairs present in 2023 and absent in 2019,
+carrying 27.5 per cent of 2023 elective volume, 195 are active in some month of 2020 to 2022 (median five active months and ten cases) and carry 94.2 per cent of the cases, so 25.9 of the 27.5 points are
+pairs with earlier activity in the record, and 1.6 points are pairs with none; across the panel 1{,}028 of 1{,}179 pairs record at least one interruption of three consecutive months. This describes the record, not why a pair was dark in a given year. Of the 284 pairs' volume, 52 per cent is at facilities absent from SIH altogether, or 84 per cent on the broader test of absence from its elective subset.
+Under the model's 2019-pair configuration and feasibility rules, 11.5 per cent of 2023 demand remains unassigned; with the 2023 pairs all of it is assigned. We make no attribution of the change between
+pairs and capacity (Table~\ref{tab:decomp}).
+
+Second, the constructed bed-day budget was slack in aggregate, and a few facilities used nearly all of it. The budget is SUS surgical beds times 30 days, net of urgent surgical bed-days, and is not a measure of staffed beds. Aggregate utilisation of net surgical bed-days at the reported optimum is 0.132 in 2019,
+0.178 in 2023 and 0.215 in 2025 (0.06 to 0.09 when every admission is netted against all inpatient beds), and one, three and six of 131, 131 and 145 facilities use
+more than 95 per cent of their bed-day budget. Dropping the bed row raises the benchmark gap by 0.0, 3.5 and 2.4 points, because 1, 3 and 5 facilities would then exceed their budget.
+Beds are counted at full occupancy; operating-room sessions, surgeons and anaesthetists are not modelled.
+
+Third, a transparent benchmark shows no detectable change in the gap, and its level depends on construction. Under the peak-volume cap and the baseline 0--3 regional cost score, the optimum's mean cost index is 28.8, 30.6 and 29.1 per cent lower than the observed
+allocation's (0.595, 0.587 and 0.642 against 0.835, 0.846 and 0.906) (the gap is (observed $-$ optimum) / observed; 29 per cent lower corresponds to the observed index being about 41 per cent above the optimum). The score is 0 to 3 by the regional boundary crossed, and the program sums it, so it assumes equal steps between categories; the gap describes the coded objective, not kilometres or journey time, and alternative codings are in Table~\ref{tab:measure}. Differences between years are not distinguishable from zero, with
+intervals about nine points wide, so this is no detectable change and not evidence of equality. The level ranges from 23 to 55 per cent across cost codings, origin zone systems (including the official health regions), bed definitions, estimation windows
+and caps deflated for counting noise, and is 6 per cent in 2019 when each pair is held to its annual mean volume, with 0.3 per cent of demand then unserved (Table~\ref{tab:measure}). The observed mean index did not fall: it rose from 0.835 to 0.846 to 0.906.
+
+Fourth, what we can say about the constraints is limited. The cap is a peak, not a demonstrated ceiling. The number of facilities at their cap is not identified (in 2023 a proved minimum of 44 of 131 and a largest value found of 107 across optima of equal cost);
+disjointness of bed-bound and cap-bound facilities is a property of the reported optimum, and an overlap is attainable at other optima in 2019 and 2025; the cap test is a low-power non-rejection; and the explanation ``flatter monthly series'' for the fall in aggregate cap over demand is not supported (Section~\ref{sec:capnull}).
+Goi\'as residents treated in the Federal District are missing from the data, so we draw no conclusion about the Entorno. An exploratory extension that lets the program open new pairs is in Appendix~\ref{app:explore}. Taken together, the benchmark is a diagnostic counterfactual under a historical-volume feasibility rule: it says how far the observed allocation sits from what that rule permits, not what the system could produce.
+
+The implication for modelling is limited. A scheduling model that takes the machine set as given cannot represent a change in which
+facility-procedure pairs exist, and would attribute to allocation a gain that came with pairs and their caps. The
+fixed-machine-set assumption, usually a modelling convenience, is here a substantive question, which this paper treats descriptively.
+
+Two features of the setting make the model's capacity constraint non-obvious and
+are established empirically before it is imposed. Capacity is consumed in
+bed-days rather than cases. Across elective admissions in calendar 2023, mean
+length of stay is 1.57 days at facilities under municipal contract
+administration and 2.32 days at state-administered ones, a ratio of 1.48. Case
+mix explains none of it --- both directions of reweighting at ten-digit
+procedure detail bracket the raw gap --- and complexity runs the wrong way,
+since municipal-administered facilities perform proportionally more
+high-complexity work, not less. A case is therefore not a fixed claim on
+capacity, and a model that rations cases rather than bed-days would misprice
+every facility whose stays are short. And the capacity that exists is unequally
+free: total bed occupancy over 2023--25 is 0.33 at municipal-administered
+facilities against 0.79 at state-administered ones, so
+total bed occupancy is lower at municipal-administered facilities, indicating more bed slack by this measure; the data do not establish the marginal operational cost of an additional elective case.
+
+The paper contributes in three limited ways. Substantively, it describes a large public-sector surgical expansion with
+administrative microdata and what the expansion consisted of in terms of facility-procedure pairs. Methodologically, the program is
+standard, the benchmark comes from the excess-commuting literature, and its constraints are drawn from existing work; what we add is a
+joint bed-day budget and peak-volume cap on multi-year SUS elective surgery in Goi\'as and a test of whether they bind on disjoint facilities, with that test's power and
+its dependence on the optimum chosen reported. Practically, the paper offers a template: the gap and the two constraints can be
+rebuilt from any claims record that identifies the treating facility and the procedure, and the model-based stored numbers rebuild from a clean checkout with one command (the last full run, made before the final wording edits, which changed no stored number, passed: 25 steps, 3{,}724 numeric values compared, none differing), while the review-pass results (optimal-face searches, null simulations, bootstrap variants and the sensitivity rows) come from separate long-running scripts that the clean run does not cover. We do not claim that the allocation of surgery rather than queue management is the policy lever, and we do not date
+or attribute the expansion to any policy.
+
+
+\subsection{Related work}
+\label{sec:related}
+
+Three literatures bear on this paper, and the model it uses is standard in the
+first of them.
+
+Regional capacity and case-mix planning allocates patient types across a set of
+fixed sites subject to shared physical resources. \citet{burdett2023} develop
+a regional case-mix planning framework of three models: one finds the largest cohort a region can treat,
+and a second assigns demand from sub-regions to hospitals, covering as much demand as possible while minimising
+total travel distance. Their case study is the Brisbane and Gold Coast regions (nineteen hospitals listed, four omitted for
+lack of information) with synthetic patient locations, and resource consumption profiles use average length of stay
+and treatment time. Our formulation is of the same family. Within single institutions, \citet{helm2014} plan elective
+admissions against downstream bed capacity and treat observed hospital data as
+``congestion-contaminated'', a concern we meet differently by bounding facilities at
+their own peak volume; \citet{meng2015} manage elective admission in
+a public hospital under demand uncertainty, and \citet{marques2014} schedule
+elective surgery at a single Portuguese public hospital.
+\citet{ahmadijavid2017} survey the healthcare facility location literature from
+which the assignment structure derives. Relative to this work our model is
+retrospective rather than prospective: it does not ask what caseload is
+attainable but how far a realised allocation sat from its own frontier, and it
+is solved on a panel rather than a single planning period.
+
+The second literature supplies the peak-volume constraint. Since
+\citet{luft1979} and \citet{luft1987} established the volume-outcome
+relationship, policy has translated it into minimum volume standards that
+condition a facility's permission to perform a procedure on the volume it
+performs. \citet{dudley2000} and \citet{epstein2005} simulate the patient
+reallocation such standards would require in the United States, the latter
+finding that averting a single death would have required moving several hundred
+patients, and noting that concentration may reduce access for exactly the
+populations already least well served; \citet{finlayson1999} elicit, in a hypothetical pancreatic-cancer scenario put to 100 patients at one Veterans Affairs
+medical centre, how much added operative risk patients would accept to stay local, and \citet{scharfe2025} report in a
+systematic review of nine studies, with low-certainty evidence, that minimum volume standards raise travel distance and
+do not affect complications or reoperations (very low certainty for mortality). \citet{vogel2022} give this literature
+its optimisation treatment, bounding each hospital's post-reallocation caseload
+at a multiple of its base-year volume, $N'_h \leq (1+v_{\max})N_h$; we use a variant of that constraint, with the unit's peak 3-month volume in the estimation year in place of its base-year volume. Its mixed
+integer program has four constraints (exclusion of hospitals below the threshold, reassignment, a travel-time share, and this
+caseload bound) and no bed constraint; the beds implied by added caseload are calculated afterwards, in its Discussion, from
+average length of stay.
+The direction of use is opposite. This literature constrains demonstrated
+peak volume in order to withdraw it from low-volume providers, and measures the
+access cost of doing so. We impose the same kind of constraint for a different purpose, as a
+feasibility rule for an allocation benchmark rather than as a quality standard.
+
+The third is Brazilian. \citet{scarpin2008} optimise patient flow and
+re-regionalise the state of Paran\'a by p-median with branch-and-price, and \citet{silva2010} allocate specialist
+outpatient appointments in regulation centres by combining multicriteria decision analysis with linear programming
+(it concerns appointments, not admissions or surgery). \citet{battesini2018} use linear programming to measure the potential gain in geographic access in the SUS chemotherapy network of Rio Grande do Sul, comparing current with optimal total distance (14.4 per cent lower in their optimum, as their abstract reports), the same ex post benchmark logic as ours for a different service. \citet{botega2022} reallocate inpatient referrals after hypothetical closures of small, inefficient hospitals, using SIH/SUS and CNES, and minimise patient travel to the nearest efficient hospital subject to available bed-days, with the average length of stay converting patients to bed-days (their model is for general hospitals, from one cross-section). \citet{ipea2022} estimate evasion
+rates and mean distances travelled for medium-complexity admissions nationally,
+finding that flows are overwhelmingly internal to the health region of residence
+and that normative regionalisation unaccompanied by improvement in the regional
+distribution of supply has had small effect on geographic access. That finding is
+consistent with the allocative gap reported in
+Section~\ref{sec:model}, and it motivates the ordinal travel cost used here,
+which follows the IBGE regional hierarchy, close to but not the same as the health regions on which SUS referral is organised.
+
+The assignment benchmark itself is old: minimising aggregate travel for a given distribution of origins and destinations is the
+transportation-problem comparison of the excess-commuting literature, in which \citet{hamilton1982} compared observed commuting
+with a monocentric model, \citet{white1988} compared it with the cost-minimising assignment of households to residences
+taking observed densities as given, and \citet{smallsong1992} report that the estimates of excess ranged from about 11 to
+about 87 per cent across the studies they discuss. Our gap is the same kind of object, and its size depends, as theirs did,
+on the zone system and the cost measure (Section~\ref{sec:capnull}).
+
+What we add is narrow: a joint bed-day budget and peak-volume cap, applied to multi-year elective surgery in the SUS in Goi\'as, and a
+test of whether the two bind on disjoint facilities. Bed-day or bed-capacity terms appear in \citet{botega2022} and \citet{burdett2023}, and ex post distance benchmarks by linear programming in the SUS in \citet{battesini2018}; we claim priority for none of them. At the reported optimum the two constraints bind on disjoint facilities in 2019 and 2023 and overlap at one facility in 2025; across optima of equal cost disjointness is not established in any year (Section~\ref{sec:capnull}).
+
+Section~\ref{sec:data} describes the setting and data.
+Section~\ref{sec:results} establishes the empirical facts.
+Section~\ref{sec:model} formulates the assignment model, reports the
+allocative gap, and presents the decomposition.

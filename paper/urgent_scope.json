@@ -1,0 +1,29 @@
+{
+ "2019": {
+  "elective": 564,
+  "urgent": 757,
+  "both": 383,
+  "elec_only": 181,
+  "urg_only": 374,
+  "union": 938,
+  "spearman": -0.0154498120385743
+ },
+ "2023": {
+  "elective": 637,
+  "urgent": 764,
+  "both": 440,
+  "elec_only": 197,
+  "urg_only": 324,
+  "union": 961,
+  "spearman": 0.10115083311809209
+ },
+ "2025": {
+  "elective": 705,
+  "urgent": 769,
+  "both": 490,
+  "elec_only": 215,
+  "urg_only": 279,
+  "union": 984,
+  "spearman": 0.10939976623819705
+ }
+}

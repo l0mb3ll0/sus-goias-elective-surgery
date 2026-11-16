@@ -1,0 +1,674 @@
+[
+ {
+  "file": "HBGO1901.dbc",
+  "competen": "2019-01",
+  "dbc_sha256": "f2530d4e07cf533266b5dae0bc7d9e1c32ee019e4673163a457380015d75570e",
+  "status": "ok",
+  "rows": 727,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1902.dbc",
+  "competen": "2019-02",
+  "dbc_sha256": "604be844428830791c0efd40b2fa5712fc093b36d674424084d9810364750877",
+  "status": "ok",
+  "rows": 739,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1903.dbc",
+  "competen": "2019-03",
+  "dbc_sha256": "809a458051cb954b43ba9691c885479e6514c27fbd54c0f45046b3263697a2fb",
+  "status": "ok",
+  "rows": 740,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1904.dbc",
+  "competen": "2019-04",
+  "dbc_sha256": "3f6a1fdbada7328aa63801aadebe0cd6a0118e2dc516ecaf1aa42301d42514d1",
+  "status": "ok",
+  "rows": 763,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1905.dbc",
+  "competen": "2019-05",
+  "dbc_sha256": "549fbb75632c20167650473b3cc2e9276de69e75a4c40495dc6db00ac1b52e21",
+  "status": "ok",
+  "rows": 770,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1906.dbc",
+  "competen": "2019-06",
+  "dbc_sha256": "d0b9d7874d41f247e62fc5e6d09b158e51bf0ab0b093162b0feb9d6a62cdcd57",
+  "status": "ok",
+  "rows": 767,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1907.dbc",
+  "competen": "2019-07",
+  "dbc_sha256": "b44f69719f08fb229fda6194cff27aaf718420cbfab4be8bac7869d47841aa50",
+  "status": "ok",
+  "rows": 764,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1908.dbc",
+  "competen": "2019-08",
+  "dbc_sha256": "f93df787c2cd389d637bc6be110cd3a1a5b9c39823b2e9e3785de1cc14bf3b98",
+  "status": "ok",
+  "rows": 763,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1909.dbc",
+  "competen": "2019-09",
+  "dbc_sha256": "690fb25c6fbcae21142bc9726d2ac2c5eef1e2e7b7e9317cffeaaeb0495e1d5e",
+  "status": "ok",
+  "rows": 765,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1910.dbc",
+  "competen": "2019-10",
+  "dbc_sha256": "20fc0ce433b6564ecd64830750fa280ce82676cca8ee9a2b3689ae8f8073fbcf",
+  "status": "ok",
+  "rows": 762,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1911.dbc",
+  "competen": "2019-11",
+  "dbc_sha256": "0f03db720b4d9a5debc8347c7c85325c894524c899b3ba28a1130d4281f59037",
+  "status": "ok",
+  "rows": 761,
+  "cols": 33
+ },
+ {
+  "file": "HBGO1912.dbc",
+  "competen": "2019-12",
+  "dbc_sha256": "681784562dcbd5473f61900f03b35e1777de8e48e198d1cecc3eff9218ce81d7",
+  "status": "ok",
+  "rows": 762,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2001.dbc",
+  "competen": "2020-01",
+  "dbc_sha256": "778538ade776d6292997df046793f9c28afa9b5b0d97385bdd2b98806a8eef38",
+  "status": "ok",
+  "rows": 759,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2002.dbc",
+  "competen": "2020-02",
+  "dbc_sha256": "67e8fa7c90ee70d3ceb74ecfca11a1f38396f8745129061bb78b319f2fca42db",
+  "status": "ok",
+  "rows": 764,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2003.dbc",
+  "competen": "2020-03",
+  "dbc_sha256": "47ebcacb60f58a10bc44719f449896d0784e4daddeb1501f607aa081b0249a40",
+  "status": "ok",
+  "rows": 770,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2004.dbc",
+  "competen": "2020-04",
+  "dbc_sha256": "6ed412bb40a65ab13af33dada186c95b86be614cbf1ddfb737513ce827d58c37",
+  "status": "ok",
+  "rows": 777,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2005.dbc",
+  "competen": "2020-05",
+  "dbc_sha256": "9a284c456844a4c3407830d12be66110da17412d5d9f218e4ebbb10a4ad7b62d",
+  "status": "ok",
+  "rows": 780,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2006.dbc",
+  "competen": "2020-06",
+  "dbc_sha256": "1e6d396b9fa653822915c863a2ed7b79ed01d0749f7e4ca551ac5f0e998d5b6e",
+  "status": "ok",
+  "rows": 784,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2007.dbc",
+  "competen": "2020-07",
+  "dbc_sha256": "abacbb18b9ef469c7c402bfabef71d6f325a9a3fa6a154cc54d695a675680179",
+  "status": "ok",
+  "rows": 789,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2008.dbc",
+  "competen": "2020-08",
+  "dbc_sha256": "520345f28c61e6d893341ae01e0a5e4e093e77c0ecfcdca475915cf8cd058137",
+  "status": "ok",
+  "rows": 796,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2009.dbc",
+  "competen": "2020-09",
+  "dbc_sha256": "4195149fc746f93bd10186a3d70d7126a08c9745c5626e1f2fb1fa3d6975c2ea",
+  "status": "ok",
+  "rows": 798,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2010.dbc",
+  "competen": "2020-10",
+  "dbc_sha256": "12ea169a26ac66f69064578262c445fca8a634342cd02072f7ddbcb590924daf",
+  "status": "ok",
+  "rows": 798,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2011.dbc",
+  "competen": "2020-11",
+  "dbc_sha256": "3f87bbe9babeb1a14c9cdf18009a48b343f2a721893e68433817459bc36ee9b2",
+  "status": "ok",
+  "rows": 789,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2012.dbc",
+  "competen": "2020-12",
+  "dbc_sha256": "669fc9776a9a2cbd7bde058cee8b5152d069a663c46616b3f186600e88af8f5d",
+  "status": "ok",
+  "rows": 793,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2101.dbc",
+  "competen": "2021-01",
+  "dbc_sha256": "bf0e0f87583bdb55c8767b1bb51b0fdebc59aa28f14de20f37cd366ba32c9c03",
+  "status": "ok",
+  "rows": 792,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2102.dbc",
+  "competen": "2021-02",
+  "dbc_sha256": "34d6690195306a133b04f91fe5ab41425fc1eb10b987bc486c4eadaba285f6ee",
+  "status": "ok",
+  "rows": 802,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2103.dbc",
+  "competen": "2021-03",
+  "dbc_sha256": "255dd98a4df22348afc848dc7bb88b5e0e6605ae1174091eace8e41a97e7daeb",
+  "status": "ok",
+  "rows": 824,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2104.dbc",
+  "competen": "2021-04",
+  "dbc_sha256": "8564e483013a29891d0b9afb69380f1dab50140dfdde10269fd4ff22f42dda1b",
+  "status": "ok",
+  "rows": 828,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2105.dbc",
+  "competen": "2021-05",
+  "dbc_sha256": "ffe258f25bc5c72223cfbb09b9adeabddd6a23090ea0fb74b487fc611428bde8",
+  "status": "ok",
+  "rows": 826,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2106.dbc",
+  "competen": "2021-06",
+  "dbc_sha256": "3363b7ab03e6b78960a3db9ecc938a51bf0785e61dcf1a30d6fb359253bc1e13",
+  "status": "ok",
+  "rows": 833,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2107.dbc",
+  "competen": "2021-07",
+  "dbc_sha256": "59cb5642abbbed975238120e16575efd2d241b6b329d8216f3bc15439aea8b00",
+  "status": "ok",
+  "rows": 841,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2108.dbc",
+  "competen": "2021-08",
+  "dbc_sha256": "1d74eb818e28a186015adfebc8a56a3bfeb5e2fe97776c5d9d5be7121b6c624a",
+  "status": "ok",
+  "rows": 851,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2109.dbc",
+  "competen": "2021-09",
+  "dbc_sha256": "44633361a75518e7099fdbcbb7fae5bf7e792ae366cda906d9e2cd9ee353a412",
+  "status": "ok",
+  "rows": 851,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2110.dbc",
+  "competen": "2021-10",
+  "dbc_sha256": "1177e9027d8a6ad5bd3c0ad15ef2f3acd63ce9986f5bfd6e905a1117fcd7dd69",
+  "status": "ok",
+  "rows": 855,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2111.dbc",
+  "competen": "2021-11",
+  "dbc_sha256": "57322b896e427f5645536f7b5eda12792c8a1ace430532dffce6d160e0b7f42a",
+  "status": "ok",
+  "rows": 852,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2112.dbc",
+  "competen": "2021-12",
+  "dbc_sha256": "c9276385ed0ab67ed3788c577e1edc6cba665a69eed269e893a715c6c30c92d5",
+  "status": "ok",
+  "rows": 853,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2201.dbc",
+  "competen": "2022-01",
+  "dbc_sha256": "4de5081d648c6c2ed5779b1cb4e5a690bae6cf917a7d7e2172c08abfdd68b62e",
+  "status": "ok",
+  "rows": 825,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2202.dbc",
+  "competen": "2022-02",
+  "dbc_sha256": "9f93abff3cfdd1311fe864529f6dbad0b06aea2f201003ffcfacedb0bd45b5bb",
+  "status": "ok",
+  "rows": 824,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2203.dbc",
+  "competen": "2022-03",
+  "dbc_sha256": "b773a0a810974aa11787a2eee89039d8362dd990b3631741cff7303b7c3d62a4",
+  "status": "ok",
+  "rows": 830,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2204.dbc",
+  "competen": "2022-04",
+  "dbc_sha256": "62c924a17234a2f85672e1c9b62bf47157a11766ac45cdf0bede8e6a9e7d7ca3",
+  "status": "ok",
+  "rows": 831,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2205.dbc",
+  "competen": "2022-05",
+  "dbc_sha256": "6a6dddafc6cf6e9c3ca49a602573bce002cdb2998ece73f5680b8ac5990b1e22",
+  "status": "ok",
+  "rows": 839,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2206.dbc",
+  "competen": "2022-06",
+  "dbc_sha256": "ad49dd672724266a513ce918f66d5a8098d516542c782be449dedd1551a455fc",
+  "status": "ok",
+  "rows": 839,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2207.dbc",
+  "competen": "2022-07",
+  "dbc_sha256": "e08844cc7098471485d7e5065982cfd609bdd6942e839b237873f188fb1e946f",
+  "status": "ok",
+  "rows": 838,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2208.dbc",
+  "competen": "2022-08",
+  "dbc_sha256": "343eb7d761dfa8afe77d166ede3180eadc90c78bccf2446231e927630691ee40",
+  "status": "ok",
+  "rows": 845,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2209.dbc",
+  "competen": "2022-09",
+  "dbc_sha256": "9bccd1050a897ad6de19c1672ca4d111157d6e10a6a9ae315eab6d3f149ce307",
+  "status": "ok",
+  "rows": 852,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2210.dbc",
+  "competen": "2022-10",
+  "dbc_sha256": "5ee2d783cfc65fa507bae64730f0cb76cf7742af771c04d2dfcc14becc4231b1",
+  "status": "ok",
+  "rows": 858,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2211.dbc",
+  "competen": "2022-11",
+  "dbc_sha256": "716bd82b98222825046100d7514e51cf358033fba8d304bc707546f32c12cbb3",
+  "status": "ok",
+  "rows": 860,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2212.dbc",
+  "competen": "2022-12",
+  "dbc_sha256": "31b61c47a79c256f2aac7cc64cf32a4c5ee276d3c22e5a7950c5388585e139d5",
+  "status": "ok",
+  "rows": 871,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2301.dbc",
+  "competen": "2023-01",
+  "dbc_sha256": "fff1abb2b6ebe33929827710a310f1acc06a51c6cb0f5453deb2e94b17dc23e1",
+  "status": "ok",
+  "rows": 869,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2302.dbc",
+  "competen": "2023-02",
+  "dbc_sha256": "22ce7634d5ac0ae01dae40b6f3578f3730bfe1e101019d71980ab9be6bc10510",
+  "status": "ok",
+  "rows": 1083,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2303.dbc",
+  "competen": "2023-03",
+  "dbc_sha256": "2779abb49a11505f633f683b62f1d64f13be1a0d427b5c6afadbe408e885d565",
+  "status": "ok",
+  "rows": 1118,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2304.dbc",
+  "competen": "2023-04",
+  "dbc_sha256": "177048bb77b230d2e2cd6aefe0f7aaadaf909aa0952918e1674ad85177ee924b",
+  "status": "ok",
+  "rows": 1140,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2305.dbc",
+  "competen": "2023-05",
+  "dbc_sha256": "4e2d68f4ab5fc99b229e48a6616dbd338148711e2d801177926f767ec249c263",
+  "status": "ok",
+  "rows": 1157,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2306.dbc",
+  "competen": "2023-06",
+  "dbc_sha256": "f755c6c9051792c6d4a4d56dfabdf4e695a56001d2ea0756620c62f86cdcc40b",
+  "status": "ok",
+  "rows": 1173,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2307.dbc",
+  "competen": "2023-07",
+  "dbc_sha256": "d1ae5cc51e9f7395979065b81c74a0ce03eab1805dcee7a4b1ac959e5b3d0b9d",
+  "status": "ok",
+  "rows": 1177,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2308.dbc",
+  "competen": "2023-08",
+  "dbc_sha256": "c6a26508876c93acf57a8958d3f7773d9679db56dcbcdd1c7abd789f2f3baa91",
+  "status": "ok",
+  "rows": 1186,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2309.dbc",
+  "competen": "2023-09",
+  "dbc_sha256": "70d6b9a0dac5fb2a9fe25dd535b4aafaedcf061310afb7a8fd28bbbf5016d492",
+  "status": "ok",
+  "rows": 1218,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2310.dbc",
+  "competen": "2023-10",
+  "dbc_sha256": "349208a20b17bcd5c44ee304db4e0f972c42bde42e3de87667c8fcf1d11eb34e",
+  "status": "ok",
+  "rows": 1221,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2311.dbc",
+  "competen": "2023-11",
+  "dbc_sha256": "f785fa63ad4ac241df9966a694b615c7b46423cee31031ef1c1af6758f4a2254",
+  "status": "ok",
+  "rows": 1221,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2312.dbc",
+  "competen": "2023-12",
+  "dbc_sha256": "8a5ed5407cb6b7502e6f2802ee27dee5186b1a49e87f76c65b9cb3da6d38f438",
+  "status": "ok",
+  "rows": 903,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2401.dbc",
+  "competen": "2024-01",
+  "dbc_sha256": "c5f272d74562e35b0b6c5ee60362e828b17c93ebc7c8302502219e7dd85a04e6",
+  "status": "ok",
+  "rows": 913,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2402.dbc",
+  "competen": "2024-02",
+  "dbc_sha256": "59e108703ac3bd1b543ddeaa4536b07c3031250bed741dba636a563ebbdd2b6c",
+  "status": "ok",
+  "rows": 918,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2403.dbc",
+  "competen": "2024-03",
+  "dbc_sha256": "64ece573b70a799cea629d4c05cf8cbc9f64582e23641e78dfc284c4a3c5b4f7",
+  "status": "ok",
+  "rows": 921,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2404.dbc",
+  "competen": "2024-04",
+  "dbc_sha256": "7bdf3a7ba55e2e7bc9f017e6ebd585adf20c91360c65e200dcf13afba67f58d9",
+  "status": "ok",
+  "rows": 930,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2405.dbc",
+  "competen": "2024-05",
+  "dbc_sha256": "1f8592df639bf27cc6ca8f71cde01fda2abe6be21b38e8c221279473b51b68b0",
+  "status": "ok",
+  "rows": 931,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2406.dbc",
+  "competen": "2024-06",
+  "dbc_sha256": "3243be7acbe780423dff946775b9f1f00c064cef0430b83a484ef83673817efd",
+  "status": "ok",
+  "rows": 936,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2407.dbc",
+  "competen": "2024-07",
+  "dbc_sha256": "addbc804ee12b1de2ec67c40d73ab0c076d5bead361cb1044e810c209516b42e",
+  "status": "ok",
+  "rows": 934,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2408.dbc",
+  "competen": "2024-08",
+  "dbc_sha256": "a9a419b914f1828ad6334e7e9fc226ddd72f72f45a003b13fe125edb441f4685",
+  "status": "ok",
+  "rows": 936,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2409.dbc",
+  "competen": "2024-09",
+  "dbc_sha256": "d5c44b999541dc0d1fded9a2182771bbf5657a9db93ab9f4a34a9677acc0adba",
+  "status": "ok",
+  "rows": 937,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2410.dbc",
+  "competen": "2024-10",
+  "dbc_sha256": "fc57253507c15154327980ead54445363b350b7f4d99aeb17638befa5d7b2e60",
+  "status": "ok",
+  "rows": 943,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2411.dbc",
+  "competen": "2024-11",
+  "dbc_sha256": "8e3feefc636408181123a437e59092298b8d4732a98811040392f913d2deb481",
+  "status": "ok",
+  "rows": 945,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2412.dbc",
+  "competen": "2024-12",
+  "dbc_sha256": "428171637405564bc3decf96defb07f441d36d78fb6ab3765fc8648bf1083dd2",
+  "status": "ok",
+  "rows": 951,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2501.dbc",
+  "competen": "2025-01",
+  "dbc_sha256": "71c10268717a7631b13bdc10f99172eb40d2e46a40e6635bbcb130118ba96c2c",
+  "status": "ok",
+  "rows": 947,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2502.dbc",
+  "competen": "2025-02",
+  "dbc_sha256": "8d35d69d1ffc998ae75cbf9a258c1129ea9345a5814d80a60a9417b925cf21d6",
+  "status": "ok",
+  "rows": 937,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2503.dbc",
+  "competen": "2025-03",
+  "dbc_sha256": "e825a1f76b7682c76db02e0b990ef44c9561a82b96eb1a4bbe45b03a09716a2d",
+  "status": "ok",
+  "rows": 947,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2504.dbc",
+  "competen": "2025-04",
+  "dbc_sha256": "c0e7db3101d287bda666b7e3a8de65f0127ca640927fbba5bbe9d0d7acefc538",
+  "status": "ok",
+  "rows": 1002,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2505.dbc",
+  "competen": "2025-05",
+  "dbc_sha256": "c53439c392f1ec976de55e1d83400d70b1be6a0cbbb56cd17ec9f57e12fde0b7",
+  "status": "ok",
+  "rows": 1031,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2506.dbc",
+  "competen": "2025-06",
+  "dbc_sha256": "1028d87e2692bac512f678c638fd4be17b657098f272c55c9e5371014d774e07",
+  "status": "ok",
+  "rows": 1023,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2507.dbc",
+  "competen": "2025-07",
+  "dbc_sha256": "106d4dcaa7e3e240da1bb3d2313d7607c4e3849c9b63bb84e10bbb83147c5768",
+  "status": "ok",
+  "rows": 1042,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2508.dbc",
+  "competen": "2025-08",
+  "dbc_sha256": "004f68e68ab51140f336349fdd046d4d71a1b408b93e91d446cdc6249af1c7c0",
+  "status": "ok",
+  "rows": 1069,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2509.dbc",
+  "competen": "2025-09",
+  "dbc_sha256": "63ebea10c7eb4032ec7cc7c167b68fe216d48b2030f6bfc280704ed6c9eeae5d",
+  "status": "ok",
+  "rows": 1073,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2510.dbc",
+  "competen": "2025-10",
+  "dbc_sha256": "744ed50ac4bafb7135d3d13c65f3740a00546bca1d4efcdf209fdb3b6fbe4c84",
+  "status": "ok",
+  "rows": 1080,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2511.dbc",
+  "competen": "2025-11",
+  "dbc_sha256": "72027bc702d05ca74992a9187e1f93ed970d5422ee97252f52cf3bee8c9d2368",
+  "status": "ok",
+  "rows": 1091,
+  "cols": 33
+ },
+ {
+  "file": "HBGO2512.dbc",
+  "competen": "2025-12",
+  "dbc_sha256": "3cd8da182b518ec448d31943b796eacc196ac34f222925f37b654a82398f4a03",
+  "status": "ok",
+  "rows": 1087,
+  "cols": 33
+ }
+]

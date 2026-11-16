@@ -1,0 +1,47 @@
+{
+ "2019": {
+  "n_pairs": 563,
+  "n_fac": 131,
+  "pair_cap_viol": 0,
+  "fac_cap_viol": 0,
+  "max_pair_ratio": 0.9095427435387674,
+  "max_fac_ratio": 0.9086294416243654,
+  "bed_viol_lambda": 1,
+  "bed_viol_actual_days": 1,
+  "records_all": 46414,
+  "records_inJ": 46391,
+  "records_in_program_vars": 46391,
+  "share_demand_in_allocation": 0.9995044598612488,
+  "gap_J": 0.28765725680781357
+ },
+ "2023": {
+  "n_pairs": 637,
+  "n_fac": 131,
+  "pair_cap_viol": 0,
+  "fac_cap_viol": 0,
+  "max_pair_ratio": 0.9236842105263158,
+  "max_fac_ratio": 0.9239707835325365,
+  "bed_viol_lambda": 2,
+  "bed_viol_actual_days": 2,
+  "records_all": 79247,
+  "records_inJ": 74832,
+  "records_in_program_vars": 74832,
+  "share_demand_in_allocation": 0.9442881118528146,
+  "gap_J": 0.3059495301928769
+ },
+ "2025": {
+  "n_pairs": 704,
+  "n_fac": 145,
+  "pair_cap_viol": 0,
+  "fac_cap_viol": 0,
+  "max_pair_ratio": 0.9779735682819383,
+  "max_fac_ratio": 0.9768170426065163,
+  "bed_viol_lambda": 4,
+  "bed_viol_actual_days": 4,
+  "records_all": 95848,
+  "records_inJ": 87506,
+  "records_in_program_vars": 87506,
+  "share_demand_in_allocation": 0.9129663634087305,
+  "gap_J": 0.2912903301762937
+ }
+}

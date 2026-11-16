@@ -1,0 +1,18 @@
+immediate regions of the three named municipalities: ['Luziânia', 'Águas Lindas de Goiás']
+named 3 municipalities; municipalities in their immediate regions 13
+2019: RDGO elective surgical AIH 46,748; residence not in Goias list 334 (0.7%); by UF prefix: {'17': 134, '53': 52, '51': 25, '35': 20, '31': 17, '26': 14, '11': 10, '15': 9} ; invalid/blank: 0 ; RDDF elective surgical AIH 24855 ; of which Goias residents 3481 (14.0%)
+   top municipalities by AIH treated in DF (share of their treated elective surgical AIH): {'Luziânia': (563, np.float64(39.8)), 'Valparaíso de Goiás': (543, np.float64(68.8)), 'Águas Lindas de Goiás': (453, np.float64(52.1)), 'Novo Gama': (379, np.float64(85.7)), 'Planaltina': (241, np.float64(40.0)), 'Cidade Ocidental': (237, np.float64(56.6))}
+2023: RDGO elective surgical AIH 79,440; residence not in Goias list 193 (0.2%); by UF prefix: {'53': 60, '31': 25, '51': 18, '35': 14, '29': 12, '17': 10, '15': 9, '21': 6} ; invalid/blank: 0 ; RDDF elective surgical AIH 21123 ; of which Goias residents 3005 (14.2%)
+   top municipalities by AIH treated in DF (share of their treated elective surgical AIH): {'Águas Lindas de Goiás': (500, np.float64(32.1)), 'Valparaíso de Goiás': (441, np.float64(43.9)), 'Luziânia': (430, np.float64(14.6)), 'Novo Gama': (271, np.float64(59.2)), 'Cidade Ocidental': (226, np.float64(39.4)), 'Planaltina': (214, np.float64(30.0))}
+2025: RDGO elective surgical AIH 96,154; residence not in Goias list 306 (0.3%); by UF prefix: {'53': 92, '51': 47, '31': 27, '29': 21, '17': 20, '35': 18, '50': 15, '15': 11} ; invalid/blank: 0 ; RDDF elective surgical AIH 26856 ; of which Goias residents 3995 (14.9%)
+   top municipalities by AIH treated in DF (share of their treated elective surgical AIH): {'Águas Lindas de Goiás': (936, np.float64(39.4)), 'Valparaíso de Goiás': (576, np.float64(47.4)), 'Luziânia': (540, np.float64(17.5)), 'Novo Gama': (327, np.float64(47.4)), 'Cidade Ocidental': (276, np.float64(42.1)), 'Planaltina': (268, np.float64(26.6))}
+year                    area  in_RDGO  in_RDDF  share_in_DF
+2019               all Goias    46414     3481       0.0698
+2019         3 named Entorno     1512     1559       0.5077
+2019 their immediate regions     3527     3002       0.4598
+2023               all Goias    79247     3005       0.0365
+2023         3 named Entorno     4132     1371       0.2491
+2023 their immediate regions     7685     2541       0.2485
+2025               all Goias    95848     3995       0.0400
+2025         3 named Entorno     4628     2052       0.3072
+2025 their immediate regions     9690     3505       0.2656

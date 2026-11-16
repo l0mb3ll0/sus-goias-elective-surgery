@@ -1,0 +1,19 @@
+Item 3 (threshold variant, THR=argv[1] in place of 0.95; facility level, tol 1e-9 only): bound the 2023 at-cap count across alternate optima, holding the objective at its optimum.
+
+Year 2023, point values (same LP as the stored model: demand, lambda, beds, kappa at point).
+Step 1: solve the LP, objective V*.  Step 2: MILP over the same feasible set plus
+    c.x + PI*unmet <= V* (1 + tol)
+with a binary z_j per facility (and z_p per non-floored pair), linked so that z = 1 iff the
+unit is at cap, i.e. served/kappa > 0.95 (strict, 1e-7 margin):
+    z=1  ->  served >= (0.95 + 1e-7) kappa      z=0  ->  served <= 0.95 kappa
+Then minimise and maximise sum z. Counts are re-derived from the solution with a 1e-6 band
+(the minimiser sits exactly on 0.95 for many units, so a bare '> 0.95' on floats is noise). tol = 1e-9 and 1e-6 (relative). Time limit 600 s per solve;
+the solver's dual bound is reported next to the incumbent so that a limit hit is visible.
+Facilities and pairs are done separately (the pair count is not bounded by the facility one).
+
+LP optimum V* = 3878.334710512; |J| 131, non-floored pairs 517
+point solve: at-cap facilities 76, at-cap pairs 259
+facilities with kappa_j > 0 that are "interior" (neither 0 nor kappa): see counts below
+
+facility  tol 1e-09 min: count 4 (>=0.95-1e-6: 83) (z_sum 37) dual bound 37.0 status 0 obj excess 1.00e-09 132s
+facility  tol 1e-09 max: count 10 (>=0.95-1e-6: 103) (z_sum 103) dual bound 105.0 status 1 obj excess 1.00e-09 601s

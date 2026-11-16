@@ -1,0 +1,32 @@
+{
+ "2019": {
+  "all_aih": 350564,
+  "surgical_group04": 150243,
+  "elective": 46748,
+  "elective_in_state": 46414,
+  "excluded_other_state_or_invalid": 334,
+  "at_model_facilities": 46391,
+  "in_estimated_pairs": 46391,
+  "facilities_in_J": 131
+ },
+ "2023": {
+  "all_aih": 423932,
+  "surgical_group04": 192504,
+  "elective": 79440,
+  "elective_in_state": 79247,
+  "excluded_other_state_or_invalid": 193,
+  "at_model_facilities": 74832,
+  "in_estimated_pairs": 74832,
+  "facilities_in_J": 131
+ },
+ "2025": {
+  "all_aih": 467575,
+  "surgical_group04": 214762,
+  "elective": 96154,
+  "elective_in_state": 95848,
+  "excluded_other_state_or_invalid": 306,
+  "at_model_facilities": 87506,
+  "in_estimated_pairs": 87506,
+  "facilities_in_J": 145
+ }
+}

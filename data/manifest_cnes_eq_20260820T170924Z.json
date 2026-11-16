@@ -1,0 +1,194 @@
+[
+ {
+  "file": "EQGO2401.dbc",
+  "competen": "2024-01",
+  "dbc_sha256": "eddf4aa03a3830c9869920667fdb28c02fcc81854b21623caa43b438659ffa05",
+  "status": "ok",
+  "rows": 39426,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2402.dbc",
+  "competen": "2024-02",
+  "dbc_sha256": "1d657d3f851811383c7140315b71b2dbba5eb5f47d4595ef9abc1eff978d6e89",
+  "status": "ok",
+  "rows": 39527,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2403.dbc",
+  "competen": "2024-03",
+  "dbc_sha256": "d2344a1d06749027a697ca25af612f675f2e38e506c1ca012e90558fa47af7aa",
+  "status": "ok",
+  "rows": 39802,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2404.dbc",
+  "competen": "2024-04",
+  "dbc_sha256": "cf743f5ca88e87a713f3ccbacb1a7cf9326f6ba17bdb2296ed6fd228cc97225d",
+  "status": "ok",
+  "rows": 39979,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2405.dbc",
+  "competen": "2024-05",
+  "dbc_sha256": "25707ccc0942a462fb4e76a701c6625add4223de55afaf0364ee1382f3ba5212",
+  "status": "ok",
+  "rows": 40216,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2406.dbc",
+  "competen": "2024-06",
+  "dbc_sha256": "706bd39209a0829a46b5df65969932556edfaed58b2edeaa2ff3b246d736e297",
+  "status": "ok",
+  "rows": 40637,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2407.dbc",
+  "competen": "2024-07",
+  "dbc_sha256": "7b1d1b13b8d14fde2d010f18eef7e51c58c247a6033b133a5e5c25892f8a9749",
+  "status": "ok",
+  "rows": 40766,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2408.dbc",
+  "competen": "2024-08",
+  "dbc_sha256": "c0aec9cb2babd8c3f321a7a83fa8d01510b94ee86dafa251bdbf6f50183fcf0f",
+  "status": "ok",
+  "rows": 40878,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2409.dbc",
+  "competen": "2024-09",
+  "dbc_sha256": "ae255d0dcfb9c948b86aea500c809bc1957ceaa9ca4c0137daa9b7a8fef5e20a",
+  "status": "ok",
+  "rows": 41019,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2410.dbc",
+  "competen": "2024-10",
+  "dbc_sha256": "58a8a8427e4ad1606c1aac81ad6d470c32b752edf0bd3a320c3f6d071b410c41",
+  "status": "ok",
+  "rows": 41115,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2411.dbc",
+  "competen": "2024-11",
+  "dbc_sha256": "9d6225faa28521b1069b103616d038cae5138417f2ed77bd1993e960eabf40c1",
+  "status": "ok",
+  "rows": 41167,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2412.dbc",
+  "competen": "2024-12",
+  "dbc_sha256": "4c58dd82eb6e507006e01fcb658c19bb66507acf80ff6b7626f4062df101d222",
+  "status": "ok",
+  "rows": 41251,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2501.dbc",
+  "competen": "2025-01",
+  "dbc_sha256": "96282314af5eb0f20d1052b9f0fc296bea37d54e9b423d83e9699856355b4b7d",
+  "status": "ok",
+  "rows": 41285,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2502.dbc",
+  "competen": "2025-02",
+  "dbc_sha256": "62c8f06603e248f1c449b57907fcdad7c0b4de2779b0ddd1c1563323ff8c7587",
+  "status": "ok",
+  "rows": 41394,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2503.dbc",
+  "competen": "2025-03",
+  "dbc_sha256": "79c926338a605a1591563db12d0e3d8d5b025ffb85f8e17c526dafdcb97726fb",
+  "status": "ok",
+  "rows": 41561,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2504.dbc",
+  "competen": "2025-04",
+  "dbc_sha256": "68f384353a45b81473fe6c76043ac639ba91f44a893b6f28d37c9fa3d6a44939",
+  "status": "ok",
+  "rows": 41526,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2505.dbc",
+  "competen": "2025-05",
+  "dbc_sha256": "69114d316b5345c1577f23b0329e81bdf319f2511fef9e5e088cc6ecdf2c1440",
+  "status": "ok",
+  "rows": 41632,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2506.dbc",
+  "competen": "2025-06",
+  "dbc_sha256": "751b1f9a1ed2153781e2a14f189d22355c695e687fee841ce44f1b4165bd0aff",
+  "status": "ok",
+  "rows": 41657,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2507.dbc",
+  "competen": "2025-07",
+  "dbc_sha256": "a87255738de20220a8098d26201fc7dc65321f688fd35957113c85cc70446718",
+  "status": "ok",
+  "rows": 41833,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2508.dbc",
+  "competen": "2025-08",
+  "dbc_sha256": "a0a3666b07ee5f697961c8f713b1a3305ed63bcbd5a56a2a2dd8f7090f24f7ed",
+  "status": "ok",
+  "rows": 42682,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2509.dbc",
+  "competen": "2025-09",
+  "dbc_sha256": "9139ba9efe8972e7a262fb0e8ed584b147ef38a7cc70cdd07738eb32a4ee08c4",
+  "status": "ok",
+  "rows": 38447,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2510.dbc",
+  "competen": "2025-10",
+  "dbc_sha256": "e6bb7f63605e86de0da74c60a67504d099fb3e3d924af3e12ef1127dfad7931b",
+  "status": "ok",
+  "rows": 38974,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2511.dbc",
+  "competen": "2025-11",
+  "dbc_sha256": "809d8c488a47d4db31cfbea0aba901fb75da725f172b5c79af06eb2609e641c5",
+  "status": "ok",
+  "rows": 39370,
+  "cols": 29
+ },
+ {
+  "file": "EQGO2512.dbc",
+  "competen": "2025-12",
+  "dbc_sha256": "f600e6948096e117d7beb8b31281fedf3ac4bd18fe5eff0ccf7e91a1189b9a61",
+  "status": "ok",
+  "rows": 39546,
+  "cols": 29
+ }
+]

@@ -1,0 +1,1055 @@
+{
+ "year": "2025",
+ "mult": 1.0,
+ "base_mean": 0.6418849551102536,
+ "n_candidates_screened": 400,
+ "n_candidates_total": 1471,
+ "time_limit": 150.0,
+ "runs": [
+  {
+   "k": 1,
+   "mean_cost": 0.6372317542088264,
+   "improvement_pct": 0.7249275535096349,
+   "n_opened": 1,
+   "mip_gap": 4.6039199736743655e-05,
+   "seconds": 25.021334648132324,
+   "chosen": [
+    {
+     "j": "2340720",
+     "p": "0408",
+     "muni": "Rio Verde"
+    }
+   ]
+  },
+  {
+   "k": 2,
+   "mean_cost": 0.6325889864932768,
+   "improvement_pct": 1.4482297089172413,
+   "n_opened": 2,
+   "mip_gap": 0.0,
+   "seconds": 48.00584316253662,
+   "chosen": [
+    {
+     "j": "2340720",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0416",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    }
+   ]
+  },
+  {
+   "k": 3,
+   "mean_cost": 0.6282070484246681,
+   "improvement_pct": 2.130896911773863,
+   "n_opened": 3,
+   "mip_gap": 0.0,
+   "seconds": 50.080161333084106,
+   "chosen": [
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0416",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    }
+   ]
+  },
+  {
+   "k": 5,
+   "mean_cost": 0.6200378638824762,
+   "improvement_pct": 3.4035836256708683,
+   "n_opened": 5,
+   "mip_gap": 9.088262517625233e-05,
+   "seconds": 56.273444414138794,
+   "chosen": [
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0416",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 8,
+   "mean_cost": 0.6094168806590392,
+   "improvement_pct": 5.058238893547126,
+   "n_opened": 8,
+   "mip_gap": 8.315403768940364e-05,
+   "seconds": 44.44956707954407,
+   "chosen": [
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0416",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 12,
+   "mean_cost": 0.5979925421230238,
+   "improvement_pct": 6.838049815280465,
+   "n_opened": 12,
+   "mip_gap": 4.848346390438959e-05,
+   "seconds": 106.38179969787598,
+   "chosen": [
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2437651",
+     "p": "0408",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2443031",
+     "p": "0416",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0408",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5882451",
+     "p": "0406",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "9680977",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 16,
+   "mean_cost": 0.5883940111155955,
+   "improvement_pct": 8.333416069156838,
+   "n_opened": 16,
+   "mip_gap": 3.808752785355833e-05,
+   "seconds": 70.67472863197327,
+   "chosen": [
+    {
+     "j": "0640611",
+     "p": "0415",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0415",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2437651",
+     "p": "0408",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437783",
+     "p": "0416",
+     "muni": "Piren\u00f3polis"
+    },
+    {
+     "j": "2443031",
+     "p": "0416",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "2589605",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    },
+    {
+     "j": "2789647",
+     "p": "0416",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0408",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5882451",
+     "p": "0406",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 20,
+   "mean_cost": 0.5810380926036965,
+   "improvement_pct": 9.479403127014503,
+   "n_opened": 20,
+   "mip_gap": 7.465194359992246e-05,
+   "seconds": 94.23547410964966,
+   "chosen": [
+    {
+     "j": "0640611",
+     "p": "0415",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0415",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2382474",
+     "p": "0416",
+     "muni": "S\u00e3o Lu\u00eds de Montes Belos"
+    },
+    {
+     "j": "2382792",
+     "p": "0416",
+     "muni": "Posse"
+    },
+    {
+     "j": "2437139",
+     "p": "0415",
+     "muni": "Caldas Novas"
+    },
+    {
+     "j": "2437651",
+     "p": "0408",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437783",
+     "p": "0416",
+     "muni": "Piren\u00f3polis"
+    },
+    {
+     "j": "2443031",
+     "p": "0416",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "2589605",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    },
+    {
+     "j": "2789647",
+     "p": "0416",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0408",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5882451",
+     "p": "0406",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "9680977",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 30,
+   "mean_cost": 0.5677650107038514,
+   "improvement_pct": 11.547231916920516,
+   "n_opened": 30,
+   "mip_gap": 0.0006573100902703227,
+   "seconds": 150.58548188209534,
+   "chosen": [
+    {
+     "j": "0640611",
+     "p": "0404",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "0640611",
+     "p": "0415",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337576",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0415",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2361787",
+     "p": "0406",
+     "muni": "An\u00e1polis"
+    },
+    {
+     "j": "2382474",
+     "p": "0416",
+     "muni": "S\u00e3o Lu\u00eds de Montes Belos"
+    },
+    {
+     "j": "2382792",
+     "p": "0416",
+     "muni": "Posse"
+    },
+    {
+     "j": "2383896",
+     "p": "0415",
+     "muni": "Cristalina"
+    },
+    {
+     "j": "2437139",
+     "p": "0415",
+     "muni": "Caldas Novas"
+    },
+    {
+     "j": "2437651",
+     "p": "0408",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437783",
+     "p": "0416",
+     "muni": "Piren\u00f3polis"
+    },
+    {
+     "j": "2438003",
+     "p": "0415",
+     "muni": "Itaj\u00e1"
+    },
+    {
+     "j": "2443031",
+     "p": "0416",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "2570777",
+     "p": "0416",
+     "muni": "Senador Canedo"
+    },
+    {
+     "j": "2589605",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    },
+    {
+     "j": "2769883",
+     "p": "0415",
+     "muni": "S\u00e3o Luiz do Norte"
+    },
+    {
+     "j": "2789647",
+     "p": "0416",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0416",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0408",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5095808",
+     "p": "0416",
+     "muni": "Trindade"
+    },
+    {
+     "j": "5882451",
+     "p": "0406",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "9680977",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 40,
+   "mean_cost": 0.5576893455423735,
+   "improvement_pct": 13.116931452836155,
+   "n_opened": 40,
+   "mip_gap": 9.642487705151819e-05,
+   "seconds": 124.84011363983154,
+   "chosen": [
+    {
+     "j": "0640611",
+     "p": "0404",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "0640611",
+     "p": "0415",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337576",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0415",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2361787",
+     "p": "0406",
+     "muni": "An\u00e1polis"
+    },
+    {
+     "j": "2361949",
+     "p": "0416",
+     "muni": "Jaragu\u00e1"
+    },
+    {
+     "j": "2382474",
+     "p": "0415",
+     "muni": "S\u00e3o Lu\u00eds de Montes Belos"
+    },
+    {
+     "j": "2382474",
+     "p": "0416",
+     "muni": "S\u00e3o Lu\u00eds de Montes Belos"
+    },
+    {
+     "j": "2382792",
+     "p": "0407",
+     "muni": "Posse"
+    },
+    {
+     "j": "2383896",
+     "p": "0415",
+     "muni": "Cristalina"
+    },
+    {
+     "j": "2437139",
+     "p": "0415",
+     "muni": "Caldas Novas"
+    },
+    {
+     "j": "2437651",
+     "p": "0408",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437651",
+     "p": "0415",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437783",
+     "p": "0416",
+     "muni": "Piren\u00f3polis"
+    },
+    {
+     "j": "2438003",
+     "p": "0415",
+     "muni": "Itaj\u00e1"
+    },
+    {
+     "j": "2443031",
+     "p": "0416",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "2507129",
+     "p": "0415",
+     "muni": "Jaragu\u00e1"
+    },
+    {
+     "j": "2519593",
+     "p": "0416",
+     "muni": "Ipor\u00e1"
+    },
+    {
+     "j": "2569809",
+     "p": "0415",
+     "muni": "An\u00e1polis"
+    },
+    {
+     "j": "2589605",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    },
+    {
+     "j": "2769883",
+     "p": "0415",
+     "muni": "S\u00e3o Luiz do Norte"
+    },
+    {
+     "j": "2789647",
+     "p": "0406",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "2789647",
+     "p": "0416",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "3354423",
+     "p": "0415",
+     "muni": "Bom Jesus de Goi\u00e1s"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0416",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0408",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5095808",
+     "p": "0416",
+     "muni": "Trindade"
+    },
+    {
+     "j": "5882451",
+     "p": "0406",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "6006914",
+     "p": "0415",
+     "muni": "Bela Vista de Goi\u00e1s"
+    },
+    {
+     "j": "6402305",
+     "p": "0416",
+     "muni": "Senador Canedo"
+    },
+    {
+     "j": "9135499",
+     "p": "0415",
+     "muni": "Caiap\u00f4nia"
+    },
+    {
+     "j": "9680977",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    }
+   ]
+  },
+  {
+   "k": 50,
+   "mean_cost": 0.5503610110952448,
+   "improvement_pct": 14.258621157320645,
+   "n_opened": 50,
+   "mip_gap": 8.893523235439494e-05,
+   "seconds": 107.71047067642212,
+   "chosen": [
+    {
+     "j": "0640611",
+     "p": "0404",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "0640611",
+     "p": "0415",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "2337517",
+     "p": "0406",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337517",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2337576",
+     "p": "0416",
+     "muni": "Ceres"
+    },
+    {
+     "j": "2340720",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2340720",
+     "p": "0415",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "2361787",
+     "p": "0406",
+     "muni": "An\u00e1polis"
+    },
+    {
+     "j": "2361949",
+     "p": "0416",
+     "muni": "Jaragu\u00e1"
+    },
+    {
+     "j": "2382466",
+     "p": "0411",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "2382474",
+     "p": "0415",
+     "muni": "S\u00e3o Lu\u00eds de Montes Belos"
+    },
+    {
+     "j": "2382474",
+     "p": "0416",
+     "muni": "S\u00e3o Lu\u00eds de Montes Belos"
+    },
+    {
+     "j": "2382792",
+     "p": "0407",
+     "muni": "Posse"
+    },
+    {
+     "j": "2383896",
+     "p": "0415",
+     "muni": "Cristalina"
+    },
+    {
+     "j": "2437139",
+     "p": "0415",
+     "muni": "Caldas Novas"
+    },
+    {
+     "j": "2437651",
+     "p": "0408",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437651",
+     "p": "0415",
+     "muni": "Planaltina"
+    },
+    {
+     "j": "2437783",
+     "p": "0416",
+     "muni": "Piren\u00f3polis"
+    },
+    {
+     "j": "2438003",
+     "p": "0404",
+     "muni": "Itaj\u00e1"
+    },
+    {
+     "j": "2442612",
+     "p": "0406",
+     "muni": "Catal\u00e3o"
+    },
+    {
+     "j": "2443031",
+     "p": "0416",
+     "muni": "Morrinhos"
+    },
+    {
+     "j": "2507129",
+     "p": "0415",
+     "muni": "Jaragu\u00e1"
+    },
+    {
+     "j": "2519593",
+     "p": "0416",
+     "muni": "Ipor\u00e1"
+    },
+    {
+     "j": "2535556",
+     "p": "0416",
+     "muni": "Jata\u00ed"
+    },
+    {
+     "j": "2535637",
+     "p": "0404",
+     "muni": "Montividiu"
+    },
+    {
+     "j": "2535637",
+     "p": "0415",
+     "muni": "Montividiu"
+    },
+    {
+     "j": "2569809",
+     "p": "0415",
+     "muni": "An\u00e1polis"
+    },
+    {
+     "j": "2570823",
+     "p": "0405",
+     "muni": "Caldas Novas"
+    },
+    {
+     "j": "2589605",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    },
+    {
+     "j": "2769875",
+     "p": "0415",
+     "muni": "Hidrol\u00e2ndia"
+    },
+    {
+     "j": "2769883",
+     "p": "0415",
+     "muni": "S\u00e3o Luiz do Norte"
+    },
+    {
+     "j": "2789647",
+     "p": "0406",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "2789647",
+     "p": "0416",
+     "muni": "Itumbiara"
+    },
+    {
+     "j": "3354423",
+     "p": "0415",
+     "muni": "Bom Jesus de Goi\u00e1s"
+    },
+    {
+     "j": "4261682",
+     "p": "0402",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0405",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0406",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4261682",
+     "p": "0408",
+     "muni": "Rio Verde"
+    },
+    {
+     "j": "4670906",
+     "p": "0408",
+     "muni": "\u00c1guas Lindas de Goi\u00e1s"
+    },
+    {
+     "j": "5095808",
+     "p": "0416",
+     "muni": "Trindade"
+    },
+    {
+     "j": "5882451",
+     "p": "0406",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0408",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "5882451",
+     "p": "0416",
+     "muni": "Luzi\u00e2nia"
+    },
+    {
+     "j": "6006914",
+     "p": "0415",
+     "muni": "Bela Vista de Goi\u00e1s"
+    },
+    {
+     "j": "6402305",
+     "p": "0416",
+     "muni": "Senador Canedo"
+    },
+    {
+     "j": "6665322",
+     "p": "0406",
+     "muni": "Santa Helena de Goi\u00e1s"
+    },
+    {
+     "j": "6665322",
+     "p": "0416",
+     "muni": "Santa Helena de Goi\u00e1s"
+    },
+    {
+     "j": "9135499",
+     "p": "0415",
+     "muni": "Caiap\u00f4nia"
+    },
+    {
+     "j": "9680977",
+     "p": "0416",
+     "muni": "Aparecida de Goi\u00e2nia"
+    }
+   ]
+  }
+ ]
+}

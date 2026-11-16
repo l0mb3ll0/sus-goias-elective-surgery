@@ -1,0 +1,23 @@
+2019|paper                         nJ 131 gapJ 28.77 gapAll 28.75 unmet  0.0 cap/dem 1.368 capSum/meanSum 1.369 single/roll 1.208 atcap  72 bedbound  1 overlap 0 util 0.133 interleaved0  45 obsElec>B   1
+2019|days_actual                   nJ 131 gapJ 28.77 gapAll 28.75 unmet  0.0 cap/dem 1.368 capSum/meanSum 1.369 single/roll 1.208 atcap  72 bedbound  1 overlap 0 util 0.131 interleaved0  45 obsElec>B   1
+2019|bed_all_30                    nJ 134 gapJ 28.85 gapAll 28.85 unmet  0.0 cap/dem 1.370 capSum/meanSum 1.370 single/roll 1.209 atcap  80 bedbound  0 overlap 0 util 0.058 interleaved0  48 obsElec>B   0
+2019|bed_all_actual                nJ 134 gapJ 28.85 gapAll 28.85 unmet  0.0 cap/dem 1.370 capSum/meanSum 1.370 single/roll 1.209 atcap  80 bedbound  0 overlap 0 util 0.057 interleaved0  48 obsElec>B   0
+2019|time_saida                    nJ 129 gapJ 29.06 gapAll 29.04 unmet  0.0 cap/dem 1.332 capSum/meanSum 1.333 single/roll 1.152 atcap  80 bedbound  1 overlap 0 util 0.132 interleaved0  38 obsElec>B   1
+2023|paper                         nJ 131 gapJ 30.59 gapAll 31.30 unmet  0.0 cap/dem 1.321 capSum/meanSum 1.399 single/roll 1.253 atcap  75 bedbound  3 overlap 0 util 0.179 interleaved0  36 obsElec>B   2
+2023|days_actual                   nJ 131 gapJ 31.09 gapAll 31.79 unmet  0.0 cap/dem 1.321 capSum/meanSum 1.399 single/roll 1.253 atcap  75 bedbound  3 overlap 0 util 0.175 interleaved0  36 obsElec>B   2
+2023|bed_all_30                    nJ 136 gapJ 36.90 gapAll 36.90 unmet  0.0 cap/dem 1.401 capSum/meanSum 1.401 single/roll 1.249 atcap  80 bedbound  0 overlap 0 util 0.077 interleaved0  38 obsElec>B   0
+2023|bed_all_actual                nJ 136 gapJ 36.90 gapAll 36.90 unmet  0.0 cap/dem 1.401 capSum/meanSum 1.401 single/roll 1.249 atcap  80 bedbound  0 overlap 0 util 0.076 interleaved0  38 obsElec>B   0
+2023|time_saida                    nJ 133 gapJ 29.02 gapAll 28.36 unmet  0.0 cap/dem 1.281 capSum/meanSum 1.336 single/roll 1.230 atcap  85 bedbound  4 overlap 0 util 0.180 interleaved0  31 obsElec>B   3
+2023|window_jul                    nJ 136 gapJ 30.54 gapAll 30.53 unmet  0.0 cap/dem 1.395 capSum/meanSum 1.456 single/roll 1.299 atcap  58 bedbound  1 overlap 0 util 0.154 interleaved0  42 obsElec>B   1
+2025|paper                         nJ 145 gapJ 29.13 gapAll 29.02 unmet  0.0 cap/dem 1.160 capSum/meanSum 1.270 single/roll 1.238 atcap 103 bedbound  5 overlap 1 util 0.217 interleaved0  36 obsElec>B   4
+2025|days_actual                   nJ 146 gapJ 29.88 gapAll 29.12 unmet  0.0 cap/dem 1.195 capSum/meanSum 1.275 single/roll 1.235 atcap 104 bedbound  6 overlap 1 util 0.209 interleaved0  36 obsElec>B   5
+2025|bed_all_30                    nJ 152 gapJ 40.31 gapAll 40.31 unmet  0.0 cap/dem 1.274 capSum/meanSum 1.274 single/roll 1.240 atcap  93 bedbound  1 overlap 0 util 0.089 interleaved0  37 obsElec>B   0
+2025|bed_all_actual                nJ 152 gapJ 40.31 gapAll 40.31 unmet  0.0 cap/dem 1.274 capSum/meanSum 1.274 single/roll 1.240 atcap  96 bedbound  0 overlap 0 util 0.088 interleaved0  37 obsElec>B   0
+2025|time_saida                    nJ 147 gapJ 33.63 gapAll 34.25 unmet  0.0 cap/dem 1.230 capSum/meanSum 1.280 single/roll 1.142 atcap  98 bedbound  5 overlap 0 util 0.197 interleaved0  34 obsElec>B   6
+2025|window_jul                    nJ 134 gapJ 25.20 gapAll 24.69 unmet  0.0 cap/dem 1.168 capSum/meanSum 1.314 single/roll 1.238 atcap  85 bedbound  4 overlap 0 util 0.209 interleaved0  53 obsElec>B   1
+cap test paper       2023->2024: at cap  52.0% (n 75), not at cap  30.4%
+cap test paper       2024->2025: at cap  52.4% (n 84), not at cap  29.2%
+cap test time_saida  2023->2024: at cap  45.9% (n 85), not at cap  52.1%
+cap test time_saida  2024->2025: at cap  52.9% (n 85), not at cap  29.8%
+cap test window_jul  2023->2024: at cap  44.8% (n 58), not at cap  52.6%
+cap test window_jul  2024->2025: at cap  42.4% (n 85), not at cap  44.2%

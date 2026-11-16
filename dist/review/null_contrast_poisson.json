@@ -1,0 +1,2691 @@
+{
+ "2023->2024": {
+  "res": {
+   "elective|facility|at cap": {
+    "obs": {
+     "n": 76,
+     "exceed": 0.5131578947368421,
+     "size": 0.7142857142857142
+    },
+    "null_exceed_mean": 0.45933501900233964,
+    "null_exceed_lo": 0.35529907871562116,
+    "null_exceed_hi": 0.5378778124152886,
+    "p": 0.13,
+    "null_size_median": 0.09312594382361827,
+    "null_n_mean": 119.84,
+    "runs_used": 200
+   },
+   "elective|facility|not at cap": {
+    "obs": {
+     "n": 55,
+     "exceed": 0.34545454545454546,
+     "size": 0.5220125786163523
+    },
+    "null_exceed_mean": 0.41884159848149793,
+    "null_exceed_lo": 0.11083333333333334,
+    "null_exceed_hi": 0.7146103896103897,
+    "p": 0.66,
+    "null_size_median": 0.050401947218979226,
+    "null_n_mean": 11.16,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, surgeons rose": {
+    "obs": {
+     "n": 28,
+     "exceed": 0.7857142857142857,
+     "size": 1.0824742268041236
+    },
+    "null_exceed_mean": 0.4683948375785799,
+    "null_exceed_lo": 0.3333333333333333,
+    "null_exceed_hi": 0.6041666666666666,
+    "p": 0.0,
+    "null_size_median": 0.08647047397047392,
+    "null_n_mean": 49.51,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, surgeons did not": {
+    "obs": {
+     "n": 48,
+     "exceed": 0.3541666666666667,
+     "size": 0.4963503649635037
+    },
+    "null_exceed_mean": 0.4528399118494897,
+    "null_exceed_lo": 0.32845573440643866,
+    "null_exceed_hi": 0.5811062928600241,
+    "p": 0.9,
+    "null_size_median": 0.09908140734874121,
+    "null_n_mean": 70.33,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, rooms rose": {
+    "obs": {
+     "n": 3,
+     "exceed": 0.3333333333333333,
+     "size": 0.6451612903225805
+    },
+    "null_exceed_mean": 0.46549707602339185,
+    "null_exceed_lo": 0.0,
+    "null_exceed_hi": 0.95,
+    "p": 0.7602339181286549,
+    "null_size_median": 0.14005602240896353,
+    "null_n_mean": 5.0,
+    "runs_used": 171
+   },
+   "elective|facility|at cap, rooms did not": {
+    "obs": {
+     "n": 73,
+     "exceed": 0.5205479452054794,
+     "size": 0.7255639097744361
+    },
+    "null_exceed_mean": 0.4590373018166686,
+    "null_exceed_lo": 0.3571273291925466,
+    "null_exceed_hi": 0.5385964912280702,
+    "p": 0.11,
+    "null_size_median": 0.09304842444377331,
+    "null_n_mean": 114.985,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 1,
+     "exceed": 0.0,
+     "size": NaN
+    }
+   },
+   "elective|facility|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 75,
+     "exceed": 0.52,
+     "size": 0.7142857142857142
+    },
+    "null_exceed_mean": 0.45921376759102694,
+    "null_exceed_lo": 0.3547912713472486,
+    "null_exceed_hi": 0.5366004837734328,
+    "p": 0.115,
+    "null_size_median": 0.09376212023270847,
+    "null_n_mean": 118.84,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, any resource rose": {
+    "obs": {
+     "n": 29,
+     "exceed": 0.7586206896551724,
+     "size": 1.0824742268041236
+    },
+    "null_exceed_mean": 0.4684452775072147,
+    "null_exceed_lo": 0.33962264150943394,
+    "null_exceed_hi": 0.5887254901960786,
+    "p": 0.0,
+    "null_size_median": 0.08922926388679814,
+    "null_n_mean": 52.365,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, none rose": {
+    "obs": {
+     "n": 47,
+     "exceed": 0.3617021276595745,
+     "size": 0.4963503649635037
+    },
+    "null_exceed_mean": 0.4521567331436664,
+    "null_exceed_lo": 0.3234121909633419,
+    "null_exceed_hi": 0.5797101449275363,
+    "p": 0.885,
+    "null_size_median": 0.09852941176470592,
+    "null_n_mean": 67.475,
+    "runs_used": 200
+   },
+   "elective|pair|at cap": {
+    "obs": {
+     "n": 259,
+     "exceed": 0.416988416988417,
+     "size": 0.9814814814814815
+    },
+    "null_exceed_mean": 0.43747722019214325,
+    "null_exceed_lo": 0.3741522963791176,
+    "null_exceed_hi": 0.49169707532269485,
+    "p": 0.75,
+    "null_size_median": 0.1892383473226797,
+    "null_n_mean": 300.715,
+    "runs_used": 200
+   },
+   "elective|pair|not at cap": {
+    "obs": {
+     "n": 258,
+     "exceed": 0.3062015503875969,
+     "size": 0.375
+    },
+    "null_exceed_mean": 0.36429762450144504,
+    "null_exceed_lo": 0.3057776508661717,
+    "null_exceed_hi": 0.4363212553062462,
+    "p": 0.97,
+    "null_size_median": 0.16666666666666674,
+    "null_n_mean": 209.84,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, surgeons rose": {
+    "obs": {
+     "n": 128,
+     "exceed": 0.5390625,
+     "size": 1.4444444444444442
+    },
+    "null_exceed_mean": 0.43791449928516996,
+    "null_exceed_lo": 0.3550986842105263,
+    "null_exceed_hi": 0.5068500756000757,
+    "p": 0.005,
+    "null_size_median": 0.19027941755214484,
+    "null_n_mean": 147.455,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, surgeons did not": {
+    "obs": {
+     "n": 131,
+     "exceed": 0.29770992366412213,
+     "size": 0.6666666666666667
+    },
+    "null_exceed_mean": 0.4370990956999106,
+    "null_exceed_lo": 0.35844549933902176,
+    "null_exceed_hi": 0.5100278962170008,
+    "p": 1.0,
+    "null_size_median": 0.19045223723292132,
+    "null_n_mean": 153.26,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, rooms rose": {
+    "obs": {
+     "n": 6,
+     "exceed": 0.6666666666666666,
+     "size": 0.9814814814814815
+    },
+    "null_exceed_mean": 0.400703916407434,
+    "null_exceed_lo": 0.1,
+    "null_exceed_hi": 0.7513888888888884,
+    "p": 0.08040201005025126,
+    "null_size_median": 0.2222222222222221,
+    "null_n_mean": 7.743718592964824,
+    "runs_used": 199
+   },
+   "elective|pair|at cap, rooms did not": {
+    "obs": {
+     "n": 253,
+     "exceed": 0.41106719367588934,
+     "size": 0.9583333333333334
+    },
+    "null_exceed_mean": 0.4384783501861909,
+    "null_exceed_lo": 0.3741292517006803,
+    "null_exceed_hi": 0.4913896876066085,
+    "p": 0.81,
+    "null_size_median": 0.18912892094244554,
+    "null_n_mean": 292.99,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 2,
+     "exceed": 0.5,
+     "size": 0.19999999999999996
+    }
+   },
+   "elective|pair|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 257,
+     "exceed": 0.4163424124513619,
+     "size": 1.0
+    },
+    "null_exceed_mean": 0.43782579139427,
+    "null_exceed_lo": 0.3753132879543758,
+    "null_exceed_hi": 0.4916754122938531,
+    "p": 0.77,
+    "null_size_median": 0.1875,
+    "null_n_mean": 299.325,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, any resource rose": {
+    "obs": {
+     "n": 130,
+     "exceed": 0.5384615384615384,
+     "size": 1.4477124183006533
+    },
+    "null_exceed_mean": 0.437144540962118,
+    "null_exceed_lo": 0.3565942300487074,
+    "null_exceed_hi": 0.5068297733217089,
+    "p": 0.0,
+    "null_size_median": 0.19047619047619047,
+    "null_n_mean": 152.365,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, none rose": {
+    "obs": {
+     "n": 129,
+     "exceed": 0.29457364341085274,
+     "size": 0.601851851851852
+    },
+    "null_exceed_mean": 0.4378574816868847,
+    "null_exceed_lo": 0.3591415735794075,
+    "null_exceed_hi": 0.5165618471932085,
+    "p": 1.0,
+    "null_size_median": 0.1906926406926407,
+    "null_n_mean": 148.35,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap": {
+    "obs": {
+     "n": 54,
+     "exceed": 0.3888888888888889,
+     "size": 0.21461187214611877
+    },
+    "null_exceed_mean": 0.4541749509073007,
+    "null_exceed_lo": 0.3547912713472486,
+    "null_exceed_hi": 0.5668258426966293,
+    "p": 0.885,
+    "null_size_median": 0.0761228573206515,
+    "null_n_mean": 90.1,
+    "runs_used": 200
+   },
+   "urgent|facility|not at cap": {
+    "obs": {
+     "n": 45,
+     "exceed": 0.35555555555555557,
+     "size": 0.48212365591397854
+    },
+    "null_exceed_mean": 0.4684829974936926,
+    "null_exceed_lo": 0.14151785714285714,
+    "null_exceed_hi": 0.7777777777777778,
+    "p": 0.7878787878787878,
+    "null_size_median": 0.04987847763411202,
+    "null_n_mean": 9.419191919191919,
+    "runs_used": 198
+   },
+   "urgent|facility|at cap, surgeons rose": {
+    "obs": {
+     "n": 23,
+     "exceed": 0.4782608695652174,
+     "size": 0.28
+    },
+    "null_exceed_mean": 0.46212608337342914,
+    "null_exceed_lo": 0.30215380549682874,
+    "null_exceed_hi": 0.613771645021645,
+    "p": 0.4,
+    "null_size_median": 0.07159351937832947,
+    "null_n_mean": 42.79,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, surgeons did not": {
+    "obs": {
+     "n": 31,
+     "exceed": 0.3225806451612903,
+     "size": 0.18422901299613637
+    },
+    "null_exceed_mean": 0.44709671909847004,
+    "null_exceed_lo": 0.3109863945578231,
+    "null_exceed_hi": 0.5960684551341351,
+    "p": 0.96,
+    "null_size_median": 0.08196721311475419,
+    "null_n_mean": 47.31,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, rooms rose": {
+    "obs": {
+     "n": 2,
+     "exceed": 0.0,
+     "size": NaN
+    }
+   },
+   "urgent|facility|at cap, rooms did not": {
+    "obs": {
+     "n": 52,
+     "exceed": 0.40384615384615385,
+     "size": 0.21461187214611877
+    },
+    "null_exceed_mean": 0.45497700628853244,
+    "null_exceed_lo": 0.3522727272727273,
+    "null_exceed_hi": 0.5747126436781609,
+    "p": 0.825,
+    "null_size_median": 0.07482606182862928,
+    "null_n_mean": 87.095,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 0,
+     "exceed": NaN,
+     "size": NaN
+    }
+   },
+   "urgent|facility|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 54,
+     "exceed": 0.3888888888888889,
+     "size": 0.21461187214611877
+    },
+    "null_exceed_mean": 0.45486592360050304,
+    "null_exceed_lo": 0.3547912713472486,
+    "null_exceed_hi": 0.5668258426966293,
+    "p": 0.89,
+    "null_size_median": 0.0761228573206515,
+    "null_n_mean": 89.96,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, any resource rose": {
+    "obs": {
+     "n": 24,
+     "exceed": 0.4583333333333333,
+     "size": 0.28
+    },
+    "null_exceed_mean": 0.46075164305639715,
+    "null_exceed_lo": 0.30405620360551433,
+    "null_exceed_hi": 0.6001162790697675,
+    "p": 0.49,
+    "null_size_median": 0.07078550399751943,
+    "null_n_mean": 44.655,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, none rose": {
+    "obs": {
+     "n": 30,
+     "exceed": 0.3333333333333333,
+     "size": 0.18422901299613637
+    },
+    "null_exceed_mean": 0.4478884310569727,
+    "null_exceed_lo": 0.3060275272899858,
+    "null_exceed_hi": 0.6,
+    "p": 0.955,
+    "null_size_median": 0.08147130907701894,
+    "null_n_mean": 45.445,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap": {
+    "obs": {
+     "n": 153,
+     "exceed": 0.4117647058823529,
+     "size": 0.5
+    },
+    "null_exceed_mean": 0.40558284289905555,
+    "null_exceed_lo": 0.340274024657997,
+    "null_exceed_hi": 0.46740007012622725,
+    "p": 0.455,
+    "null_size_median": 0.18181818181818188,
+    "null_n_mean": 189.04,
+    "runs_used": 200
+   },
+   "urgent|pair|not at cap": {
+    "obs": {
+     "n": 173,
+     "exceed": 0.4046242774566474,
+     "size": 0.45039682539682546
+    },
+    "null_exceed_mean": 0.4081220920613899,
+    "null_exceed_lo": 0.3249328512396694,
+    "null_exceed_hi": 0.49251201034737624,
+    "p": 0.52,
+    "null_size_median": 0.18432928727046372,
+    "null_n_mean": 126.205,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, surgeons rose": {
+    "obs": {
+     "n": 86,
+     "exceed": 0.4069767441860465,
+     "size": 1.0
+    },
+    "null_exceed_mean": 0.40440700970679233,
+    "null_exceed_lo": 0.29729060743912233,
+    "null_exceed_hi": 0.4948551791850761,
+    "p": 0.49,
+    "null_size_median": 0.1785714285714286,
+    "null_n_mean": 102.355,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, surgeons did not": {
+    "obs": {
+     "n": 67,
+     "exceed": 0.417910447761194,
+     "size": 0.35792682926829267
+    },
+    "null_exceed_mean": 0.40718593986191515,
+    "null_exceed_lo": 0.31104938271604937,
+    "null_exceed_hi": 0.506431302742616,
+    "p": 0.41,
+    "null_size_median": 0.18181818181818188,
+    "null_n_mean": 86.685,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, rooms rose": {
+    "obs": {
+     "n": 3,
+     "exceed": 0.0,
+     "size": NaN
+    },
+    "null_exceed_mean": 0.3842514124293786,
+    "null_exceed_lo": 0.0,
+    "null_exceed_hi": 0.8,
+    "p": 1.0,
+    "null_size_median": 0.2999999999999998,
+    "null_n_mean": 5.4491525423728815,
+    "runs_used": 118
+   },
+   "urgent|pair|at cap, rooms did not": {
+    "obs": {
+     "n": 150,
+     "exceed": 0.42,
+     "size": 0.5
+    },
+    "null_exceed_mean": 0.4061033349413791,
+    "null_exceed_lo": 0.3424974536251119,
+    "null_exceed_hi": 0.4675197085523173,
+    "p": 0.355,
+    "null_size_median": 0.18181818181818188,
+    "null_n_mean": 184.34,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 0,
+     "exceed": NaN,
+     "size": NaN
+    }
+   },
+   "urgent|pair|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 153,
+     "exceed": 0.4117647058823529,
+     "size": 0.5
+    },
+    "null_exceed_mean": 0.4056592169319877,
+    "null_exceed_lo": 0.340274024657997,
+    "null_exceed_hi": 0.46740007012622725,
+    "p": 0.46,
+    "null_size_median": 0.18181818181818188,
+    "null_n_mean": 189.005,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, any resource rose": {
+    "obs": {
+     "n": 87,
+     "exceed": 0.40229885057471265,
+     "size": 1.0
+    },
+    "null_exceed_mean": 0.40307949431953816,
+    "null_exceed_lo": 0.29988095238095236,
+    "null_exceed_hi": 0.4903935185185185,
+    "p": 0.5,
+    "null_size_median": 0.17948717948717952,
+    "null_n_mean": 105.605,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, none rose": {
+    "obs": {
+     "n": 66,
+     "exceed": 0.42424242424242425,
+     "size": 0.35792682926829267
+    },
+    "null_exceed_mean": 0.408910979061444,
+    "null_exceed_lo": 0.3022674418604651,
+    "null_exceed_hi": 0.5124716392512763,
+    "p": 0.38,
+    "null_size_median": 0.1797267361853298,
+    "null_n_mean": 83.435,
+    "runs_used": 200
+   }
+  },
+  "obs_at_cap": [
+   76,
+   259
+  ],
+  "null_at_cap": [
+   [
+    121,
+    304
+   ],
+   [
+    123,
+    293
+   ],
+   [
+    122,
+    295
+   ],
+   [
+    122,
+    301
+   ],
+   [
+    119,
+    297
+   ],
+   [
+    112,
+    301
+   ],
+   [
+    124,
+    298
+   ],
+   [
+    119,
+    304
+   ],
+   [
+    120,
+    302
+   ],
+   [
+    116,
+    300
+   ],
+   [
+    125,
+    307
+   ],
+   [
+    120,
+    289
+   ],
+   [
+    121,
+    305
+   ],
+   [
+    119,
+    298
+   ],
+   [
+    124,
+    309
+   ],
+   [
+    121,
+    312
+   ],
+   [
+    121,
+    288
+   ],
+   [
+    120,
+    298
+   ],
+   [
+    116,
+    293
+   ],
+   [
+    121,
+    298
+   ],
+   [
+    118,
+    305
+   ],
+   [
+    121,
+    313
+   ],
+   [
+    121,
+    307
+   ],
+   [
+    121,
+    300
+   ],
+   [
+    117,
+    283
+   ],
+   [
+    114,
+    304
+   ],
+   [
+    122,
+    312
+   ],
+   [
+    123,
+    302
+   ],
+   [
+    113,
+    308
+   ],
+   [
+    119,
+    291
+   ],
+   [
+    119,
+    292
+   ],
+   [
+    121,
+    307
+   ],
+   [
+    118,
+    306
+   ],
+   [
+    115,
+    290
+   ],
+   [
+    120,
+    304
+   ],
+   [
+    116,
+    310
+   ],
+   [
+    117,
+    313
+   ],
+   [
+    118,
+    297
+   ],
+   [
+    122,
+    294
+   ],
+   [
+    119,
+    301
+   ],
+   [
+    120,
+    305
+   ],
+   [
+    121,
+    307
+   ],
+   [
+    126,
+    306
+   ],
+   [
+    118,
+    319
+   ],
+   [
+    122,
+    294
+   ],
+   [
+    122,
+    290
+   ],
+   [
+    122,
+    302
+   ],
+   [
+    120,
+    310
+   ],
+   [
+    119,
+    298
+   ],
+   [
+    123,
+    295
+   ],
+   [
+    121,
+    304
+   ],
+   [
+    117,
+    305
+   ],
+   [
+    123,
+    300
+   ],
+   [
+    124,
+    293
+   ],
+   [
+    121,
+    306
+   ],
+   [
+    120,
+    310
+   ],
+   [
+    118,
+    301
+   ],
+   [
+    119,
+    306
+   ],
+   [
+    121,
+    307
+   ],
+   [
+    121,
+    302
+   ],
+   [
+    118,
+    303
+   ],
+   [
+    121,
+    301
+   ],
+   [
+    118,
+    305
+   ],
+   [
+    122,
+    307
+   ],
+   [
+    119,
+    297
+   ],
+   [
+    119,
+    294
+   ],
+   [
+    122,
+    296
+   ],
+   [
+    125,
+    286
+   ],
+   [
+    123,
+    311
+   ],
+   [
+    119,
+    303
+   ],
+   [
+    115,
+    302
+   ],
+   [
+    118,
+    293
+   ],
+   [
+    120,
+    306
+   ],
+   [
+    120,
+    301
+   ],
+   [
+    120,
+    303
+   ],
+   [
+    122,
+    292
+   ],
+   [
+    121,
+    303
+   ],
+   [
+    115,
+    303
+   ],
+   [
+    121,
+    285
+   ],
+   [
+    116,
+    296
+   ],
+   [
+    114,
+    294
+   ],
+   [
+    115,
+    298
+   ],
+   [
+    116,
+    301
+   ],
+   [
+    121,
+    310
+   ],
+   [
+    122,
+    296
+   ],
+   [
+    118,
+    302
+   ],
+   [
+    120,
+    291
+   ],
+   [
+    119,
+    301
+   ],
+   [
+    119,
+    302
+   ],
+   [
+    121,
+    301
+   ],
+   [
+    120,
+    296
+   ],
+   [
+    122,
+    301
+   ],
+   [
+    116,
+    305
+   ],
+   [
+    122,
+    303
+   ],
+   [
+    124,
+    290
+   ],
+   [
+    123,
+    297
+   ],
+   [
+    117,
+    306
+   ],
+   [
+    115,
+    302
+   ],
+   [
+    112,
+    296
+   ],
+   [
+    121,
+    316
+   ],
+   [
+    123,
+    302
+   ],
+   [
+    125,
+    303
+   ],
+   [
+    121,
+    306
+   ],
+   [
+    122,
+    309
+   ],
+   [
+    116,
+    290
+   ],
+   [
+    118,
+    301
+   ],
+   [
+    123,
+    301
+   ],
+   [
+    124,
+    308
+   ],
+   [
+    120,
+    300
+   ],
+   [
+    117,
+    303
+   ],
+   [
+    118,
+    296
+   ],
+   [
+    120,
+    313
+   ],
+   [
+    124,
+    309
+   ],
+   [
+    118,
+    304
+   ],
+   [
+    115,
+    295
+   ],
+   [
+    121,
+    302
+   ],
+   [
+    119,
+    295
+   ],
+   [
+    119,
+    291
+   ],
+   [
+    124,
+    308
+   ],
+   [
+    121,
+    301
+   ],
+   [
+    124,
+    308
+   ],
+   [
+    119,
+    302
+   ],
+   [
+    118,
+    294
+   ],
+   [
+    113,
+    300
+   ],
+   [
+    118,
+    307
+   ],
+   [
+    118,
+    305
+   ],
+   [
+    117,
+    298
+   ],
+   [
+    119,
+    298
+   ],
+   [
+    120,
+    299
+   ],
+   [
+    121,
+    295
+   ],
+   [
+    119,
+    299
+   ],
+   [
+    115,
+    310
+   ],
+   [
+    119,
+    287
+   ],
+   [
+    120,
+    299
+   ],
+   [
+    119,
+    288
+   ],
+   [
+    116,
+    300
+   ],
+   [
+    119,
+    309
+   ],
+   [
+    121,
+    312
+   ],
+   [
+    121,
+    310
+   ],
+   [
+    120,
+    293
+   ],
+   [
+    126,
+    303
+   ],
+   [
+    121,
+    311
+   ],
+   [
+    117,
+    302
+   ],
+   [
+    124,
+    298
+   ],
+   [
+    123,
+    312
+   ],
+   [
+    122,
+    311
+   ],
+   [
+    125,
+    294
+   ],
+   [
+    121,
+    308
+   ],
+   [
+    124,
+    292
+   ],
+   [
+    123,
+    296
+   ],
+   [
+    123,
+    316
+   ],
+   [
+    118,
+    299
+   ],
+   [
+    123,
+    299
+   ],
+   [
+    120,
+    298
+   ],
+   [
+    124,
+    305
+   ],
+   [
+    120,
+    297
+   ],
+   [
+    124,
+    307
+   ],
+   [
+    119,
+    301
+   ],
+   [
+    122,
+    298
+   ],
+   [
+    118,
+    299
+   ],
+   [
+    124,
+    312
+   ],
+   [
+    120,
+    301
+   ],
+   [
+    126,
+    288
+   ],
+   [
+    123,
+    292
+   ],
+   [
+    118,
+    283
+   ],
+   [
+    122,
+    295
+   ],
+   [
+    119,
+    289
+   ],
+   [
+    119,
+    303
+   ],
+   [
+    118,
+    306
+   ],
+   [
+    116,
+    301
+   ],
+   [
+    117,
+    295
+   ],
+   [
+    118,
+    304
+   ],
+   [
+    118,
+    290
+   ],
+   [
+    120,
+    306
+   ],
+   [
+    114,
+    311
+   ],
+   [
+    122,
+    297
+   ],
+   [
+    122,
+    310
+   ],
+   [
+    118,
+    292
+   ],
+   [
+    121,
+    313
+   ],
+   [
+    118,
+    301
+   ],
+   [
+    121,
+    307
+   ],
+   [
+    120,
+    292
+   ],
+   [
+    118,
+    307
+   ],
+   [
+    122,
+    301
+   ],
+   [
+    116,
+    299
+   ],
+   [
+    116,
+    295
+   ],
+   [
+    123,
+    304
+   ],
+   [
+    114,
+    306
+   ],
+   [
+    119,
+    302
+   ],
+   [
+    122,
+    303
+   ],
+   [
+    124,
+    285
+   ],
+   [
+    120,
+    304
+   ],
+   [
+    118,
+    292
+   ],
+   [
+    120,
+    295
+   ],
+   [
+    122,
+    289
+   ],
+   [
+    114,
+    304
+   ],
+   [
+    123,
+    299
+   ],
+   [
+    116,
+    295
+   ],
+   [
+    121,
+    297
+   ],
+   [
+    116,
+    296
+   ]
+  ],
+  "contrast_obs": 0.1677033492822967,
+  "contrast_null_mean": 0.040493420520841795,
+  "contrast_null_lo": -0.277481399154086,
+  "contrast_null_hi": 0.3385994490358128,
+  "contrast_p_ge": 0.205,
+  "runs": 200
+ },
+ "2024->2025": {
+  "res": {
+   "elective|facility|at cap": {
+    "obs": {
+     "n": 84,
+     "exceed": 0.5238095238095238,
+     "size": 0.5435267857142857
+    },
+    "null_exceed_mean": 0.4422494751298717,
+    "null_exceed_lo": 0.3643410852713178,
+    "null_exceed_hi": 0.5356299212598427,
+    "p": 0.05,
+    "null_size_median": 0.09090909090909105,
+    "null_n_mean": 127.415,
+    "runs_used": 200
+   },
+   "elective|facility|not at cap": {
+    "obs": {
+     "n": 48,
+     "exceed": 0.3125,
+     "size": 0.3291139240506329
+    },
+    "null_exceed_mean": 0.571886446886447,
+    "null_exceed_lo": 0.2,
+    "null_exceed_hi": 0.9178571428571424,
+    "p": 0.9230769230769231,
+    "null_size_median": 0.037651608722943264,
+    "null_n_mean": 5.778846153846154,
+    "runs_used": 104
+   },
+   "elective|facility|at cap, surgeons rose": {
+    "obs": {
+     "n": 38,
+     "exceed": 0.631578947368421,
+     "size": 0.5078125000000001
+    },
+    "null_exceed_mean": 0.46099258499280454,
+    "null_exceed_lo": 0.34810606060606064,
+    "null_exceed_hi": 0.578125,
+    "p": 0.0,
+    "null_size_median": 0.06932596908374289,
+    "null_n_mean": 65.965,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, surgeons did not": {
+    "obs": {
+     "n": 46,
+     "exceed": 0.43478260869565216,
+     "size": 0.6720990873533246
+    },
+    "null_exceed_mean": 0.4220692422252956,
+    "null_exceed_lo": 0.2903225806451613,
+    "null_exceed_hi": 0.5484274193548386,
+    "p": 0.44,
+    "null_size_median": 0.13096670051290055,
+    "null_n_mean": 61.45,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, rooms rose": {
+    "obs": {
+     "n": 1,
+     "exceed": 1.0,
+     "size": 0.657142857142857
+    }
+   },
+   "elective|facility|at cap, rooms did not": {
+    "obs": {
+     "n": 83,
+     "exceed": 0.5180722891566265,
+     "size": 0.5156250000000002
+    },
+    "null_exceed_mean": 0.4418268570968627,
+    "null_exceed_lo": 0.3629032258064516,
+    "null_exceed_hi": 0.5405241935483871,
+    "p": 0.06,
+    "null_size_median": 0.09305694297541156,
+    "null_n_mean": 124.415,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 2,
+     "exceed": 0.0,
+     "size": NaN
+    }
+   },
+   "elective|facility|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 82,
+     "exceed": 0.5365853658536586,
+     "size": 0.5435267857142857
+    },
+    "null_exceed_mean": 0.4404114595985723,
+    "null_exceed_lo": 0.36361803519061586,
+    "null_exceed_hi": 0.5325879765395894,
+    "p": 0.025,
+    "null_size_median": 0.09303940568475444,
+    "null_n_mean": 123.415,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, any resource rose": {
+    "obs": {
+     "n": 39,
+     "exceed": 0.6153846153846154,
+     "size": 0.5078125000000001
+    },
+    "null_exceed_mean": 0.4612806763392541,
+    "null_exceed_lo": 0.34328358208955223,
+    "null_exceed_hi": 0.5737434152765584,
+    "p": 0.0,
+    "null_size_median": 0.06927936207404872,
+    "null_n_mean": 66.965,
+    "runs_used": 200
+   },
+   "elective|facility|at cap, none rose": {
+    "obs": {
+     "n": 45,
+     "exceed": 0.4444444444444444,
+     "size": 0.6720990873533246
+    },
+    "null_exceed_mean": 0.4211051474054575,
+    "null_exceed_lo": 0.2878994165045846,
+    "null_exceed_hi": 0.5573770491803278,
+    "p": 0.38,
+    "null_size_median": 0.1333333333333333,
+    "null_n_mean": 60.45,
+    "runs_used": 200
+   },
+   "elective|pair|at cap": {
+    "obs": {
+     "n": 322,
+     "exceed": 0.4254658385093168,
+     "size": 0.5882352941176472
+    },
+    "null_exceed_mean": 0.4269025672660014,
+    "null_exceed_lo": 0.3832186110094923,
+    "null_exceed_hi": 0.4751265721238268,
+    "p": 0.51,
+    "null_size_median": 0.1875,
+    "null_n_mean": 320.45,
+    "runs_used": 200
+   },
+   "elective|pair|not at cap": {
+    "obs": {
+     "n": 209,
+     "exceed": 0.3923444976076555,
+     "size": 0.34498016478486426
+    },
+    "null_exceed_mean": 0.3541146533518773,
+    "null_exceed_lo": 0.2828689646590343,
+    "null_exceed_hi": 0.4205329949238579,
+    "p": 0.16,
+    "null_size_median": 0.19999999999999996,
+    "null_n_mean": 199.68,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, surgeons rose": {
+    "obs": {
+     "n": 198,
+     "exceed": 0.4898989898989899,
+     "size": 0.6428571428571428
+    },
+    "null_exceed_mean": 0.4334748259292075,
+    "null_exceed_lo": 0.3667306740958679,
+    "null_exceed_hi": 0.5001744186046512,
+    "p": 0.07,
+    "null_size_median": 0.16445670199726004,
+    "null_n_mean": 200.02,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, surgeons did not": {
+    "obs": {
+     "n": 124,
+     "exceed": 0.3225806451612903,
+     "size": 0.5045454545454546
+    },
+    "null_exceed_mean": 0.41598619658841157,
+    "null_exceed_lo": 0.3360655737704918,
+    "null_exceed_hi": 0.5167841880341881,
+    "p": 0.985,
+    "null_size_median": 0.2313510019392373,
+    "null_n_mean": 120.43,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, rooms rose": {
+    "obs": {
+     "n": 15,
+     "exceed": 0.5333333333333333,
+     "size": 0.318381706244503
+    },
+    "null_exceed_mean": 0.46173541083099906,
+    "null_exceed_lo": 0.23529411764705882,
+    "null_exceed_hi": 0.7058823529411765,
+    "p": 0.26,
+    "null_size_median": 0.13714733542319757,
+    "null_n_mean": 17.135,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, rooms did not": {
+    "obs": {
+     "n": 307,
+     "exceed": 0.4201954397394137,
+     "size": 0.5999999999999999
+    },
+    "null_exceed_mean": 0.42501980384630855,
+    "null_exceed_lo": 0.3762292276265666,
+    "null_exceed_hi": 0.4739220296268978,
+    "p": 0.585,
+    "null_size_median": 0.1900656814449918,
+    "null_n_mean": 303.315,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 18,
+     "exceed": 0.5,
+     "size": 0.2654867256637168
+    },
+    "null_exceed_mean": 0.4653946265022201,
+    "null_exceed_lo": 0.26282894736842105,
+    "null_exceed_hi": 0.7058823529411765,
+    "p": 0.425,
+    "null_size_median": 0.11766968325791849,
+    "null_n_mean": 18.12,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 304,
+     "exceed": 0.42105263157894735,
+     "size": 0.6214285714285713
+    },
+    "null_exceed_mean": 0.424670365784513,
+    "null_exceed_lo": 0.3801190921904594,
+    "null_exceed_hi": 0.47669158075601376,
+    "p": 0.57,
+    "null_size_median": 0.1944940476190476,
+    "null_n_mean": 302.33,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, any resource rose": {
+    "obs": {
+     "n": 200,
+     "exceed": 0.49,
+     "size": 0.6547619047619048
+    },
+    "null_exceed_mean": 0.4340253637131232,
+    "null_exceed_lo": 0.3659762383706311,
+    "null_exceed_hi": 0.5050011512779186,
+    "p": 0.07,
+    "null_size_median": 0.16666666666666657,
+    "null_n_mean": 201.83,
+    "runs_used": 200
+   },
+   "elective|pair|at cap, none rose": {
+    "obs": {
+     "n": 122,
+     "exceed": 0.319672131147541,
+     "size": 0.5
+    },
+    "null_exceed_mean": 0.4147882650572183,
+    "null_exceed_lo": 0.3333333333333333,
+    "null_exceed_hi": 0.5130434782608696,
+    "p": 0.985,
+    "null_size_median": 0.2327380952380952,
+    "null_n_mean": 118.62,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap": {
+    "obs": {
+     "n": 64,
+     "exceed": 0.296875,
+     "size": 0.40740740740740744
+    },
+    "null_exceed_mean": 0.44414494918977726,
+    "null_exceed_lo": 0.3516483516483517,
+    "null_exceed_hi": 0.5377573781743308,
+    "p": 1.0,
+    "null_size_median": 0.07785560344827591,
+    "null_n_mean": 93.33,
+    "runs_used": 200
+   },
+   "urgent|facility|not at cap": {
+    "obs": {
+     "n": 36,
+     "exceed": 0.4444444444444444,
+     "size": 0.2250000000000001
+    },
+    "null_exceed_mean": 0.44487179487179485,
+    "null_exceed_lo": 0.2,
+    "null_exceed_hi": 0.8,
+    "p": 0.4230769230769231,
+    "null_size_median": 0.06410984848484858,
+    "null_n_mean": 5.115384615384615,
+    "runs_used": 26
+   },
+   "urgent|facility|at cap, surgeons rose": {
+    "obs": {
+     "n": 32,
+     "exceed": 0.28125,
+     "size": 0.29032258064516125
+    },
+    "null_exceed_mean": 0.4356965834662175,
+    "null_exceed_lo": 0.32073584905660374,
+    "null_exceed_hi": 0.5769230769230769,
+    "p": 0.99,
+    "null_size_median": 0.06311642693051944,
+    "null_n_mean": 51.385,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, surgeons did not": {
+    "obs": {
+     "n": 32,
+     "exceed": 0.3125,
+     "size": 0.417989417989418
+    },
+    "null_exceed_mean": 0.4547622022878626,
+    "null_exceed_lo": 0.30934385382059804,
+    "null_exceed_hi": 0.5953571428571429,
+    "p": 0.965,
+    "null_size_median": 0.09628113618168088,
+    "null_n_mean": 41.945,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, rooms rose": {
+    "obs": {
+     "n": 1,
+     "exceed": 1.0,
+     "size": 6.5
+    }
+   },
+   "urgent|facility|at cap, rooms did not": {
+    "obs": {
+     "n": 63,
+     "exceed": 0.2857142857142857,
+     "size": 0.34886499402628435
+    },
+    "null_exceed_mean": 0.44563554118323184,
+    "null_exceed_lo": 0.3522571178821179,
+    "null_exceed_hi": 0.5403352490421456,
+    "p": 1.0,
+    "null_size_median": 0.07966194634746765,
+    "null_n_mean": 90.34,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 2,
+     "exceed": 0.0,
+     "size": NaN
+    }
+   },
+   "urgent|facility|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 62,
+     "exceed": 0.3064516129032258,
+     "size": 0.40740740740740744
+    },
+    "null_exceed_mean": 0.44260662079888663,
+    "null_exceed_lo": 0.34822743122820615,
+    "null_exceed_hi": 0.5403352490421456,
+    "p": 0.995,
+    "null_size_median": 0.0791759174611466,
+    "null_n_mean": 89.33,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, any resource rose": {
+    "obs": {
+     "n": 33,
+     "exceed": 0.2727272727272727,
+     "size": 0.29032258064516125
+    },
+    "null_exceed_mean": 0.4375102636100347,
+    "null_exceed_lo": 0.3147875816993464,
+    "null_exceed_hi": 0.5769230769230769,
+    "p": 0.99,
+    "null_size_median": 0.06437220988743242,
+    "null_n_mean": 52.385,
+    "runs_used": 200
+   },
+   "urgent|facility|at cap, none rose": {
+    "obs": {
+     "n": 31,
+     "exceed": 0.3225806451612903,
+     "size": 0.417989417989418
+    },
+    "null_exceed_mean": 0.4529281248504574,
+    "null_exceed_lo": 0.2926829268292683,
+    "null_exceed_hi": 0.6047787861599546,
+    "p": 0.95,
+    "null_size_median": 0.09523809523809534,
+    "null_n_mean": 40.945,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap": {
+    "obs": {
+     "n": 195,
+     "exceed": 0.36923076923076925,
+     "size": 0.3969696969696971
+    },
+    "null_exceed_mean": 0.40944971495061977,
+    "null_exceed_lo": 0.33701221285257343,
+    "null_exceed_hi": 0.47070877531340405,
+    "p": 0.875,
+    "null_size_median": 0.18634259259259256,
+    "null_n_mean": 195.69,
+    "runs_used": 200
+   },
+   "urgent|pair|not at cap": {
+    "obs": {
+     "n": 126,
+     "exceed": 0.373015873015873,
+     "size": 0.5
+    },
+    "null_exceed_mean": 0.3872513782225393,
+    "null_exceed_lo": 0.315720823798627,
+    "null_exceed_hi": 0.47167198541144295,
+    "p": 0.595,
+    "null_size_median": 0.21081871345029246,
+    "null_n_mean": 114.055,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, surgeons rose": {
+    "obs": {
+     "n": 129,
+     "exceed": 0.40310077519379844,
+     "size": 0.3858585858585859
+    },
+    "null_exceed_mean": 0.4167881967624724,
+    "null_exceed_lo": 0.3357587064676617,
+    "null_exceed_hi": 0.5,
+    "p": 0.615,
+    "null_size_median": 0.15384615384615385,
+    "null_n_mean": 130.455,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, surgeons did not": {
+    "obs": {
+     "n": 66,
+     "exceed": 0.30303030303030304,
+     "size": 0.41052631578947374
+    },
+    "null_exceed_mean": 0.394859529886389,
+    "null_exceed_lo": 0.2777564102564103,
+    "null_exceed_hi": 0.5,
+    "p": 0.955,
+    "null_size_median": 0.2500000000000002,
+    "null_n_mean": 65.235,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, rooms rose": {
+    "obs": {
+     "n": 14,
+     "exceed": 0.6428571428571429,
+     "size": 0.27272727272727293
+    },
+    "null_exceed_mean": 0.4370980486661601,
+    "null_exceed_lo": 0.19941176470588237,
+    "null_exceed_hi": 0.6879595588235295,
+    "p": 0.065,
+    "null_size_median": 0.16666666666666674,
+    "null_n_mean": 16.17,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, rooms did not": {
+    "obs": {
+     "n": 181,
+     "exceed": 0.34806629834254144,
+     "size": 0.40000000000000013
+    },
+    "null_exceed_mean": 0.40701971027196004,
+    "null_exceed_lo": 0.32944169929765676,
+    "null_exceed_hi": 0.47590441981831066,
+    "p": 0.94,
+    "null_size_median": 0.18707688588007743,
+    "null_n_mean": 179.52,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, laparoscopes rose": {
+    "obs": {
+     "n": 13,
+     "exceed": 0.3076923076923077,
+     "size": 0.23375375877046445
+    },
+    "null_exceed_mean": 0.4462006207801486,
+    "null_exceed_lo": 0.17622549019607844,
+    "null_exceed_hi": 0.692857142857143,
+    "p": 0.88,
+    "null_size_median": 0.16666666666666674,
+    "null_n_mean": 15.18,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, laparoscopes did not": {
+    "obs": {
+     "n": 182,
+     "exceed": 0.37362637362637363,
+     "size": 0.40000000000000013
+    },
+    "null_exceed_mean": 0.40635898528381126,
+    "null_exceed_lo": 0.3351190476190476,
+    "null_exceed_hi": 0.4762239165329053,
+    "p": 0.83,
+    "null_size_median": 0.18722826086956518,
+    "null_n_mean": 180.51,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, any resource rose": {
+    "obs": {
+     "n": 131,
+     "exceed": 0.3969465648854962,
+     "size": 0.3858585858585859
+    },
+    "null_exceed_mean": 0.4169582850290216,
+    "null_exceed_lo": 0.338045540796964,
+    "null_exceed_hi": 0.5,
+    "p": 0.67,
+    "null_size_median": 0.15509561347519174,
+    "null_n_mean": 132.26,
+    "runs_used": 200
+   },
+   "urgent|pair|at cap, none rose": {
+    "obs": {
+     "n": 64,
+     "exceed": 0.3125,
+     "size": 0.41052631578947374
+    },
+    "null_exceed_mean": 0.3940026976486283,
+    "null_exceed_lo": 0.2829401408450704,
+    "null_exceed_hi": 0.5076923076923077,
+    "p": 0.95,
+    "null_size_median": 0.2500000000000002,
+    "null_n_mean": 63.43,
+    "runs_used": 200
+   }
+  },
+  "obs_at_cap": [
+   84,
+   322
+  ],
+  "null_at_cap": [
+   [
+    125,
+    310
+   ],
+   [
+    130,
+    314
+   ],
+   [
+    125,
+    326
+   ],
+   [
+    126,
+    331
+   ],
+   [
+    130,
+    314
+   ],
+   [
+    128,
+    319
+   ],
+   [
+    130,
+    334
+   ],
+   [
+    128,
+    325
+   ],
+   [
+    125,
+    313
+   ],
+   [
+    129,
+    315
+   ],
+   [
+    129,
+    320
+   ],
+   [
+    126,
+    324
+   ],
+   [
+    129,
+    330
+   ],
+   [
+    128,
+    309
+   ],
+   [
+    128,
+    335
+   ],
+   [
+    127,
+    320
+   ],
+   [
+    128,
+    319
+   ],
+   [
+    127,
+    323
+   ],
+   [
+    127,
+    313
+   ],
+   [
+    130,
+    333
+   ],
+   [
+    128,
+    320
+   ],
+   [
+    129,
+    316
+   ],
+   [
+    128,
+    320
+   ],
+   [
+    127,
+    315
+   ],
+   [
+    129,
+    325
+   ],
+   [
+    128,
+    325
+   ],
+   [
+    131,
+    321
+   ],
+   [
+    129,
+    329
+   ],
+   [
+    125,
+    326
+   ],
+   [
+    127,
+    313
+   ],
+   [
+    126,
+    319
+   ],
+   [
+    127,
+    325
+   ],
+   [
+    129,
+    319
+   ],
+   [
+    127,
+    323
+   ],
+   [
+    128,
+    306
+   ],
+   [
+    127,
+    322
+   ],
+   [
+    125,
+    321
+   ],
+   [
+    127,
+    318
+   ],
+   [
+    128,
+    335
+   ],
+   [
+    127,
+    326
+   ],
+   [
+    128,
+    332
+   ],
+   [
+    129,
+    318
+   ],
+   [
+    129,
+    303
+   ],
+   [
+    127,
+    309
+   ],
+   [
+    128,
+    312
+   ],
+   [
+    127,
+    321
+   ],
+   [
+    129,
+    330
+   ],
+   [
+    129,
+    328
+   ],
+   [
+    128,
+    318
+   ],
+   [
+    127,
+    334
+   ],
+   [
+    130,
+    336
+   ],
+   [
+    125,
+    312
+   ],
+   [
+    129,
+    342
+   ],
+   [
+    125,
+    310
+   ],
+   [
+    126,
+    327
+   ],
+   [
+    128,
+    318
+   ],
+   [
+    128,
+    325
+   ],
+   [
+    127,
+    308
+   ],
+   [
+    127,
+    312
+   ],
+   [
+    125,
+    301
+   ],
+   [
+    128,
+    328
+   ],
+   [
+    128,
+    305
+   ],
+   [
+    128,
+    332
+   ],
+   [
+    126,
+    324
+   ],
+   [
+    129,
+    316
+   ],
+   [
+    127,
+    331
+   ],
+   [
+    125,
+    319
+   ],
+   [
+    130,
+    332
+   ],
+   [
+    124,
+    325
+   ],
+   [
+    129,
+    324
+   ],
+   [
+    129,
+    308
+   ],
+   [
+    128,
+    327
+   ],
+   [
+    126,
+    309
+   ],
+   [
+    127,
+    318
+   ],
+   [
+    129,
+    317
+   ],
+   [
+    129,
+    314
+   ],
+   [
+    127,
+    325
+   ],
+   [
+    128,
+    320
+   ],
+   [
+    129,
+    338
+   ],
+   [
+    130,
+    321
+   ],
+   [
+    128,
+    312
+   ],
+   [
+    127,
+    320
+   ],
+   [
+    127,
+    312
+   ],
+   [
+    128,
+    324
+   ],
+   [
+    125,
+    314
+   ],
+   [
+    130,
+    312
+   ],
+   [
+    129,
+    321
+   ],
+   [
+    128,
+    322
+   ],
+   [
+    128,
+    329
+   ],
+   [
+    127,
+    330
+   ],
+   [
+    129,
+    329
+   ],
+   [
+    126,
+    310
+   ],
+   [
+    127,
+    320
+   ],
+   [
+    124,
+    320
+   ],
+   [
+    127,
+    343
+   ],
+   [
+    127,
+    323
+   ],
+   [
+    128,
+    335
+   ],
+   [
+    128,
+    311
+   ],
+   [
+    126,
+    313
+   ],
+   [
+    127,
+    314
+   ],
+   [
+    129,
+    326
+   ],
+   [
+    127,
+    305
+   ],
+   [
+    127,
+    320
+   ],
+   [
+    125,
+    326
+   ],
+   [
+    126,
+    317
+   ],
+   [
+    125,
+    307
+   ],
+   [
+    128,
+    304
+   ],
+   [
+    125,
+    318
+   ],
+   [
+    130,
+    330
+   ],
+   [
+    125,
+    333
+   ],
+   [
+    125,
+    315
+   ],
+   [
+    129,
+    320
+   ],
+   [
+    126,
+    321
+   ],
+   [
+    127,
+    326
+   ],
+   [
+    128,
+    320
+   ],
+   [
+    127,
+    326
+   ],
+   [
+    127,
+    326
+   ],
+   [
+    127,
+    329
+   ],
+   [
+    127,
+    317
+   ],
+   [
+    128,
+    322
+   ],
+   [
+    125,
+    325
+   ],
+   [
+    127,
+    318
+   ],
+   [
+    127,
+    328
+   ],
+   [
+    127,
+    322
+   ],
+   [
+    127,
+    322
+   ],
+   [
+    129,
+    322
+   ],
+   [
+    128,
+    313
+   ],
+   [
+    128,
+    310
+   ],
+   [
+    129,
+    308
+   ],
+   [
+    128,
+    324
+   ],
+   [
+    126,
+    341
+   ],
+   [
+    126,
+    301
+   ],
+   [
+    127,
+    318
+   ],
+   [
+    127,
+    311
+   ],
+   [
+    126,
+    312
+   ],
+   [
+    129,
+    308
+   ],
+   [
+    128,
+    325
+   ],
+   [
+    130,
+    324
+   ],
+   [
+    126,
+    329
+   ],
+   [
+    129,
+    343
+   ],
+   [
+    130,
+    315
+   ],
+   [
+    127,
+    315
+   ],
+   [
+    126,
+    320
+   ],
+   [
+    126,
+    315
+   ],
+   [
+    129,
+    319
+   ],
+   [
+    129,
+    315
+   ],
+   [
+    129,
+    311
+   ],
+   [
+    125,
+    327
+   ],
+   [
+    125,
+    312
+   ],
+   [
+    124,
+    309
+   ],
+   [
+    128,
+    312
+   ],
+   [
+    127,
+    321
+   ],
+   [
+    126,
+    318
+   ],
+   [
+    125,
+    302
+   ],
+   [
+    125,
+    342
+   ],
+   [
+    128,
+    324
+   ],
+   [
+    128,
+    320
+   ],
+   [
+    127,
+    309
+   ],
+   [
+    128,
+    320
+   ],
+   [
+    126,
+    321
+   ],
+   [
+    129,
+    320
+   ],
+   [
+    126,
+    326
+   ],
+   [
+    129,
+    311
+   ],
+   [
+    126,
+    338
+   ],
+   [
+    128,
+    311
+   ],
+   [
+    127,
+    323
+   ],
+   [
+    128,
+    333
+   ],
+   [
+    128,
+    333
+   ],
+   [
+    128,
+    309
+   ],
+   [
+    128,
+    303
+   ],
+   [
+    127,
+    327
+   ],
+   [
+    129,
+    326
+   ],
+   [
+    125,
+    326
+   ],
+   [
+    125,
+    320
+   ],
+   [
+    127,
+    321
+   ],
+   [
+    126,
+    305
+   ],
+   [
+    130,
+    338
+   ],
+   [
+    127,
+    312
+   ],
+   [
+    128,
+    327
+   ],
+   [
+    126,
+    323
+   ],
+   [
+    127,
+    319
+   ],
+   [
+    127,
+    340
+   ],
+   [
+    129,
+    325
+   ],
+   [
+    126,
+    316
+   ],
+   [
+    127,
+    318
+   ],
+   [
+    129,
+    321
+   ],
+   [
+    128,
+    316
+   ],
+   [
+    127,
+    324
+   ],
+   [
+    126,
+    327
+   ],
+   [
+    127,
+    317
+   ],
+   [
+    126,
+    316
+   ],
+   [
+    127,
+    311
+   ],
+   [
+    127,
+    318
+   ],
+   [
+    129,
+    326
+   ],
+   [
+    129,
+    322
+   ],
+   [
+    130,
+    320
+   ],
+   [
+    130,
+    328
+   ],
+   [
+    126,
+    315
+   ],
+   [
+    125,
+    316
+   ],
+   [
+    129,
+    310
+   ]
+  ],
+  "contrast_obs": 0.21130952380952384,
+  "contrast_null_mean": -0.14388147725108064,
+  "contrast_null_lo": -0.5970930232558139,
+  "contrast_null_hi": 0.40027131782945746,
+  "contrast_p_ge": 0.07,
+  "runs": 200
+ }
+}

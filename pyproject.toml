@@ -1,0 +1,22 @@
+[project]
+name = "sus-goias"
+version = "1.1.0"
+description = "Elective surgical allocation in Brazil's public health system: a statewide benchmark from Goias, 2019-2025"
+requires-python = "==3.12.*"
+license = { text = "MIT" }
+
+# Exact pins. These are the versions every number in paper/numbers.json was
+# produced under. pandas 3.x and numpy 2.x are not source-compatible with the
+# 1.x/1.x line; do not relax these without re-running scripts/check_coverage.py.
+dependencies = [
+    "pandas==3.0.5",
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "pyarrow==25.0.0",
+    "matplotlib==3.11.1",
+    "ruptures==1.1.10",
+    "datasus-dbc==0.1.3",
+]
+
+[tool.uv]
+package = false

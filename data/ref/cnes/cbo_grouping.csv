@@ -1,0 +1,45 @@
+cbo,ds,group,subgroup,rule
+225151,MEDICO ANESTESIOLOGISTA,anaesthesiologist,anaesthesiology,physician family + ANESTESIOL
+223505,ENFERMEIRO,nurse,nurse (superior),nurse family 2235
+223510,ENFERMEIRO AUDITOR,nurse,nurse (superior),nurse family 2235
+223515,ENFERMEIRO DE BORDO,nurse,nurse (superior),nurse family 2235
+223520,ENFERMEIRO DE CENTRO CIRURGICO,nurse,nurse (superior),nurse family 2235
+223525,ENFERMEIRO DE TERAPIA INTENSIVA,nurse,nurse (superior),nurse family 2235
+223530,ENFERMEIRO DO TRABALHO,nurse,nurse (superior),nurse family 2235
+223535,ENFERMEIRO NEFROLOGISTA,nurse,nurse (superior),nurse family 2235
+223540,ENFERMEIRO NEONATOLOGISTA,nurse,nurse (superior),nurse family 2235
+223545,ENFERMEIRO OBSTETRICO,nurse,nurse (superior),nurse family 2235
+223550,ENFERMEIRO PSIQUIATRICO,nurse,nurse (superior),nurse family 2235
+223555,ENFERMEIRO PUERICULTOR E PEDIATRICO,nurse,nurse (superior),nurse family 2235
+223560,ENFERMEIRO SANITARISTA,nurse,nurse (superior),nurse family 2235
+223565,ENFERMEIRO DA ESTRATEGIA DE SAUDE DA FAMILIA,nurse,nurse (superior),nurse family 2235
+223580,ENFERMEIRO ESTOMATERAPEUTA,nurse,nurse (superior),nurse family 2235
+223585,ENFERMEIRO FORENSE,nurse,nurse (superior),nurse family 2235
+2235C3,ENFERMEIRO ESTOMATERAPEUTA,nurse,nurse (superior),nurse family 2235
+322205,TECNICO DE ENFERMAGEM,nurse,nursing technician,nursing technician family 3222
+322210,TECNICO DE ENFERMAGEM DE TERAPIA INTENSIVA,nurse,nursing technician,nursing technician family 3222
+322215,TECNICO DE ENFERMAGEM DO TRABALHO,nurse,nursing technician,nursing technician family 3222
+322220,TECNICO DE ENFERMAGEM PSIQUIATRICA,nurse,nursing technician,nursing technician family 3222
+322230,AUXILIAR DE ENFERMAGEM,nurse,nursing technician,nursing technician family 3222
+322235,AUXILIAR DE ENFERMAGEM DO TRABALHO,nurse,nursing technician,nursing technician family 3222
+322245,TECNICO DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA,nurse,nursing technician,nursing technician family 3222
+322250,AUXILIAR DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA,nurse,nursing technician,nursing technician family 3222
+225203,MEDICO EM CIRURGIA VASCULAR,surgeon,VASCULAR,physician family + CIRURG
+225210,MEDICO CIRURGIAO CARDIOVASCULAR,surgeon,CARDIOVASCULAR,physician family + CIRURG
+225215,MEDICO CIRURGIAO DE CABECA E PESCOCO,surgeon,DE CABECA E PESCOCO,physician family + CIRURG
+225220,MEDICO CIRURGIAO DO APARELHO DIGESTIVO,surgeon,DO APARELHO DIGESTIVO,physician family + CIRURG
+225225,MEDICO CIRURGIAO GERAL,surgeon,GERAL,physician family + CIRURG
+225230,MEDICO CIRURGIAO PEDIATRICO,surgeon,PEDIATRICO,physician family + CIRURG
+225235,MEDICO CIRURGIAO PLASTICO,surgeon,PLASTICO,physician family + CIRURG
+225240,MEDICO CIRURGIAO TORACICO,surgeon,TORACICO,physician family + CIRURG
+225260,MEDICO NEUROCIRURGIAO,surgeon,NEURO,physician family + CIRURG
+225290,MEDICO CANCEROLOGISTA CIRURGICO,surgeon,CANCEROLOGISTA CIRURGICO,physician family + CIRURG
+225295,MEDICO CIRURGIAO DA MAO,surgeon,DA MAO,physician family + CIRURG
+225250,MEDICO GINECOLOGISTA E OBSTETRA,surgeon_op,obstetrics/gynaecology,"operating specialty, SIGTAP 0409/0410"
+225255,MEDICO MASTOLOGISTA,surgeon_op,mastology,"operating specialty, SIGTAP 0410/0416 breast"
+225265,MEDICO OFTALMOLOGISTA,surgeon_op,ophthalmology,"operating specialty, SIGTAP 0403/0411 eye"
+225270,MEDICO ORTOPEDISTA E TRAUMATOLOGISTA,surgeon_op,orthopaedics/traumatology,"operating specialty, SIGTAP 0408 musculoskeletal"
+225275,MEDICO OTORRINOLARINGOLOGISTA,surgeon_op,otorhinolaryngology,"operating specialty, SIGTAP 0404 head and neck"
+225280,MEDICO COLOPROCTOLOGISTA,surgeon_op,coloproctology,"operating specialty, SIGTAP 0407 digestive"
+225285,MEDICO UROLOGISTA,surgeon_op,urology,"operating specialty, SIGTAP 0409 urinary"
+225310,MEDICO EM ENDOSCOPIA,surgeon_op,endoscopy,"operating specialty, SIGTAP 0407 digestive, endoscopic"

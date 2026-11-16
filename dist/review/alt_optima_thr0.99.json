@@ -1,0 +1,25 @@
+{
+ "V": 3878.3347105115467,
+ "point_fac": 76,
+ "point_pair": 259,
+ "facility|1e-09|min": {
+  "status": 0,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "count": 43,
+  "count_lo": 72,
+  "z_sum": 43,
+  "dual_bound": 43.0,
+  "obj_rel_excess": 1.0000016370526055e-09,
+  "secs": 36.98481607437134
+ },
+ "facility|1e-09|max": {
+  "status": 1,
+  "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "count": 54,
+  "count_lo": 103,
+  "z_sum": 103,
+  "dual_bound": 105.0,
+  "obj_rel_excess": 1.0000018590972104e-09,
+  "secs": 604.5149757862091
+ }
+}

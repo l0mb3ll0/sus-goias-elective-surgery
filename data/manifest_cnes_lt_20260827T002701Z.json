@@ -1,0 +1,590 @@
+[
+ {
+  "file": "LTGO1901.dbc",
+  "rows": 2827,
+  "sha256": "7e595b8725ac9f013874e25161f833df37ddd5fe17b29c2aa7db98ad7baa2f3d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1902.dbc",
+  "rows": 2825,
+  "sha256": "e184ed6c0da13e81e7b0e786c70384d83610ae8c62e6332f61cd3ace5645d290",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1903.dbc",
+  "rows": 2830,
+  "sha256": "c9d7f75f3ae0982b022076b52115d7ab732b87ca144b0dffd0337c7a8c5d1510",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1904.dbc",
+  "rows": 2827,
+  "sha256": "4221dc255e6afd5abfa46c9ee03a26c8e4037df7a6a9cba4120fbf536846d8fa",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1905.dbc",
+  "rows": 2817,
+  "sha256": "c33605da44f11199f5fdae8badd2aa81800f22e3a86d27af5aadfe4422222587",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1906.dbc",
+  "rows": 2804,
+  "sha256": "98da18d47cf9c4a2916494d794bf979eeeacb68de0404fa338d714da9f71557d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1907.dbc",
+  "rows": 2806,
+  "sha256": "dd28beb4d612e11600917c876eb22619bb507e919360be6f373bdca0ce312b29",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1908.dbc",
+  "rows": 2788,
+  "sha256": "d34fdd88a5312ae41deec1df55513e6b89c8ee448f6bca0b7bb61b518fb0fab9",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1909.dbc",
+  "rows": 2814,
+  "sha256": "b2d6ab51bf108a2659a9dd54a282a1cd634bd289f5af475229383cc429b06c34",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1910.dbc",
+  "rows": 2800,
+  "sha256": "e8e76acf815bed9f7b7c65142c2bb7f484dc4728e9c4d1e71ea4e5b2ddf0ac63",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1911.dbc",
+  "rows": 2811,
+  "sha256": "4bbc3d9792b42925264e347cf2079e0e41ef8b4d5a51b14f72acea0036e8084e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO1912.dbc",
+  "rows": 2810,
+  "sha256": "a15270064487bd428f4b9ea7a788a2bc680b39f0701f77d0e0dff3ecef2f60e1",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2001.dbc",
+  "rows": 2841,
+  "sha256": "d156ef7ae5b69bc9a633f1c1469c7bda0cf9e4959e1ce3f8ce3ed9bf668eba42",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2002.dbc",
+  "rows": 2844,
+  "sha256": "7c160ad21f09e2fc9b139362f01cc0252bb2973501f68bb4e3b5c02cba8821f5",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2003.dbc",
+  "rows": 2856,
+  "sha256": "d7e4b84e08c9bb7953308c68999117ce707963e6b87f5be36fa6dac23222152a",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2004.dbc",
+  "rows": 2868,
+  "sha256": "eb45c6177384102640ed453287351d3fdb6fee362eab573e84ea3d202d91cae1",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2005.dbc",
+  "rows": 2862,
+  "sha256": "b87cce833bae9ef21c09e8a8449470c55d79034f3dd73a645aa8d6105035e748",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2006.dbc",
+  "rows": 2870,
+  "sha256": "b8356a316fefedc4a85d40281e95a0e9794a25988fdf394cd520acd95dd93d3d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2007.dbc",
+  "rows": 2885,
+  "sha256": "33f7ed1b259f6aa8af091ac8dc4273f54d51c9eb228be3ab66fa457bbea25467",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2008.dbc",
+  "rows": 2918,
+  "sha256": "edd89cf8ca43461de99f3d2048c56eae9bf0b664a4bd1ef750a27b03eb0a5abc",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2009.dbc",
+  "rows": 2924,
+  "sha256": "e7316641224e525fdb8938d25076fd6cd7f7dbf1ad9e462d253722b806811b06",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2010.dbc",
+  "rows": 2924,
+  "sha256": "4e57cfb956fdce11332afe3c396b58c1b7d40e5ab000151432e58f0c44d04b28",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2011.dbc",
+  "rows": 2921,
+  "sha256": "8e888d07d34be88defdf0c9eb06b10ad64c1ff5ed992a11782980b21937c4d5c",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2012.dbc",
+  "rows": 2934,
+  "sha256": "5a613010635f89cfa955704abf8912dd18695375d4652ede04ed01b45b7ea5c1",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2101.dbc",
+  "rows": 2895,
+  "sha256": "98c2184b5aa45f39655bb7e622f736a3ce6c41f89170257ac1fb47a4f4673cba",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2102.dbc",
+  "rows": 2889,
+  "sha256": "e1ce128a223905e1bba97ded85ba72b0f73a049b7e83bb07fd271483fe198ef4",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2103.dbc",
+  "rows": 2922,
+  "sha256": "b0d622178129fcc5d42a0b72658a7f727c45afe1cc89c2392082c4e3086556d5",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2104.dbc",
+  "rows": 2956,
+  "sha256": "cd87ceef6877e2d7c0071a5e883119e1ab367f14ca2604d071144d75b696e7dc",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2105.dbc",
+  "rows": 2965,
+  "sha256": "c92943eb66af8d1f5ce75350d33b2526fa4bfec465f4b9ed3fe8c9ea3551a875",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2106.dbc",
+  "rows": 2984,
+  "sha256": "1a16d10729c4378ee7eae36088e8263f09c3625278d880794cd27d1ca1427ba3",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2107.dbc",
+  "rows": 3001,
+  "sha256": "e138390c8a19c950f3250e16f7c20ac91675ad38f330cbb8ee91f633a8872e2d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2108.dbc",
+  "rows": 3041,
+  "sha256": "22facd12933d5242152c59c8347fb9b33cb3c87ffcc2880ad80c52810bcdb2a9",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2109.dbc",
+  "rows": 3026,
+  "sha256": "0bcfe77e0fa55bbb197f3cc11ce4ab7bfa218666bcd7f232dc07c46a83c233f7",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2110.dbc",
+  "rows": 3032,
+  "sha256": "2595e769b32510f7bc16d4bb85e62de0e66518a75957f403c48cb7b90a596c17",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2111.dbc",
+  "rows": 3036,
+  "sha256": "72e1470f2e7492d4cb18f41719700db03b2c24271bc9ec1e69f7e8d15c3ff642",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2112.dbc",
+  "rows": 3046,
+  "sha256": "e93cd9b2044fe1ff0938c95ba673d658d290a321f373c28a8d7e659d6e88e96e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2201.dbc",
+  "rows": 3067,
+  "sha256": "fe8a24dff2909f803683afd088ac0b26c95496f08d30a3bc1e3b6276c5a61fc9",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2202.dbc",
+  "rows": 3068,
+  "sha256": "1dd9cee0061e92daa864da0fd035580ed7d22424de7cd4110a2fd0dc1c36db47",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2203.dbc",
+  "rows": 3069,
+  "sha256": "a647383d525848fe8b35fc0b7b947efa604314796dccfaddeca2e1d9daa27722",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2204.dbc",
+  "rows": 3056,
+  "sha256": "3970cedb0be0a360930d5daaf32630319a29115ba2e2354794894388e1acb52f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2205.dbc",
+  "rows": 3056,
+  "sha256": "5d8ef1d8bdc9e5759ef73fb4fc8dc97772bb173f5f8e40752277f275c43ad964",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2206.dbc",
+  "rows": 2952,
+  "sha256": "7467b9cda840b1dd5921f5b1ab886c6a6d099f6fa4134bf01402f1124ddad991",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2207.dbc",
+  "rows": 2960,
+  "sha256": "c057d612bedf007e9b2c95bd838e879c966da126dd35ac992a5d5e4505448970",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2208.dbc",
+  "rows": 2962,
+  "sha256": "e9d6e07fc0aaa4716d0b687023a191626a2823986d66b9640d7fddc084fc54f3",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2209.dbc",
+  "rows": 2964,
+  "sha256": "0605d059b87226cec92c4088adfd099fca9d04c847a2a2b2538e91a825fd1977",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2210.dbc",
+  "rows": 2960,
+  "sha256": "7fb4ed9e0cce0aca5b9c78ec1e4bb6a2f6e1baaf1415601b20880f6b11cef173",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2211.dbc",
+  "rows": 2944,
+  "sha256": "c6447614015ae375930dd98e505d23612f32f73cadbecba264cf763851a6d3ca",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2212.dbc",
+  "rows": 2945,
+  "sha256": "09ccb0c7df6e5ae6aabace76ce0eb6180f3cafaa06b80cc13c2df7d091694054",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2301.dbc",
+  "rows": 2957,
+  "sha256": "1eef7cc5b991ddf3d6785c2264636adcd69d054378136bb4faefc1bcc2af2548",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2302.dbc",
+  "rows": 2958,
+  "sha256": "26fd37c092d943e2024cbdee3997e1917819ad11abf4d56aed3db8944907c387",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2303.dbc",
+  "rows": 2957,
+  "sha256": "d7e19ada6c243271cc052837e27894e2e8a4490d0d2a6edb701b858b2ca4c4d7",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2304.dbc",
+  "rows": 2937,
+  "sha256": "e7cac8a785c05c702e5506fdc5bfa81172d73c093047736a29c6be233287f9db",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2305.dbc",
+  "rows": 2939,
+  "sha256": "dab02f5793f558fa9cae18b42cca62587b81412105f37db21cb50abbea3a4ca8",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2306.dbc",
+  "rows": 2935,
+  "sha256": "960300be61d89a2df8c5ee36801b28dd9bbb6fb0c1f5ad80a13a0f6c05a96754",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2307.dbc",
+  "rows": 2937,
+  "sha256": "0276bebc985408355807c27352e47954307f6736acb1f8718b26c7c3d9aff07f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2308.dbc",
+  "rows": 2926,
+  "sha256": "c2a9882348bb6a5e9cbc2334d4e9c9c34dff075be13c0eca4111d615cae8bf39",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2309.dbc",
+  "rows": 2933,
+  "sha256": "4087583da250ffc7756ab211fa1865595ee81d2cc39e58bd1295e3925676b25f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2310.dbc",
+  "rows": 2936,
+  "sha256": "f1e94db35446adec96efb36a62577ee8aba67936ffb2818b24dd5bb250c52ecb",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2311.dbc",
+  "rows": 2936,
+  "sha256": "ed2163ddc1f8a02810d984005378ead17b25f14456b01dbf1a6f1f0c5f3116f0",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2312.dbc",
+  "rows": 2937,
+  "sha256": "bb98a5e51d2cc351f31049734b73755fe6f96e83bf9f072042711a4fb4583ca6",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2401.dbc",
+  "rows": 2929,
+  "sha256": "872aafe4f300a1c8f31f7d336d72d5dadf277ed26f72fb5435a7f227dbffe2e0",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2402.dbc",
+  "rows": 2935,
+  "sha256": "e4f1160bc24918694cfed1817400c3fc08b197798a7dd028c0ce249cb1374dd3",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2403.dbc",
+  "rows": 2926,
+  "sha256": "095eb45af13739eea7baae8c66de0a3d2ea65e84ae05693ced4c611e53b26dc2",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2404.dbc",
+  "rows": 2937,
+  "sha256": "57618dbdfca49449a4249a206b7bb4c9f2112f27279fac19a9a1e48facbf70af",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2405.dbc",
+  "rows": 2932,
+  "sha256": "b48ba638a4035198e65a3c4cb548f82c8870783ea33a9e9e22d50a1d0f73bbea",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2406.dbc",
+  "rows": 2925,
+  "sha256": "96c95034bcfab691f74b12a7d1212fe03dd8b31fe371d8e196b2db98892d03a5",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2407.dbc",
+  "rows": 2932,
+  "sha256": "33b9168edc92491e5a80b574fd5388ecc2574a7fd4cca3ec6782536c30feac3c",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2408.dbc",
+  "rows": 2931,
+  "sha256": "94eab8e5139303a026185d1f56d0cd34058c07731eb56c6a7a138207fe99718c",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2409.dbc",
+  "rows": 2934,
+  "sha256": "f525980050832e4561e9d133635aa85b0c3ca3901e9b61f5cd61bc737dc238eb",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2410.dbc",
+  "rows": 2933,
+  "sha256": "6c9e7e7fd7b83132a79ecfbbd31597c5a5234050c95937cb957aea7a942bdb1f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2411.dbc",
+  "rows": 2935,
+  "sha256": "424ab421cb9e601ff91ee4a1c44c41b17d64239c773d72e5b803cfcf941cb611",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2412.dbc",
+  "rows": 2941,
+  "sha256": "98edb4c8a6464afb76847e8e880ca7a2fae9880e47200eeb648ccd3b706141db",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2501.dbc",
+  "rows": 2939,
+  "sha256": "d6a967e2b6a7b5a95d51ddb442dbb85c4abda2485f72c9039f5560cc4faf66c4",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2502.dbc",
+  "rows": 2939,
+  "sha256": "983f1f29c95201ffde529781284af35b08f1765551fbd1b3003b711470c7108a",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2503.dbc",
+  "rows": 2938,
+  "sha256": "831dc5be5bfafa4037c8c432b3140f7b6f955068b2a60ee761f8361959dce9c1",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2504.dbc",
+  "rows": 2952,
+  "sha256": "ae240a7d8f56ef7a3e2ae309f16db7728fc9b0a2b303a34ab02fc6329d87edff",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2505.dbc",
+  "rows": 2960,
+  "sha256": "b759635eeab7034b639ed7cfc7e7ea4327bafa2b74de34e0c30e292819eea57d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2506.dbc",
+  "rows": 2960,
+  "sha256": "6c81e552374aa37db432014a6b74100a6c2fec781627f93b14f12a3f4a7af08e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2507.dbc",
+  "rows": 2985,
+  "sha256": "09bfef56c7b03b7cb3d7dbd94c5f8c74a08189c86aa574c1ed231a66aa32c886",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2508.dbc",
+  "rows": 2979,
+  "sha256": "4be629c70abf7b3afc6deeed64fc6bb5376662591ff0c333d0bc05db70284a9a",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2509.dbc",
+  "rows": 2985,
+  "sha256": "6c2e20f94a0ac140230188c83b10ba549e66da9e5ee99870a51868ffaa9014f7",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2510.dbc",
+  "rows": 2964,
+  "sha256": "4b94f1933dced44b1e6bdc1acd1bddefa0a64252400c3e0156a273266d1ad224",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2511.dbc",
+  "rows": 2965,
+  "sha256": "65353a05c8d9d3592ec5695b55afaeeeae7658df10c50cd64847355cac340323",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "LTGO2512.dbc",
+  "rows": 2956,
+  "sha256": "630f2af48c7537b4f37b73d5e42a93d88b3a8621cf9a2ef3edc10c4452b8dea9",
+  "fetched": false,
+  "status": "ok"
+ }
+]

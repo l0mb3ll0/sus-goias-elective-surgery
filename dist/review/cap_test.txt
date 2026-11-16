@@ -1,0 +1,138 @@
+Cap test: does an at-cap pair or facility exceed its year-t cap in year t+1, and does that
+depend on whether surgeons, operating rooms or laparoscopes rose?
+
+Year t in {2023, 2024}, t+1 in {2024, 2025}. Built on the bootstrap's own Year class.
+
+AT CAP in year t, from the year-t optimum at point values (the paper's thresholds, as in
+scripts/model_urgent.py): facility if served / kappa_j > 0.95; pair if kappa_jp > 0.5 (not
+floored) and served / kappa_jp > 0.95. All other facilities / non-floored pairs are 'slack'.
+
+EXCEEDANCE in t+1, same in-state elective records and same construction:
+  roll   kappa_{t+1} > kappa_t   (next year's largest 3-month rolling mean beats this year's cap)
+  month  share of the 12 months of t+1 with volume > kappa_t
+
+COMPARISON: non-at-cap ('slack') facilities and non-floored pairs, same measures.
+
+PLACEBO: urgent surgical volume (group 04, CAR_INT != '01', in-state residents) at the same
+facilities and pairs, with the same groups. Urgent kappa_t and kappa_{t+1} are built the same way
+from urgent records; units with urgent kappa_t <= 0.5 are left out (no meaningful urgent cap).
+If at-cap units' urgent volume also beats its own prior maximum at a similar rate, elective
+exceedance reflects general growth rather than a binding cap being broken.
+
+RESOURCES ARE FACILITY-LEVEL. CNES PF and EQ record staff and equipment per facility, not per
+procedure, and rooms are per facility too. A pair is assigned its facility's change, so a
+pair-level split says whether the facility gained a resource, not whether that procedure did.
+
+RESOURCE ROSE DURING t+1 (facility level; pairs inherit their facility's value), start vs end of
+t+1, rose = strictly greater, a facility absent from a source in a month counts as 0:
+  surgeons     distinct CPF_PROF in CNES PF with an operating-surgeon CBO (225225 plus 18
+               specialty codes), January vs December of t+1
+  laparoscopes CNES EQ TIPEQUIP 03 / CODEQUIP 35 QT_EXIST, January vs December of t+1
+               (codes zero-padded: TIPEQUIP changed from '3' to '03' in 2025-09)
+  rooms        CNES base rlEstabInstFisiAssist CO_INSTALACAO 31 (centro cirurgico);
+               2024: 202401 vs 202501, 2025: 202501 vs 202512. No monthly series exists.
+
+CNES PF CPF_PROF blank share (all months): 0.0000
+
+=== 2023 -> 2024 ===
+year-2023 optimum: gap 30.6%, |J| 131, facilities at cap 76, non-floored pairs 517, pairs at cap 259
+resources rose during 2024 (facilities in J): surgeons 53, rooms 6, laparoscopes 1, any 57
+
+level    group                              n  kappa_t1>kappa_t  months>kappa_t  median k1/k
+facility at cap                            76             51.3%           27.5%         1.05
+facility not at cap                        55             34.5%           19.8%         0.86
+facility at cap, surgeons rose             28             78.6%           42.6%         1.60
+facility at cap, surgeons did not          48             35.4%           18.8%         0.89
+facility at cap, rooms rose                 3             33.3%           25.0%         0.91
+facility at cap, rooms did not             73             52.1%           27.6%         1.06
+facility at cap, laparoscopes rose          1              0.0%            0.0%         0.80
+facility at cap, laparoscopes did not      75             52.0%           27.9%         1.06
+facility at cap, any resource rose         29             75.9%           42.0%         1.56
+facility at cap, none rose                 47             36.2%           18.6%         0.87
+
+pair     at cap                           259             41.7%           23.0%         0.91
+pair     not at cap                       258             30.6%           15.6%         0.75
+pair     at cap, surgeons rose            128             53.9%           30.9%         1.15
+pair     at cap, surgeons did not         131             29.8%           15.4%         0.72
+pair     at cap, rooms rose                 6             66.7%           37.5%         1.58
+pair     at cap, rooms did not            253             41.1%           22.7%         0.89
+pair     at cap, laparoscopes rose          2             50.0%           12.5%         1.00
+pair     at cap, laparoscopes did not     257             41.6%           23.1%         0.91
+pair     at cap, any resource rose        130             53.8%           31.2%         1.15
+pair     at cap, none rose                129             29.5%           14.9%         0.72
+
+PLACEBO, urgent volume 2023 -> 2024 (units with urgent kappa_2023 > 0.5 only)
+level    group                              n  kappa_t1>kappa_t  months>kappa_t  median k1/k
+facility at cap                            54             38.9%           18.4%         0.95
+facility not at cap                        45             35.6%           19.4%         0.89
+facility at cap, surgeons rose             23             47.8%           25.4%         1.00
+facility at cap, surgeons did not          31             32.3%           13.2%         0.94
+facility at cap, rooms rose                 2              0.0%           12.5%         0.96
+facility at cap, rooms did not             52             40.4%           18.6%         0.95
+facility at cap, laparoscopes rose          0                 -               -            -
+facility at cap, laparoscopes did not      54             38.9%           18.4%         0.95
+facility at cap, any resource rose         24             45.8%           24.7%         1.00
+facility at cap, none rose                 30             33.3%           13.3%         0.93
+
+pair     at cap                           153             41.2%           23.1%         0.94
+pair     not at cap                       173             40.5%           19.4%         0.81
+pair     at cap, surgeons rose             86             40.7%           24.5%         0.96
+pair     at cap, surgeons did not          67             41.8%           21.3%         0.90
+pair     at cap, rooms rose                 3              0.0%           11.1%         0.57
+pair     at cap, rooms did not            150             42.0%           23.3%         0.95
+pair     at cap, laparoscopes rose          0                 -               -            -
+pair     at cap, laparoscopes did not     153             41.2%           23.1%         0.94
+pair     at cap, any resource rose         87             40.2%           24.3%         0.96
+pair     at cap, none rose                 66             42.4%           21.5%         0.91
+
+=== 2024 -> 2025 ===
+year-2024 optimum: gap 23.8%, |J| 132, facilities at cap 84, non-floored pairs 531, pairs at cap 322
+resources rose during 2025 (facilities in J): surgeons 68, rooms 3, laparoscopes 4, any 69
+
+level    group                              n  kappa_t1>kappa_t  months>kappa_t  median k1/k
+facility at cap                            84             52.4%           27.6%         1.11
+facility not at cap                        48             31.2%           17.5%         0.85
+facility at cap, surgeons rose             38             63.2%           34.9%         1.25
+facility at cap, surgeons did not          46             43.5%           21.6%         0.91
+facility at cap, rooms rose                 1            100.0%           16.7%         1.66
+facility at cap, rooms did not             83             51.8%           27.7%         1.08
+facility at cap, laparoscopes rose          2              0.0%            4.2%         0.72
+facility at cap, laparoscopes did not      82             53.7%           28.2%         1.14
+facility at cap, any resource rose         39             61.5%           34.2%         1.23
+facility at cap, none rose                 45             44.4%           21.9%         0.91
+
+pair     at cap                           322             42.5%           21.1%         0.93
+pair     not at cap                       209             39.2%           17.9%         0.92
+pair     at cap, surgeons rose            198             49.0%           25.5%         1.00
+pair     at cap, surgeons did not         124             32.3%           14.0%         0.72
+pair     at cap, rooms rose                15             53.3%           33.9%         1.07
+pair     at cap, rooms did not            307             42.0%           20.5%         0.92
+pair     at cap, laparoscopes rose         18             50.0%           23.6%         1.01
+pair     at cap, laparoscopes did not     304             42.1%           21.0%         0.92
+pair     at cap, any resource rose        200             49.0%           25.5%         1.00
+pair     at cap, none rose                122             32.0%           13.9%         0.70
+
+PLACEBO, urgent volume 2024 -> 2025 (units with urgent kappa_2024 > 0.5 only)
+level    group                              n  kappa_t1>kappa_t  months>kappa_t  median k1/k
+facility at cap                            64             29.7%           18.6%         0.83
+facility not at cap                        36             44.4%           19.7%         0.96
+facility at cap, surgeons rose             32             28.1%           21.1%         0.86
+facility at cap, surgeons did not          32             31.2%           16.1%         0.80
+facility at cap, rooms rose                 1            100.0%           50.0%         7.50
+facility at cap, rooms did not             63             28.6%           18.1%         0.80
+facility at cap, laparoscopes rose          2              0.0%            8.3%         0.94
+facility at cap, laparoscopes did not      62             30.6%           19.0%         0.80
+facility at cap, any resource rose         33             27.3%           20.5%         0.87
+facility at cap, none rose                 31             32.3%           16.7%         0.79
+
+pair     at cap                           195             36.9%           17.4%         0.78
+pair     not at cap                       126             37.3%           17.7%         0.85
+pair     at cap, surgeons rose            129             40.3%           19.8%         0.86
+pair     at cap, surgeons did not          66             30.3%           12.6%         0.57
+pair     at cap, rooms rose                14             64.3%           35.7%         1.18
+pair     at cap, rooms did not            181             34.8%           15.9%         0.77
+pair     at cap, laparoscopes rose         13             30.8%           22.4%         0.77
+pair     at cap, laparoscopes did not     182             37.4%           17.0%         0.79
+pair     at cap, any resource rose        131             39.7%           19.8%         0.86
+pair     at cap, none rose                 64             31.2%           12.2%         0.52
+

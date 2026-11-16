@@ -1,0 +1,200 @@
+{
+ "bai1998": {
+  "label": "Bai and Perron",
+  "author": "J.~Bai and P.~Perron",
+  "year": 1998,
+  "title": "Estimating and testing linear models with multiple structural changes",
+  "venue": "Econometrica",
+  "detail": "66(1):47--78",
+  "verified": true
+ },
+ "killick2012": {
+  "label": "Killick et~al.",
+  "author": "R.~Killick, P.~Fearnhead, and I.~A. Eckley",
+  "year": 2012,
+  "title": "Optimal detection of changepoints with a linear computational cost",
+  "venue": "Journal of the American Statistical Association",
+  "detail": "107(500):1590--1598",
+  "verified": true
+ },
+ "ahmadijavid2017": {
+  "label": "Ahmadi-Javid et~al.",
+  "author": "A.~Ahmadi-Javid, P.~Seyedi, and S.~S. Syam",
+  "year": 2017,
+  "title": "A survey of healthcare facility location",
+  "venue": "Computers \\& Operations Research",
+  "detail": "79:223--263",
+  "verified": true
+ },
+ "luft1979": {
+  "label": "Luft et~al.",
+  "author": "H.~S. Luft, J.~P. Bunker, and A.~C. Enthoven",
+  "year": 1979,
+  "title": "Should operations be regionalized? The empirical relation between surgical volume and mortality",
+  "venue": "New England Journal of Medicine",
+  "detail": "301:1364--1369",
+  "verified": true
+ },
+ "luft1987": {
+  "label": "Luft et~al.",
+  "author": "H.~S. Luft, S.~S. Hunt, and S.~C. Maerki",
+  "year": 1987,
+  "title": "The volume-outcome relationship: practice-makes-perfect or selective-referral patterns?",
+  "venue": "Health Services Research",
+  "detail": "22:157--182",
+  "verified": true
+ },
+ "scarpin2008": {
+  "label": "Scarpin et~al.",
+  "author": "C.~T. Scarpin, M.~T.~A. Steiner, G.~J.~C. Dias, and P.~J. Steiner Neto",
+  "year": 2008,
+  "title": "Otimiza\\c{c}\\~ao no servi\\c{c}o de sa\\'ude no estado do Paran\\'a: fluxo de pacientes e novas configura\\c{c}\\~oes hier\\'arquicas",
+  "venue": "Gest\\~ao \\& Produ\\c{c}\\~ao",
+  "detail": "15(2):275--290",
+  "verified": true
+ },
+ "helm2014": {
+  "label": "Helm and Van Oyen",
+  "author": "J.~E. Helm and M.~P. Van Oyen",
+  "year": 2014,
+  "title": "Design and optimization methods for elective hospital admissions",
+  "venue": "Operations Research",
+  "detail": "62(6):1265--1282",
+  "verified": true
+ },
+ "meng2015": {
+  "label": "Meng et~al.",
+  "author": "F.~Meng, J.~Qi, M.~Zhang, J.~Ang, S.~Chu, and M.~Sim",
+  "year": 2015,
+  "title": "A robust optimization model for managing elective admission in a public hospital",
+  "venue": "Operations Research",
+  "detail": "63(6):1452--1467",
+  "verified": true
+ },
+ "marques2014": {
+  "label": "Marques et~al.",
+  "author": "I.~Marques, M.~E. Captivo, and M.~V. Pato",
+  "year": 2014,
+  "title": "Scheduling elective surgeries in a Portuguese hospital using a genetic heuristic",
+  "venue": "Operations Research for Health Care",
+  "detail": "3(2):59--72",
+  "verified": true
+ },
+ "ipea2022": {
+  "label": "Servo et~al.",
+  "author": "L.~M.~S. Servo, M.~V. Andrade, and P.~V.~M. Amaral",
+  "year": 2021,
+  "title": "Os caminhos da regionaliza\\c{c}\\~ao da sa\\'ude no Brasil: adequa\\c{c}\\~ao e acesso geogr\\'afico nos anos 2000",
+  "venue": "Planejamento e Pol\\'iticas P\\'ublicas",
+  "detail": "n.~60 (2021), published online 26 July 2022",
+  "verified": true
+ },
+ "epstein2005": {
+  "label": "Epstein et~al.",
+  "author": "A.~J. Epstein, S.~S. Rathore, H.~M. Krumholz, and K.~G.~M. Volpp",
+  "year": 2005,
+  "title": "Volume-based referral for cardiovascular procedures in the United States: a cross-sectional regression analysis",
+  "venue": "BMC Health Services Research",
+  "detail": "5:42",
+  "verified": true
+ },
+ "dudley2000": {
+  "label": "Dudley et~al.",
+  "author": "R.~A. Dudley, K.~L. Johansen, R.~Brand, D.~J. Rennie, and A.~Milstein",
+  "year": 2000,
+  "title": "Selective referral to high-volume hospitals: estimating potentially avoidable deaths",
+  "venue": "JAMA",
+  "detail": "283:1159--1166",
+  "verified": true
+ },
+ "finlayson1999": {
+  "label": "Finlayson et~al.",
+  "author": "S.~R. Finlayson, J.~D. Birkmeyer, A.~N. Tosteson, and R.~F. Nease",
+  "year": 1999,
+  "title": "Patient preferences for location of care: implications for regionalization",
+  "venue": "Medical Care",
+  "detail": "37:204--209",
+  "verified": true
+ },
+ "scharfe2025": {
+  "label": "Scharfe et~al.",
+  "author": "J.~Scharfe, S.~Pfisterer-Heise, A.~Pachanov, C.~M. Kugler, T.~Mathes, Z.~Zhang, J.~Morche, and D.~Pieper",
+  "year": 2025,
+  "title": "The effect of minimum volume standards in hospitals (MIVOS): a systematic review",
+  "venue": "BMJ Open",
+  "detail": "15(5):e090152",
+  "verified": true
+ },
+ "vogel2022": {
+  "label": "Vogel et~al.",
+  "author": "J.~F.~A. Vogel, M.~Barkhausen, C.~M. Pross, and A.~Geissler",
+  "year": 2022,
+  "title": "Defining minimum volume thresholds to increase quality of care: a new patient-oriented approach using mixed integer programming",
+  "venue": "European Journal of Health Economics",
+  "detail": "23(7):1085--1104",
+  "verified": true
+ },
+ "burdett2023": {
+  "label": "Burdett et~al.",
+  "author": "R.~L. Burdett, P.~Corry, P.~Yarlagadda, D.~Cook, S.~Birgan, and S.~M. McPhail",
+  "year": 2023,
+  "title": "A mathematical framework for regional hospital case mix planning and capacity appraisal",
+  "venue": "Operations Research Perspectives",
+  "detail": "10:100261",
+  "verified": true
+ },
+ "silva2010": {
+  "label": "da Silva et~al.",
+  "author": "M.~E.~M. da Silva, E.~R. Santos, and D.~Borenstein",
+  "year": 2010,
+  "title": "Implementing regulation policy in Brazilian health care regulation centers",
+  "venue": "Medical Decision Making",
+  "detail": "30(3):366--379",
+  "verified": true
+ },
+ "hamilton1982": {
+  "label": "Hamilton",
+  "author": "B.~W. Hamilton",
+  "year": 1982,
+  "title": "Wasteful commuting",
+  "venue": "Journal of Political Economy",
+  "detail": "90(5):1035--1051",
+  "verified": true
+ },
+ "white1988": {
+  "label": "White",
+  "author": "M.~J. White",
+  "year": 1988,
+  "title": "Urban commuting journeys are not ``wasteful''",
+  "venue": "Journal of Political Economy",
+  "detail": "96(5):1097--1110",
+  "verified": true
+ },
+ "smallsong1992": {
+  "label": "Small and Song",
+  "author": "K.~A. Small and S.~Song",
+  "year": 1992,
+  "title": "``Wasteful'' commuting: a resolution",
+  "venue": "Journal of Political Economy",
+  "detail": "100(4):888--898",
+  "verified": true
+ },
+ "battesini2018": {
+  "label": "Battesini et~al.",
+  "author": "M.~Battesini, H.~dos~S. Coelho, and M.~H. De~Seta",
+  "year": 2018,
+  "title": "Uso de programa\\c{c}\\~ao linear para otimizar o acesso geogr\\'afico em redes tem\\'aticas de aten\\c{c}\\~ao \\`a sa\\'ude",
+  "venue": "Cadernos de Sa\\'ude P\\'ublica",
+  "detail": "34(7):e00055017",
+  "verified": true
+ },
+ "botega2022": {
+  "label": "Botega et~al.",
+  "author": "L.~de~A. Botega, M.~V. Andrade, G.~R. Guedes, and D.~Nogueira",
+  "year": 2022,
+  "title": "Spatial reorganization of the Brazilian Unified National Health System's inpatient care supply",
+  "venue": "Cadernos de Sa\\'ude P\\'ublica",
+  "detail": "38(9):e00012422",
+  "verified": true
+ }
+}

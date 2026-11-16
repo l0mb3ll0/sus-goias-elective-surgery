@@ -1,0 +1,23 @@
+{
+ "year": "2023",
+ "cap": "urgent",
+ "n_fac": 153,
+ "scope_pairs": 763,
+ "travel_obs": 0.8722033192139435,
+ "travel": 0.7402364155321941,
+ "gap": 0.1513029138672414,
+ "unmet": 1749.6845002855846,
+ "bed_util": 0.13784318347231342,
+ "cap_capacity": 9591.0,
+ "demand_mo": 6603.916666666666,
+ "slack": 1.4523199616389266,
+ "bedbound_n": 5,
+ "capbound_n": 58,
+ "both_n": 0,
+ "bedbound_capuse_mean": 0.45507909706657157,
+ "capbound_spare_bd": 27611.698884372257,
+ "beds_used_bd": 9171.740820289055,
+ "n_pairs_nonfloor": 605,
+ "n_pairs_bound": 395,
+ "both_cnes": []
+}

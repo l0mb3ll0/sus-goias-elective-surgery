@@ -1,0 +1,40 @@
+{
+ "runs": [
+  {
+   "label": "2019 demand, 2019 scope",
+   "scope_pairs": 563,
+   "served": 3867.8333333333335,
+   "unmet": 0.0,
+   "travel_obs": 0.8348386540492768,
+   "travel_opt": 0.5366787697450566,
+   "gap": 0.35714671674345017
+  },
+  {
+   "label": "2023 demand, 2023 scope",
+   "scope_pairs": 637,
+   "served": 6603.916666666667,
+   "unmet": 0.0,
+   "travel_obs": 0.8462288860380586,
+   "travel_opt": 0.5088639207130466,
+   "gap": 0.3986686945945723
+  },
+  {
+   "label": "2023 demand, common scope",
+   "scope_pairs": 368,
+   "served": 6413.0,
+   "unmet": 190.91666666666663,
+   "travel_obs": 0.9084289418534437,
+   "travel_opt": 0.8545576747053597,
+   "gap": 0.059301575132747156
+  },
+  {
+   "label": "2019 demand, common scope",
+   "scope_pairs": 376,
+   "served": 3867.8333333333335,
+   "unmet": 0.0,
+   "travel_obs": 0.8443886618091345,
+   "travel_opt": 0.6466886805478315,
+   "gap": 0.23413386536683642
+  }
+ ]
+}

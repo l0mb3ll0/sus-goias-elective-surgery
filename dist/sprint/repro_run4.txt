@@ -1,0 +1,27 @@
+01 check_inputs       exit   0     0.0s
+02 model_2019         exit   0     7.0s
+03 model_2023         exit   0     7.8s
+04 model_2025         exit   0     8.9s
+05 model_2019_nopair  exit   0     5.6s
+06 model_2023_nopair  exit   0     7.2s
+07 model_2025_nopair  exit   0     8.5s
+08 model_decomp       exit   0    12.6s
+09 capability         exit   0     0.4s
+10 figures            exit   0    16.6s
+11 panel_counts       exit   0     1.3s
+12 first_principles   exit   0     1.9s
+13 flows_panel        exit   0     1.1s
+14 audit_round3       exit   0    19.5s
+15 subset_sens        exit   0     1.1s
+16 pair_sens          exit   0     0.4s
+17 placement          exit   0     1.3s
+18 entrant_churn      exit   0     7.7s
+19 check_0409         exit   0     1.2s
+20 equity             exit   0    23.1s
+21 check_coverage     exit   0     0.5s
+22 check_tables       exit   0     0.1s
+23 test_recompute     exit   0    13.2s
+24 pdflatex_1         exit   0     0.3s
+25 pdflatex_2         exit   0     0.3s
+
+compared 3724 numeric leaves against HEAD: 0 differ by more than 1e-9 (relative)

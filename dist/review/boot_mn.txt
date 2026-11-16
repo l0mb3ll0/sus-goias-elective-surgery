@@ -1,0 +1,7 @@
+m-out-of-n multiplier bootstrap (T3). point = stored-model gap; interval = percentile 2.5/97.5; 340 draws
+f=0.5 2019: point 28.8  mean 33.4  sd 2.37  [29.1, 38.2]  covers point: False  frac below point 0.018
+f=0.5 2023: point 30.6  mean 35.8  sd 2.97  [29.6, 40.7]  covers point: True  frac below point 0.041
+f=0.5 2025: point 29.1  mean 35.1  sd 2.46  [29.8, 39.3]  covers point: False  frac below point 0.012
+f=0.7 2019: point 28.8  mean 32.9  sd 2.09  [29.1, 37.3]  covers point: False  frac below point 0.018
+f=0.7 2023: point 30.6  mean 35.3  sd 2.47  [30.7, 39.8]  covers point: False  frac below point 0.021
+f=0.7 2025: point 29.1  mean 35.0  sd 2.30  [30.4, 39.5]  covers point: False  frac below point 0.012

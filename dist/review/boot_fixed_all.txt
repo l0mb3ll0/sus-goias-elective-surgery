@@ -1,0 +1,22 @@
+Paired bootstrap, kappa fixed and demand fixed. 340 draws (paper weights, seeds 20260807 + 1000*chunk). Source md5 of scripts/bootstrap_paired.py 634accb87c69fc1e9246cf5a69c67d45.
+Reproduction check: max |full-variant gap - cached paper draw| = 0.00e+00 over 1020 draw-years.
+
+opt = optimal travel over served cases (the bootstrap's definition); gap = (obs - opt)/obs; unmet = share of demand left unserved.
+
+year  variant    mean opt      sd  mean obs  mean gap      sd    2.5%   97.5%   shift   unmet    n
+2019  point        0.5947            0.8348    28.77%                                   0.00%    1
+      full         0.5657  0.0351    0.8321    32.07%   1.76   28.46   35.11  +3.31p   0.00%  340
+      kfix         0.5996  0.0282    0.8321    27.91%   2.96   23.23   36.14  -0.86p   0.48%  340
+      dfix         0.5801  0.0160    0.8321    30.19%   2.97   23.66   35.38  +1.43p   0.03%  340
+
+2023  point        0.5873            0.8462    30.59%                                   0.00%    1
+      full         0.5564  0.0340    0.8466    34.29%   2.04   30.33   38.14  +3.70p   0.00%  340
+      kfix         0.6064  0.0320    0.8466    28.33%   2.69   22.34   33.73  -2.26p   0.27%  340
+      dfix         0.5698  0.0195    0.8466    32.57%   3.37   25.32   38.76  +1.98p   0.01%  340
+
+2025  point        0.6419            0.9057    29.13%                                   0.00%    1
+      full         0.5977  0.0292    0.9050    33.96%   2.02   29.68   37.80  +4.83p   0.00%  340
+      kfix         0.6601  0.0312    0.9050    27.02%   3.14   21.00   33.07  -2.11p   0.39%  340
+      dfix         0.6096  0.0156    0.9050    32.54%   3.09   25.70   38.29  +3.41p   0.00%  340
+
+shift = mean bootstrap gap minus point gap, in percentage points.

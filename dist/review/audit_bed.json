@@ -1,0 +1,110 @@
+{
+ "2019": {
+  "base": {
+   "gap": 0.28765725680781357,
+   "unmet": 0.0,
+   "bed_util": 0.13340990422791074,
+   "bed_bound": 1,
+   "over_budget": 0,
+   "at_cap": 72
+  },
+  "no_bed_row": {
+   "gap": 0.2876572568078137,
+   "unmet": 0.0,
+   "bed_util": 0.14588424703820602,
+   "bed_bound": 1,
+   "over_budget": 1,
+   "at_cap": 74
+  },
+  "local_lambda": {
+   "gap": 0.2876572568078137,
+   "unmet": 0.0,
+   "bed_util": 0.13308575337960854,
+   "bed_bound": 2,
+   "over_budget": 0,
+   "at_cap": 80
+  },
+  "local_lambda_no_bed_row": {
+   "gap": 0.2876572568078137,
+   "unmet": 0.0,
+   "bed_util": 0.14250256907706702,
+   "bed_bound": 2,
+   "over_budget": 1,
+   "at_cap": 74
+  },
+  "delta_pp_no_bed_row": 1.1102230246251565e-14,
+  "delta_pp_local_lambda_no_bed_row": 0.0
+ },
+ "2023": {
+  "base": {
+   "gap": 0.3059495301928769,
+   "unmet": 0.0,
+   "bed_util": 0.17875470586741318,
+   "bed_bound": 3,
+   "over_budget": 0,
+   "at_cap": 75
+  },
+  "no_bed_row": {
+   "gap": 0.34075045519126823,
+   "unmet": 0.0,
+   "bed_util": 0.19902501982156165,
+   "bed_bound": 3,
+   "over_budget": 3,
+   "at_cap": 77
+  },
+  "local_lambda": {
+   "gap": 0.306093958415153,
+   "unmet": 0.0,
+   "bed_util": 0.17826072766499104,
+   "bed_bound": 3,
+   "over_budget": 0,
+   "at_cap": 78
+  },
+  "local_lambda_no_bed_row": {
+   "gap": 0.34075045519126823,
+   "unmet": 0.0,
+   "bed_util": 0.1963058609984143,
+   "bed_bound": 3,
+   "over_budget": 3,
+   "at_cap": 77
+  },
+  "delta_pp_no_bed_row": 3.4800924998391327,
+  "delta_pp_local_lambda_no_bed_row": 3.4656496776115207
+ },
+ "2025": {
+  "base": {
+   "gap": 0.2912903301762937,
+   "unmet": 0.0,
+   "bed_util": 0.21732725002941522,
+   "bed_bound": 5,
+   "over_budget": 0,
+   "at_cap": 103
+  },
+  "no_bed_row": {
+   "gap": 0.3155660911198899,
+   "unmet": 0.0,
+   "bed_util": 0.22713012549018616,
+   "bed_bound": 6,
+   "over_budget": 5,
+   "at_cap": 102
+  },
+  "local_lambda": {
+   "gap": 0.29074329127920423,
+   "unmet": 0.0,
+   "bed_util": 0.2127297538958163,
+   "bed_bound": 6,
+   "over_budget": 0,
+   "at_cap": 104
+  },
+  "local_lambda_no_bed_row": {
+   "gap": 0.3155660911198899,
+   "unmet": 0.0,
+   "bed_util": 0.224501389820078,
+   "bed_bound": 6,
+   "over_budget": 6,
+   "at_cap": 102
+  },
+  "delta_pp_no_bed_row": 2.4275760943596234,
+  "delta_pp_local_lambda_no_bed_row": 2.4822799840685694
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "V": 3878.3347105115467,
+ "point_fac": 76,
+ "point_pair": 259,
+ "facility|1e-09|min": {
+  "status": 0,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "count": 44,
+  "count_lo": 74,
+  "z_sum": 44,
+  "dual_bound": 44.0,
+  "obj_rel_excess": 1.0000014150080005e-09,
+  "secs": 72.65547323226929
+ },
+ "facility|1e-09|max": {
+  "status": 1,
+  "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "count": 55,
+  "count_lo": 107,
+  "z_sum": 107,
+  "dual_bound": 108.62946754981067,
+  "obj_rel_excess": 1.0000023031864202e-09,
+  "secs": 624.8410172462463
+ },
+ "facility|1e-06|min": {
+  "status": 0,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "count": 44,
+  "count_lo": 74,
+  "z_sum": 44,
+  "dual_bound": 44.0,
+  "obj_rel_excess": 1.000000001250001e-06,
+  "secs": 65.24152827262878
+ },
+ "facility|1e-06|max": {
+  "status": 0,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "count": 61,
+  "count_lo": 107,
+  "z_sum": 107,
+  "dual_bound": 107.0,
+  "obj_rel_excess": 1.0000000010279564e-06,
+  "secs": 116.92927575111389
+ },
+ "pair|1e-09|min": {
+  "status": 0,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "count": 112,
+  "count_lo": 244,
+  "z_sum": 112,
+  "dual_bound": 112.0,
+  "obj_rel_excess": 1.0000018590972104e-09,
+  "secs": 141.62871313095093
+ },
+ "pair|1e-09|max": {
+  "status": 1,
+  "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "count": 182,
+  "count_lo": 343,
+  "z_sum": 343,
+  "dual_bound": 365.0,
+  "obj_rel_excess": 1.0000023031864202e-09,
+  "secs": 607.3503251075745
+ },
+ "pair|1e-06|min": {
+  "status": 0,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "count": 112,
+  "count_lo": 258,
+  "z_sum": 112,
+  "dual_bound": 112.0,
+  "obj_rel_excess": 1.000000002360224e-06,
+  "secs": 57.262758016586304
+ },
+ "pair|1e-06|max": {
+  "status": 1,
+  "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "count": 194,
+  "count_lo": 345,
+  "z_sum": 345,
+  "dual_bound": 347.0,
+  "obj_rel_excess": 1.000000001250001e-06,
+  "secs": 600.385694026947
+ }
+}

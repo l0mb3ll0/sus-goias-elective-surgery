@@ -1,0 +1,65 @@
+Decompose the capability/demand ratio (1.37 / 1.32 / 1.16) into zero months vs real variation.
+
+The ratio is sum_j kappa_j / D: kappa_j is facility j's largest 3-month rolling mean of in-state
+elective volume over the year's 12 months, summed over the model's facility set J, and D is all
+in-state elective demand per month. Built with the bootstrap's own Year class at unit weights.
+
+For each facility, with m = annual volume / 12, n_span = months from first to last active month,
+n_pos = months with positive volume:
+
+  kappa_j - m = [m_span - m]                       zeros outside the active span (entry / exit)
+              + [m_pos  - m_span]                   zeros inside the span: volume concentrated
+              + Zw                                  zeros inside the span: effect on 3-month windows
+              + V                                   real variation among active months
+
+Zw and V are a Shapley split over two counterfactual series: positive months flattened to m_pos
+(zeros kept) and zero months dropped (variation kept). kappa(no zeros, no variation) = m_pos.
+With fewer than 3 active months no window exists after dropping zeros, so that series uses m_pos.
+Summed over J and divided by D the four terms plus sum(m)/D reproduce the ratio exactly.
+
+Batching signature (diagnostic only): a run of interior zero months followed by a month of at
+least 1.5 x m_pos, the pattern a bill covering several months leaves.
+
+2019: ratio 1.368  (|J| 131, demand 3,868/month)
+   base: volume at in-scope facilities, sum(m)/D        1.000
+   + zeros outside the active span (entry/exit)         +0.034
+   + zeros inside the span, concentration               +0.038
+   + zeros inside the span, 3-month window effect       -0.010
+   + real variation among active months                 +0.306
+   = 1.368   (check)
+   excess over base 0.369: zero months 0.062 (17%), of which interior 0.028 (8%) and entry/exit 0.034 (9%); real variation 0.306 (83%)
+   facilities with interior zero months 45; with batching signature 11 (carrying 0.006 of the interior-zero term); active part-year only 61
+
+2023: ratio 1.321  (|J| 131, demand 6,604/month)
+   base: volume at in-scope facilities, sum(m)/D        0.944
+   + zeros outside the active span (entry/exit)         +0.029
+   + zeros inside the span, concentration               +0.060
+   + zeros inside the span, 3-month window effect       -0.032
+   + real variation among active months                 +0.321
+   = 1.321   (check)
+   excess over base 0.377: zero months 0.056 (15%), of which interior 0.027 (7%) and entry/exit 0.029 (8%); real variation 0.321 (85%)
+   facilities with interior zero months 36; with batching signature 11 (carrying 0.003 of the interior-zero term); active part-year only 44
+
+2025: ratio 1.160  (|J| 145, demand 7,987/month)
+   base: volume at in-scope facilities, sum(m)/D        0.913
+   + zeros outside the active span (entry/exit)         +0.034
+   + zeros inside the span, concentration               +0.007
+   + zeros inside the span, 3-month window effect       -0.004
+   + real variation among active months                 +0.209
+   = 1.160   (check)
+   excess over base 0.247: zero months 0.037 (15%), of which interior 0.004 (1%) and entry/exit 0.034 (14%); real variation 0.209 (85%)
+   facilities with interior zero months 36; with batching signature 7 (carrying 0.000 of the interior-zero term); active part-year only 67
+
+
+NOISE FLOOR (dist/review/ratio_noise.py)
+Split the 'real variation' term of ratio_decomp into a counting-noise floor and the rest.
+
+Null: each facility's active months are independent Poisson draws at a constant rate m_pos.
+Under that null the largest 3-month rolling mean still exceeds m_pos, by sampling alone. The
+expected excess, E[max r3] - m_pos, estimated by 2,000 simulations per facility, is the noise
+floor. V - noise is variation beyond what a constant rate would produce. Poisson understates
+dispersion if cases arrive in clusters, so the noise floor here is a lower bound.
+
+2019: real variation 0.306 = Poisson noise floor 0.092 (25% of excess) + beyond noise 0.214 (58% of excess)
+2023: real variation 0.321 = Poisson noise floor 0.075 (20% of excess) + beyond noise 0.246 (65% of excess)
+2025: real variation 0.209 = Poisson noise floor 0.067 (27% of excess) + beyond noise 0.142 (58% of excess)

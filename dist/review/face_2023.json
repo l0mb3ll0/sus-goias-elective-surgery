@@ -1,0 +1,135 @@
+{
+ "year": "2023",
+ "n_fac": 131,
+ "V": 3878.6490274932326,
+ "reported_vertex": {
+  "cap_A": 75,
+  "cap_B": 70,
+  "bed_bound": 3,
+  "both_A": 0,
+  "both_B": 0,
+  "unused_at_capA": 24000.49679712727
+ },
+ "classification": {
+  "A_gt_0.95": {
+   "always": 43,
+   "sometimes": 70,
+   "never": 18
+  },
+  "B_ge_0.999999": {
+   "always": 0,
+   "sometimes": 111,
+   "never": 20
+  }
+ },
+ "ratio_interval_summary": {
+  "max_width": 1.000000000000002,
+  "median_width": 0.18419872827190553,
+  "n_width_gt_0.05": 83
+ },
+ "bed_classification": {
+  "always": 2,
+  "sometimes": 2,
+  "never": 127
+ },
+ "can_be_both_necessary_A": 0,
+ "can_be_both_necessary_B": 0,
+ "milp": {
+  "bed_min": {
+   "status": 0,
+   "secs": 42.8609573841095,
+   "dual": 2.0,
+   "obj": 2.0,
+   "cap_A": 79,
+   "cap_B": 73,
+   "bed": 2,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 26719.270525086646
+  },
+  "bed_max": {
+   "status": 0,
+   "secs": 80.44971132278442,
+   "dual": -4.0,
+   "obj": -4.0,
+   "cap_A": 76,
+   "cap_B": 71,
+   "bed": 3,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 25583.023061296877
+  },
+  "both_max_A": {
+   "status": 0,
+   "secs": 47.19638919830322,
+   "dual": 0.0,
+   "obj": 0.0,
+   "cap_A": 85,
+   "cap_B": 84,
+   "bed": 4,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 22747.079718332763
+  },
+  "both_max_B": {
+   "status": 0,
+   "secs": 51.92113161087036,
+   "dual": 0.0,
+   "obj": 0.0,
+   "cap_A": 86,
+   "cap_B": 85,
+   "bed": 4,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 23443.960836500497
+  },
+  "cap_min": {
+   "status": 0,
+   "secs": 55.30029582977295,
+   "dual": 44.0,
+   "obj": 44.0,
+   "cap_A": 44,
+   "cap_B": 44,
+   "bed": 4,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 12203.31544418582
+  },
+  "cap_max": {
+   "status": 0,
+   "secs": 113.8960862159729,
+   "dual": -107.0,
+   "obj": -107.0,
+   "cap_A": 54,
+   "cap_B": 53,
+   "bed": 2,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 16002.331145491085
+  },
+  "unused_max": {
+   "status": 0,
+   "secs": 145.25891590118408,
+   "dual": -40713.37021774145,
+   "obj": -40713.37021774145,
+   "cap_A": 44,
+   "cap_B": 43,
+   "bed": 3,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 12205.500672302065
+  },
+  "unused_min": {
+   "status": 0,
+   "secs": 108.82450604438782,
+   "dual": 12140.419338891303,
+   "obj": 12140.419338891303,
+   "cap_A": 44,
+   "cap_B": 43,
+   "bed": 4,
+   "both_A": 0,
+   "both_B": 0,
+   "unused_at_capA": 12140.419338891299
+  }
+ }
+}

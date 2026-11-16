@@ -1,0 +1,511 @@
+{
+ "cpf_blank_share_pf": 0.0,
+ "2023->2024": {
+  "gap_point": 0.3060057744798081,
+  "n_fac": 131,
+  "fac_at_cap": 76,
+  "pairs_nonfloored": 517,
+  "pairs_at_cap": 259,
+  "facility": {
+   "at cap": {
+    "n": 76,
+    "roll_exceed": 0.5131578947368421,
+    "month_exceed": 0.27521929824561403,
+    "median_ratio": 1.0498579545454545
+   },
+   "not at cap": {
+    "n": 55,
+    "roll_exceed": 0.34545454545454546,
+    "month_exceed": 0.1984848484848485,
+    "median_ratio": 0.8573573573573574
+   },
+   "at cap, surgeons rose": {
+    "n": 28,
+    "roll_exceed": 0.7857142857142857,
+    "month_exceed": 0.4255952380952381,
+    "median_ratio": 1.6018259281801581
+   },
+   "at cap, surgeons did not": {
+    "n": 48,
+    "roll_exceed": 0.3541666666666667,
+    "month_exceed": 0.1875,
+    "median_ratio": 0.8878787878787879
+   },
+   "at cap, rooms rose": {
+    "n": 3,
+    "roll_exceed": 0.3333333333333333,
+    "month_exceed": 0.25,
+    "median_ratio": 0.9090909090909092
+   },
+   "at cap, rooms did not": {
+    "n": 73,
+    "roll_exceed": 0.5205479452054794,
+    "month_exceed": 0.2762557077625571,
+    "median_ratio": 1.0572916666666667
+   },
+   "at cap, laparoscopes rose": {
+    "n": 1,
+    "roll_exceed": 0.0,
+    "month_exceed": 0.0,
+    "median_ratio": 0.7999999999999999
+   },
+   "at cap, laparoscopes did not": {
+    "n": 75,
+    "roll_exceed": 0.52,
+    "month_exceed": 0.2788888888888889,
+    "median_ratio": 1.0572916666666667
+   },
+   "at cap, any resource rose": {
+    "n": 29,
+    "roll_exceed": 0.7586206896551724,
+    "month_exceed": 0.41954022988505746,
+    "median_ratio": 1.5584905660377357
+   },
+   "at cap, none rose": {
+    "n": 47,
+    "roll_exceed": 0.3617021276595745,
+    "month_exceed": 0.18617021276595744,
+    "median_ratio": 0.8666666666666666
+   }
+  },
+  "pair": {
+   "at cap": {
+    "n": 259,
+    "roll_exceed": 0.416988416988417,
+    "month_exceed": 0.23037323037323038,
+    "median_ratio": 0.9090909090909091
+   },
+   "not at cap": {
+    "n": 258,
+    "roll_exceed": 0.3062015503875969,
+    "month_exceed": 0.15633074935400518,
+    "median_ratio": 0.75
+   },
+   "at cap, surgeons rose": {
+    "n": 128,
+    "roll_exceed": 0.5390625,
+    "month_exceed": 0.30859375,
+    "median_ratio": 1.15
+   },
+   "at cap, surgeons did not": {
+    "n": 131,
+    "roll_exceed": 0.29770992366412213,
+    "month_exceed": 0.15394402035623408,
+    "median_ratio": 0.7209302325581396
+   },
+   "at cap, rooms rose": {
+    "n": 6,
+    "roll_exceed": 0.6666666666666666,
+    "month_exceed": 0.375,
+    "median_ratio": 1.5814814814814815
+   },
+   "at cap, rooms did not": {
+    "n": 253,
+    "roll_exceed": 0.41106719367588934,
+    "month_exceed": 0.2269433465085639,
+    "median_ratio": 0.8904109589041097
+   },
+   "at cap, laparoscopes rose": {
+    "n": 2,
+    "roll_exceed": 0.5,
+    "month_exceed": 0.125,
+    "median_ratio": 1.004255319148936
+   },
+   "at cap, laparoscopes did not": {
+    "n": 257,
+    "roll_exceed": 0.4163424124513619,
+    "month_exceed": 0.23119325551232167,
+    "median_ratio": 0.9090909090909091
+   },
+   "at cap, any resource rose": {
+    "n": 130,
+    "roll_exceed": 0.5384615384615384,
+    "month_exceed": 0.31153846153846154,
+    "median_ratio": 1.15
+   },
+   "at cap, none rose": {
+    "n": 129,
+    "roll_exceed": 0.29457364341085274,
+    "month_exceed": 0.14857881136950904,
+    "median_ratio": 0.7209302325581396
+   }
+  },
+  "placebo_urgent": {
+   "facility": {
+    "at cap": {
+     "n": 54,
+     "roll_exceed": 0.3888888888888889,
+     "month_exceed": 0.18364197530864199,
+     "median_ratio": 0.95203135517773
+    },
+    "not at cap": {
+     "n": 45,
+     "roll_exceed": 0.35555555555555557,
+     "month_exceed": 0.19444444444444445,
+     "median_ratio": 0.8936170212765958
+    },
+    "at cap, surgeons rose": {
+     "n": 23,
+     "roll_exceed": 0.4782608695652174,
+     "month_exceed": 0.2536231884057971,
+     "median_ratio": 1.0
+    },
+    "at cap, surgeons did not": {
+     "n": 31,
+     "roll_exceed": 0.3225806451612903,
+     "month_exceed": 0.13172043010752688,
+     "median_ratio": 0.9375
+    },
+    "at cap, rooms rose": {
+     "n": 2,
+     "roll_exceed": 0.0,
+     "month_exceed": 0.125,
+     "median_ratio": 0.9594594594594594
+    },
+    "at cap, rooms did not": {
+     "n": 52,
+     "roll_exceed": 0.40384615384615385,
+     "month_exceed": 0.1858974358974359,
+     "median_ratio": 0.95203135517773
+    },
+    "at cap, laparoscopes rose": {
+     "n": 0
+    },
+    "at cap, laparoscopes did not": {
+     "n": 54,
+     "roll_exceed": 0.3888888888888889,
+     "month_exceed": 0.18364197530864199,
+     "median_ratio": 0.95203135517773
+    },
+    "at cap, any resource rose": {
+     "n": 24,
+     "roll_exceed": 0.4583333333333333,
+     "month_exceed": 0.2465277777777778,
+     "median_ratio": 1.0
+    },
+    "at cap, none rose": {
+     "n": 30,
+     "roll_exceed": 0.3333333333333333,
+     "month_exceed": 0.13333333333333333,
+     "median_ratio": 0.92875
+    }
+   },
+   "pair": {
+    "at cap": {
+     "n": 153,
+     "roll_exceed": 0.4117647058823529,
+     "month_exceed": 0.23093681917211328,
+     "median_ratio": 0.9411764705882352
+    },
+    "not at cap": {
+     "n": 173,
+     "roll_exceed": 0.4046242774566474,
+     "month_exceed": 0.1936416184971098,
+     "median_ratio": 0.8125
+    },
+    "at cap, surgeons rose": {
+     "n": 86,
+     "roll_exceed": 0.4069767441860465,
+     "month_exceed": 0.2451550387596899,
+     "median_ratio": 0.957427536231884
+    },
+    "at cap, surgeons did not": {
+     "n": 67,
+     "roll_exceed": 0.417910447761194,
+     "month_exceed": 0.2126865671641791,
+     "median_ratio": 0.9019607843137255
+    },
+    "at cap, rooms rose": {
+     "n": 3,
+     "roll_exceed": 0.0,
+     "month_exceed": 0.1111111111111111,
+     "median_ratio": 0.5714285714285714
+    },
+    "at cap, rooms did not": {
+     "n": 150,
+     "roll_exceed": 0.42,
+     "month_exceed": 0.23333333333333334,
+     "median_ratio": 0.9498517786561265
+    },
+    "at cap, laparoscopes rose": {
+     "n": 0
+    },
+    "at cap, laparoscopes did not": {
+     "n": 153,
+     "roll_exceed": 0.4117647058823529,
+     "month_exceed": 0.23093681917211328,
+     "median_ratio": 0.9411764705882352
+    },
+    "at cap, any resource rose": {
+     "n": 87,
+     "roll_exceed": 0.40229885057471265,
+     "month_exceed": 0.24329501915708812,
+     "median_ratio": 0.9565217391304347
+    },
+    "at cap, none rose": {
+     "n": 66,
+     "roll_exceed": 0.42424242424242425,
+     "month_exceed": 0.21464646464646464,
+     "median_ratio": 0.9147485080988917
+    }
+   }
+  }
+ },
+ "2024->2025": {
+  "gap_point": 0.23816837724326442,
+  "n_fac": 132,
+  "fac_at_cap": 84,
+  "pairs_nonfloored": 531,
+  "pairs_at_cap": 322,
+  "facility": {
+   "at cap": {
+    "n": 84,
+    "roll_exceed": 0.5238095238095238,
+    "month_exceed": 0.2757936507936508,
+    "median_ratio": 1.1118173258003767
+   },
+   "not at cap": {
+    "n": 48,
+    "roll_exceed": 0.3125,
+    "month_exceed": 0.1753472222222222,
+    "median_ratio": 0.8481554677206851
+   },
+   "at cap, surgeons rose": {
+    "n": 38,
+    "roll_exceed": 0.631578947368421,
+    "month_exceed": 0.34868421052631576,
+    "median_ratio": 1.2542636655030375
+   },
+   "at cap, surgeons did not": {
+    "n": 46,
+    "roll_exceed": 0.43478260869565216,
+    "month_exceed": 0.21557971014492755,
+    "median_ratio": 0.9131333093783687
+   },
+   "at cap, rooms rose": {
+    "n": 1,
+    "roll_exceed": 1.0,
+    "month_exceed": 0.16666666666666666,
+    "median_ratio": 1.657142857142857
+   },
+   "at cap, rooms did not": {
+    "n": 83,
+    "roll_exceed": 0.5180722891566265,
+    "month_exceed": 0.27710843373493976,
+    "median_ratio": 1.0847457627118646
+   },
+   "at cap, laparoscopes rose": {
+    "n": 2,
+    "roll_exceed": 0.0,
+    "month_exceed": 0.041666666666666664,
+    "median_ratio": 0.7150326797385621
+   },
+   "at cap, laparoscopes did not": {
+    "n": 82,
+    "roll_exceed": 0.5365853658536586,
+    "month_exceed": 0.2815040650406504,
+    "median_ratio": 1.1408730158730158
+   },
+   "at cap, any resource rose": {
+    "n": 39,
+    "roll_exceed": 0.6153846153846154,
+    "month_exceed": 0.3418803418803419,
+    "median_ratio": 1.2327044025157232
+   },
+   "at cap, none rose": {
+    "n": 45,
+    "roll_exceed": 0.4444444444444444,
+    "month_exceed": 0.21851851851851853,
+    "median_ratio": 0.9130434782608695
+   }
+  },
+  "pair": {
+   "at cap": {
+    "n": 322,
+    "roll_exceed": 0.4254658385093168,
+    "month_exceed": 0.2111801242236025,
+    "median_ratio": 0.925925925925926
+   },
+   "not at cap": {
+    "n": 209,
+    "roll_exceed": 0.3923444976076555,
+    "month_exceed": 0.17862838915470494,
+    "median_ratio": 0.9199999999999999
+   },
+   "at cap, surgeons rose": {
+    "n": 198,
+    "roll_exceed": 0.4898989898989899,
+    "month_exceed": 0.25547138047138046,
+    "median_ratio": 1.0
+   },
+   "at cap, surgeons did not": {
+    "n": 124,
+    "roll_exceed": 0.3225806451612903,
+    "month_exceed": 0.14045698924731181,
+    "median_ratio": 0.7191232814965066
+   },
+   "at cap, rooms rose": {
+    "n": 15,
+    "roll_exceed": 0.5333333333333333,
+    "month_exceed": 0.3388888888888889,
+    "median_ratio": 1.0673076923076923
+   },
+   "at cap, rooms did not": {
+    "n": 307,
+    "roll_exceed": 0.4201954397394137,
+    "month_exceed": 0.20494028230184583,
+    "median_ratio": 0.9230769230769231
+   },
+   "at cap, laparoscopes rose": {
+    "n": 18,
+    "roll_exceed": 0.5,
+    "month_exceed": 0.2361111111111111,
+    "median_ratio": 1.0061475409836067
+   },
+   "at cap, laparoscopes did not": {
+    "n": 304,
+    "roll_exceed": 0.42105263157894735,
+    "month_exceed": 0.20970394736842105,
+    "median_ratio": 0.9230769230769231
+   },
+   "at cap, any resource rose": {
+    "n": 200,
+    "roll_exceed": 0.49,
+    "month_exceed": 0.255,
+    "median_ratio": 1.0
+   },
+   "at cap, none rose": {
+    "n": 122,
+    "roll_exceed": 0.319672131147541,
+    "month_exceed": 0.13934426229508196,
+    "median_ratio": 0.6989212612944864
+   }
+  },
+  "placebo_urgent": {
+   "facility": {
+    "at cap": {
+     "n": 64,
+     "roll_exceed": 0.296875,
+     "month_exceed": 0.18619791666666666,
+     "median_ratio": 0.8250410141685309
+    },
+    "not at cap": {
+     "n": 36,
+     "roll_exceed": 0.4444444444444444,
+     "month_exceed": 0.19675925925925927,
+     "median_ratio": 0.9564861387296759
+    },
+    "at cap, surgeons rose": {
+     "n": 32,
+     "roll_exceed": 0.28125,
+     "month_exceed": 0.2109375,
+     "median_ratio": 0.8593267284542452
+    },
+    "at cap, surgeons did not": {
+     "n": 32,
+     "roll_exceed": 0.3125,
+     "month_exceed": 0.16145833333333334,
+     "median_ratio": 0.795839243498818
+    },
+    "at cap, rooms rose": {
+     "n": 1,
+     "roll_exceed": 1.0,
+     "month_exceed": 0.5,
+     "median_ratio": 7.5
+    },
+    "at cap, rooms did not": {
+     "n": 63,
+     "roll_exceed": 0.2857142857142857,
+     "month_exceed": 0.18121693121693122,
+     "median_ratio": 0.8044444444444445
+    },
+    "at cap, laparoscopes rose": {
+     "n": 2,
+     "roll_exceed": 0.0,
+     "month_exceed": 0.08333333333333333,
+     "median_ratio": 0.9411764705882353
+    },
+    "at cap, laparoscopes did not": {
+     "n": 62,
+     "roll_exceed": 0.3064516129032258,
+     "month_exceed": 0.18951612903225806,
+     "median_ratio": 0.795839243498818
+    },
+    "at cap, any resource rose": {
+     "n": 33,
+     "roll_exceed": 0.2727272727272727,
+     "month_exceed": 0.20454545454545456,
+     "median_ratio": 0.873015873015873
+    },
+    "at cap, none rose": {
+     "n": 31,
+     "roll_exceed": 0.3225806451612903,
+     "month_exceed": 0.16666666666666666,
+     "median_ratio": 0.7872340425531915
+    }
+   },
+   "pair": {
+    "at cap": {
+     "n": 195,
+     "roll_exceed": 0.36923076923076925,
+     "month_exceed": 0.1735042735042735,
+     "median_ratio": 0.7837837837837837
+    },
+    "not at cap": {
+     "n": 126,
+     "roll_exceed": 0.373015873015873,
+     "month_exceed": 0.17724867724867724,
+     "median_ratio": 0.8480769230769231
+    },
+    "at cap, surgeons rose": {
+     "n": 129,
+     "roll_exceed": 0.40310077519379844,
+     "month_exceed": 0.19767441860465115,
+     "median_ratio": 0.8617021276595745
+    },
+    "at cap, surgeons did not": {
+     "n": 66,
+     "roll_exceed": 0.30303030303030304,
+     "month_exceed": 0.12626262626262627,
+     "median_ratio": 0.5708333333333333
+    },
+    "at cap, rooms rose": {
+     "n": 14,
+     "roll_exceed": 0.6428571428571429,
+     "month_exceed": 0.35714285714285715,
+     "median_ratio": 1.176219512195122
+    },
+    "at cap, rooms did not": {
+     "n": 181,
+     "roll_exceed": 0.34806629834254144,
+     "month_exceed": 0.15930018416206262,
+     "median_ratio": 0.7692307692307693
+    },
+    "at cap, laparoscopes rose": {
+     "n": 13,
+     "roll_exceed": 0.3076923076923077,
+     "month_exceed": 0.22435897435897437,
+     "median_ratio": 0.7692307692307693
+    },
+    "at cap, laparoscopes did not": {
+     "n": 182,
+     "roll_exceed": 0.37362637362637363,
+     "month_exceed": 0.16987179487179488,
+     "median_ratio": 0.7858312858312857
+    },
+    "at cap, any resource rose": {
+     "n": 131,
+     "roll_exceed": 0.3969465648854962,
+     "month_exceed": 0.1984732824427481,
+     "median_ratio": 0.8617021276595745
+    },
+    "at cap, none rose": {
+     "n": 64,
+     "roll_exceed": 0.3125,
+     "month_exceed": 0.12239583333333333,
+     "median_ratio": 0.5208333333333333
+    }
+   }
+  }
+ }
+}

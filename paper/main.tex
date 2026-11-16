@@ -1,0 +1,142 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{./}}
+
+\title{Elective surgical allocation in Brazil's public health system: a statewide
+benchmark from Goi\'as, 2019--2025}
+\author{Gustavo Lombello Bargieri}
+\date{November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+SUS-financed elective surgery in the Brazilian state of Goi\'as roughly doubled between 2019 and 2025.
+Using all 2.72 million SUS hospital authorisations processed in the state (430,802 elective surgical admissions, 201 facilities), we describe the expansion and compare the observed geographic allocation with a capacitated assignment benchmark.
+Facility-procedure activity in the record is intermittent: of 284 pairs observed in 2023 and not in 2019, 195 also recorded activity in 2020 to 2022 and account for 94 per cent of the group's cases, so an endpoint-year comparison classifies as new many pairs that appear in the intervening records.
+Holding each pair to its peak three-month volume and scoring travel on a baseline 0--3 regional scale, the benchmark's mean cost score is 28.8, 30.6 and 29.1 per cent below the observed allocation's in 2019, 2023 and 2025 (0.595 vs 0.835, 0.587 vs 0.846, 0.642 vs 0.906), with no statistically detectable change between years.
+These percentages describe the coded objective, not distance, and are conditional on construction: the sensitivity range across cost codings, zones, bed definitions, windows and noise-deflated caps is 23 to 55 per cent, and caps at annual mean volume give 6.2, 22.7 and 29.6 per cent with 0.3, 7.3 and 9.8 per cent of demand unassigned.
+Utilisation of the constructed bed-day budget at the reported optimum is 0.13 to 0.21; one, three and six facilities use more than 95 per cent of it.
+The benchmark is a diagnostic counterfactual, not an estimate of the system's production frontier, and Goi\'as residents treated in the Federal District are absent from the data.
+\end{abstract}
+
+
+\input{section_1_intro.tex}
+\input{sections_2_3.tex}
+\input{section_4_model.tex}
+
+
+\section*{Conclusion}
+Elective surgery in Goi\'as roughly doubled between 2019 and 2025, and most of the facility-procedure pairs present in 2023 and absent in 2019 were already active in the record in 2020 to 2022. The constructed bed-day budget was slack in aggregate; one, three and six facilities used more than 95 per cent of it. A transparent assignment benchmark shows no detectable change in the gap, but its level depends on how the cap, the cost, the zones and the bed budget are built, and the tests we ran on the cap are low-power or
+not identified. The paper therefore claims a description and a benchmark with stated limits, not a cause or a policy lever. The most useful next steps are data that
+the SIH files lack: the hospital contract targets, Goi\'as residents treated in the Federal District, and waiting times.
+
+\section*{Declarations}
+\paragraph{Code and data availability.} Code, automated checks and a record of corrections: \url{https://github.com/l0mb3ll0/sus-goias-elective-surgery}. The source data are public: SIH/SUS and CNES files from DATASUS (Minist\'erio da Sa\'ude) and municipality and region codes from IBGE; \texttt{data/README.md} names each source. Files containing professional identifiers are not distributed. The reproduction script rebuilds the model-based stored numbers from a clean checkout; the review-pass results (optimal-face searches, null simulations, bootstrap variants, sensitivity rows) come from separate scripts in \texttt{dist/review} that it does not run. The checks re-run the same code; they are reproducibility checks, not independent verification of correctness.
+\paragraph{Funding.} None.
+\paragraph{Competing interests.} None.
+\paragraph{Acknowledgments.} AI-assisted tools were used to support data processing and code development. The author designed the study, verified all results and takes full responsibility for the content.
+\paragraph{Ethics.} This study uses only publicly available, de-identified administrative data published by the Brazilian Ministry of Health (DATASUS SIH/SUS and CNES). Professional-level files were used only to compute facility-level counts of registered surgeons (Section~\ref{sec:capnull}); no individual-level data are reported.
+
+
+\input{appendix.tex}
+
+\bibliographystyle{plainnat}
+\begin{thebibliography}{99}
+\bibitem[Ahmadi-Javid et~al.(2017)]{ahmadijavid2017}
+A.~Ahmadi-Javid, P.~Seyedi, and S.~S. Syam.
+\newblock A survey of healthcare facility location.
+\newblock \emph{Computers \& Operations Research}, 79:223--263, 2017.
+\bibitem[Bai and Perron(1998)]{bai1998}
+J.~Bai and P.~Perron.
+\newblock Estimating and testing linear models with multiple structural changes.
+\newblock \emph{Econometrica}, 66(1):47--78, 1998.
+\bibitem[Battesini et~al.(2018)]{battesini2018}
+M.~Battesini, H.~dos~S. Coelho, and M.~H. De~Seta.
+\newblock Uso de programa\c{c}\~ao linear para otimizar o acesso geogr\'afico em redes tem\'aticas de aten\c{c}\~ao \`a sa\'ude.
+\newblock \emph{Cadernos de Sa\'ude P\'ublica}, 34(7):e00055017, 2018.
+\bibitem[Botega et~al.(2022)]{botega2022}
+L.~de~A. Botega, M.~V. Andrade, G.~R. Guedes, and D.~Nogueira.
+\newblock Spatial reorganization of the Brazilian Unified National Health System's inpatient care supply.
+\newblock \emph{Cadernos de Sa\'ude P\'ublica}, 38(9):e00012422, 2022.
+\bibitem[Burdett et~al.(2023)]{burdett2023}
+R.~L. Burdett, P.~Corry, P.~Yarlagadda, D.~Cook, S.~Birgan, and S.~M. McPhail.
+\newblock A mathematical framework for regional hospital case mix planning and capacity appraisal.
+\newblock \emph{Operations Research Perspectives}, 10:100261, 2023.
+\bibitem[Dudley et~al.(2000)]{dudley2000}
+R.~A. Dudley, K.~L. Johansen, R.~Brand, D.~J. Rennie, and A.~Milstein.
+\newblock Selective referral to high-volume hospitals: estimating potentially avoidable deaths.
+\newblock \emph{JAMA}, 283:1159--1166, 2000.
+\bibitem[Epstein et~al.(2005)]{epstein2005}
+A.~J. Epstein, S.~S. Rathore, H.~M. Krumholz, and K.~G.~M. Volpp.
+\newblock Volume-based referral for cardiovascular procedures in the United States: a cross-sectional regression analysis.
+\newblock \emph{BMC Health Services Research}, 5:42, 2005.
+\bibitem[Finlayson et~al.(1999)]{finlayson1999}
+S.~R. Finlayson, J.~D. Birkmeyer, A.~N. Tosteson, and R.~F. Nease.
+\newblock Patient preferences for location of care: implications for regionalization.
+\newblock \emph{Medical Care}, 37:204--209, 1999.
+\bibitem[Hamilton(1982)]{hamilton1982}
+B.~W. Hamilton.
+\newblock Wasteful commuting.
+\newblock \emph{Journal of Political Economy}, 90(5):1035--1051, 1982.
+\bibitem[Helm and Van Oyen(2014)]{helm2014}
+J.~E. Helm and M.~P. Van Oyen.
+\newblock Design and optimization methods for elective hospital admissions.
+\newblock \emph{Operations Research}, 62(6):1265--1282, 2014.
+\bibitem[Killick et~al.(2012)]{killick2012}
+R.~Killick, P.~Fearnhead, and I.~A. Eckley.
+\newblock Optimal detection of changepoints with a linear computational cost.
+\newblock \emph{Journal of the American Statistical Association}, 107(500):1590--1598, 2012.
+\bibitem[Luft et~al.(1979)]{luft1979}
+H.~S. Luft, J.~P. Bunker, and A.~C. Enthoven.
+\newblock Should operations be regionalized? The empirical relation between surgical volume and mortality.
+\newblock \emph{New England Journal of Medicine}, 301:1364--1369, 1979.
+\bibitem[Luft et~al.(1987)]{luft1987}
+H.~S. Luft, S.~S. Hunt, and S.~C. Maerki.
+\newblock The volume-outcome relationship: practice-makes-perfect or selective-referral patterns?.
+\newblock \emph{Health Services Research}, 22:157--182, 1987.
+\bibitem[Marques et~al.(2014)]{marques2014}
+I.~Marques, M.~E. Captivo, and M.~V. Pato.
+\newblock Scheduling elective surgeries in a Portuguese hospital using a genetic heuristic.
+\newblock \emph{Operations Research for Health Care}, 3(2):59--72, 2014.
+\bibitem[Meng et~al.(2015)]{meng2015}
+F.~Meng, J.~Qi, M.~Zhang, J.~Ang, S.~Chu, and M.~Sim.
+\newblock A robust optimization model for managing elective admission in a public hospital.
+\newblock \emph{Operations Research}, 63(6):1452--1467, 2015.
+\bibitem[Scarpin et~al.(2008)]{scarpin2008}
+C.~T. Scarpin, M.~T.~A. Steiner, G.~J.~C. Dias, and P.~J. Steiner Neto.
+\newblock Otimiza\c{c}\~ao no servi\c{c}o de sa\'ude no estado do Paran\'a: fluxo de pacientes e novas configura\c{c}\~oes hier\'arquicas.
+\newblock \emph{Gest\~ao \& Produ\c{c}\~ao}, 15(2):275--290, 2008.
+\bibitem[Scharfe et~al.(2025)]{scharfe2025}
+J.~Scharfe, S.~Pfisterer-Heise, A.~Pachanov, C.~M. Kugler, T.~Mathes, Z.~Zhang, J.~Morche, and D.~Pieper.
+\newblock The effect of minimum volume standards in hospitals (MIVOS): a systematic review.
+\newblock \emph{BMJ Open}, 15(5):e090152, 2025.
+\bibitem[Servo et~al.(2021)]{ipea2022}
+L.~M.~S. Servo, M.~V. Andrade, and P.~V.~M. Amaral.
+\newblock Os caminhos da regionaliza\c{c}\~ao da sa\'ude no Brasil: adequa\c{c}\~ao e acesso geogr\'afico nos anos 2000.
+\newblock \emph{Planejamento e Pol\'iticas P\'ublicas}, n.~60 (2021), published online 26 July 2022, 2021.
+\bibitem[Small and Song(1992)]{smallsong1992}
+K.~A. Small and S.~Song.
+\newblock ``Wasteful'' commuting: a resolution.
+\newblock \emph{Journal of Political Economy}, 100(4):888--898, 1992.
+\bibitem[Vogel et~al.(2022)]{vogel2022}
+J.~F.~A. Vogel, M.~Barkhausen, C.~M. Pross, and A.~Geissler.
+\newblock Defining minimum volume thresholds to increase quality of care: a new patient-oriented approach using mixed integer programming.
+\newblock \emph{European Journal of Health Economics}, 23(7):1085--1104, 2022.
+\bibitem[White(1988)]{white1988}
+M.~J. White.
+\newblock Urban commuting journeys are not ``wasteful''.
+\newblock \emph{Journal of Political Economy}, 96(5):1097--1110, 1988.
+\bibitem[da Silva et~al.(2010)]{silva2010}
+M.~E.~M. da Silva, E.~R. Santos, and D.~Borenstein.
+\newblock Implementing regulation policy in Brazilian health care regulation centers.
+\newblock \emph{Medical Decision Making}, 30(3):366--379, 2010.
+\end{thebibliography}
+
+\end{document}

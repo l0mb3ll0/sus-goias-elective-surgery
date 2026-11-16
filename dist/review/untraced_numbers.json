@@ -1,0 +1,50 @@
+{
+ "cross_municipal": {
+  "n_elective": 430802,
+  "share_all": 0.4269664486237297,
+  "share_state_administered": 0.7032435098970217,
+  "share_municipal_administered": 0.30405722885412906,
+  "n_state": 129736,
+  "n_municipal": 293698,
+  "window": "2019-01..2025-12"
+ },
+ "state_plateau": {
+  "mean_cases_per_facility_month": 150.56024096385542,
+  "n_facility_months": 166,
+  "n_facilities": 20,
+  "window": "2025-04..2025-12"
+ },
+ "ratio_window": {
+  "elective_per_month": 5985.833333333333,
+  "ratio": 0.6478057755090998,
+  "highest_2019_monthly_ratio": 0.5034644613321413,
+  "lowest_monthly_ratio_from_2022_08": 0.5939874832364774,
+  "window": "2022-08..2023-07"
+ },
+ "entry_displacement": {
+  "pairs": {
+   "D1_vs_D2": {
+    "n_pairs": 485,
+    "mean_abs_months": 12.1340206185567,
+    "mean_signed_months": -12.1340206185567,
+    "median_signed_months": -4.0,
+    "share_identical": 0.3938144329896907
+   },
+   "D1_vs_D3_05": {
+    "n_pairs": 701,
+    "mean_abs_months": 6.326676176890157,
+    "mean_signed_months": -6.326676176890157,
+    "median_signed_months": -1.0,
+    "share_identical": 0.39657631954350925
+   },
+   "D2_vs_D3_05": {
+    "n_pairs": 485,
+    "mean_abs_months": 7.505154639175258,
+    "mean_signed_months": 7.121649484536082,
+    "median_signed_months": 0.0,
+    "share_identical": 0.35670103092783506
+   }
+  },
+  "max_mean_abs_months": 12.1340206185567
+ }
+}

@@ -1,0 +1,674 @@
+[
+ {
+  "file": "SRGO1901.dbc",
+  "competen": "2019-01",
+  "dbc_sha256": "367f9899fafef8c7866280e38efbd8df48bd18f8d82f3cb930aa11f644256571",
+  "status": "ok",
+  "rows": 26184,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1902.dbc",
+  "competen": "2019-02",
+  "dbc_sha256": "fe46a7b96b6485dd2c3d5274c9901b6f170524b9a42b277bf035e121e3a3cd7c",
+  "status": "ok",
+  "rows": 26275,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1903.dbc",
+  "competen": "2019-03",
+  "dbc_sha256": "e6feb9d3cd37e603c77b4fd786404203879456c2ed6fb5274bb9e22a2776008f",
+  "status": "ok",
+  "rows": 26437,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1904.dbc",
+  "competen": "2019-04",
+  "dbc_sha256": "63ab881a348359e9d7c2c2226feecedc8740bccd688f0bab2355c10ca212a7f9",
+  "status": "ok",
+  "rows": 26522,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1905.dbc",
+  "competen": "2019-05",
+  "dbc_sha256": "60eb6c1658e92756e022dfc5a8bab892e25559a228e3898234069dc20a3f15b0",
+  "status": "ok",
+  "rows": 26627,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1906.dbc",
+  "competen": "2019-06",
+  "dbc_sha256": "08f42087a057df2732023377020a5a03addb5eb48fcaa3d666408faa2b88e5f5",
+  "status": "ok",
+  "rows": 26711,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1907.dbc",
+  "competen": "2019-07",
+  "dbc_sha256": "d632e5e8d78383aeaf4595478f3b99b93950a982a729cbbb60706b98237717ef",
+  "status": "ok",
+  "rows": 26825,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1908.dbc",
+  "competen": "2019-08",
+  "dbc_sha256": "d611ac43f03765c621131041f23a52dbf3e612c2768b5d9cc9d2b4a6668dd269",
+  "status": "ok",
+  "rows": 26851,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1909.dbc",
+  "competen": "2019-09",
+  "dbc_sha256": "eb8b9cdf04455bafd7a52b73a3067c63182b654aaf769225a8afac89263282b1",
+  "status": "ok",
+  "rows": 26904,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1910.dbc",
+  "competen": "2019-10",
+  "dbc_sha256": "275cf8a3909a3925ad48223107b898919073c54886909f8bf7f18c6c5c820ad2",
+  "status": "ok",
+  "rows": 26976,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1911.dbc",
+  "competen": "2019-11",
+  "dbc_sha256": "fd098bb9ba593f6d1e30818e63ca1d7ff44016611274c6a046cb1434589e4550",
+  "status": "ok",
+  "rows": 27061,
+  "cols": 33
+ },
+ {
+  "file": "SRGO1912.dbc",
+  "competen": "2019-12",
+  "dbc_sha256": "d49da01f57dcb235b8f1e080051675e76bd03b8e0e8fda94238e3a09cd154954",
+  "status": "ok",
+  "rows": 27108,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2001.dbc",
+  "competen": "2020-01",
+  "dbc_sha256": "ecfc0b83ac3ceda724082fd2663f04ada75b75ab764325d7813b1a5dcef36a24",
+  "status": "ok",
+  "rows": 27345,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2002.dbc",
+  "competen": "2020-02",
+  "dbc_sha256": "431db4a1b93e6a93e3d1f7178c4aaf3519eeaa70b148cdba1f22f35bba3660eb",
+  "status": "ok",
+  "rows": 27443,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2003.dbc",
+  "competen": "2020-03",
+  "dbc_sha256": "de11912832a784cf1c011d597d9c40f8fda785fdf987c7d8c85c4a950c040ff5",
+  "status": "ok",
+  "rows": 27574,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2004.dbc",
+  "competen": "2020-04",
+  "dbc_sha256": "e52b768f2cd42df6ba446ea8837090b6fbb310b0796f00ccd36e3e436cc5f9be",
+  "status": "ok",
+  "rows": 28123,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2005.dbc",
+  "competen": "2020-05",
+  "dbc_sha256": "c794af9ccbe6ea440e30771cee369676f5a218f6e60a39deb12a7f8ef4ff2c0a",
+  "status": "ok",
+  "rows": 29633,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2006.dbc",
+  "competen": "2020-06",
+  "dbc_sha256": "a6327fac0cea582548978166882ddf29e1f7855bbbe8efa03a8e3db85ec5ee84",
+  "status": "ok",
+  "rows": 30096,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2007.dbc",
+  "competen": "2020-07",
+  "dbc_sha256": "aeb9b2237fabfbf70433d49eeb28f678cd032914ce3d66ff69c6f35a48b11fb8",
+  "status": "ok",
+  "rows": 30230,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2008.dbc",
+  "competen": "2020-08",
+  "dbc_sha256": "f6b0ffad4eca248c7036ec413dbf800a90c53b048f93d82a2d9ac180afd1b026",
+  "status": "ok",
+  "rows": 29858,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2009.dbc",
+  "competen": "2020-09",
+  "dbc_sha256": "cf73a5a738e0c6c6d61e3d2785256d23e111a87f4d978ed990ae13ec50d024c8",
+  "status": "ok",
+  "rows": 29918,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2010.dbc",
+  "competen": "2020-10",
+  "dbc_sha256": "48457fc6ac86559ad921b534ec2526589ac04bb30e1900f95255541569e36a4d",
+  "status": "ok",
+  "rows": 29971,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2011.dbc",
+  "competen": "2020-11",
+  "dbc_sha256": "5dce2fe299fcc9219f18064a885c19e2f2c64d2031f2d1af555b41905a9e1836",
+  "status": "ok",
+  "rows": 30124,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2012.dbc",
+  "competen": "2020-12",
+  "dbc_sha256": "18b429cee38c292c22b5d4d54b21179962e8f92d016b8c78ac69a0c8d9acb95e",
+  "status": "ok",
+  "rows": 30193,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2101.dbc",
+  "competen": "2021-01",
+  "dbc_sha256": "e2d65ac0a76e6b932a10546dd0b2d6aa94784317f3d1007cae484385a075343b",
+  "status": "ok",
+  "rows": 30524,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2102.dbc",
+  "competen": "2021-02",
+  "dbc_sha256": "e69999c5f422d5baca9a8ec0987a15c71a892a3a40e67d64c212de786a025f80",
+  "status": "ok",
+  "rows": 30627,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2103.dbc",
+  "competen": "2021-03",
+  "dbc_sha256": "d3ff691a789dceadf938a0ee9e8b6caeffb2c844c419e36bcd9b3d00d467fcc6",
+  "status": "ok",
+  "rows": 30776,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2104.dbc",
+  "competen": "2021-04",
+  "dbc_sha256": "3d9ae88919f60d88cd0af3f245b23ca2013e04de36f7b0cadd88d61acefe8461",
+  "status": "ok",
+  "rows": 30949,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2105.dbc",
+  "competen": "2021-05",
+  "dbc_sha256": "c372c0645fb6d8eb6b6daf4d499b8f80b6ca245956ede12152a21882b43548b2",
+  "status": "ok",
+  "rows": 31063,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2106.dbc",
+  "competen": "2021-06",
+  "dbc_sha256": "a054669a108970cc6a91ed4f24f26c5e8648fb815c4a208212792bc588b7fca9",
+  "status": "ok",
+  "rows": 31153,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2107.dbc",
+  "competen": "2021-07",
+  "dbc_sha256": "bcb98445493c01bd81d6caca0478ec4380b333d063ff6942cf8c5e1d7f3c5dee",
+  "status": "ok",
+  "rows": 31245,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2108.dbc",
+  "competen": "2021-08",
+  "dbc_sha256": "408fbe65b7ef912ec7d9cbdf9d8072a53403664f3fe83449ec46d09e099cbe4a",
+  "status": "ok",
+  "rows": 31571,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2109.dbc",
+  "competen": "2021-09",
+  "dbc_sha256": "a2513f243e195b3f1aba9b879906ad62801b26662c43e82efc976116c167cf0f",
+  "status": "ok",
+  "rows": 31730,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2110.dbc",
+  "competen": "2021-10",
+  "dbc_sha256": "63d877f864a7d330629c1a65889292ccc222c0f626000bc3bd4e5f112e8ccf28",
+  "status": "ok",
+  "rows": 31844,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2111.dbc",
+  "competen": "2021-11",
+  "dbc_sha256": "581e2a0e2e562d7752914f37abc08dd94a13e5ae52b69eff92adcdb3a602aa9f",
+  "status": "ok",
+  "rows": 32000,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2112.dbc",
+  "competen": "2021-12",
+  "dbc_sha256": "588d3727e9e4c67fd9a37a17a84524ee54bf700ef8be3cce0181eaf27e053292",
+  "status": "ok",
+  "rows": 32138,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2201.dbc",
+  "competen": "2022-01",
+  "dbc_sha256": "454547473bd4a59871bf98cb17155a747c53958eca39fdb40fbf8eff16f846f0",
+  "status": "ok",
+  "rows": 32339,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2202.dbc",
+  "competen": "2022-02",
+  "dbc_sha256": "c3c527af0f9ebe0f460652ca0e9754a2d456d231eba0513614c3cc57ad2dc5e4",
+  "status": "ok",
+  "rows": 32483,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2203.dbc",
+  "competen": "2022-03",
+  "dbc_sha256": "57ba0704a7d533bc8a983b4f94670ec1b841561d746dcdba50e1df6a5fb1c9ed",
+  "status": "ok",
+  "rows": 32643,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2204.dbc",
+  "competen": "2022-04",
+  "dbc_sha256": "4e92363eb05d67ecef6051f613c6cedfe14bfd77f477f1b536bbd34d2cce0800",
+  "status": "ok",
+  "rows": 32796,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2205.dbc",
+  "competen": "2022-05",
+  "dbc_sha256": "dd87709574d7d99788f15d5c9ccea08e6fe3a174733626b87c9226f4c0fe583a",
+  "status": "ok",
+  "rows": 33048,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2206.dbc",
+  "competen": "2022-06",
+  "dbc_sha256": "4e10ab0fa4a61e58fb910c104ff3072ef70ab66bb3fef7ac34298b1807b3c50d",
+  "status": "ok",
+  "rows": 33351,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2207.dbc",
+  "competen": "2022-07",
+  "dbc_sha256": "44fd0ff8f292d9269a9cb9b59df90c5e2f61ee062ec6a2b5636d158ed59ea9f9",
+  "status": "ok",
+  "rows": 33693,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2208.dbc",
+  "competen": "2022-08",
+  "dbc_sha256": "098445977a18e5bbd21b91518b91e73e8254a9db596fcf7dbdba085c194fdf78",
+  "status": "ok",
+  "rows": 33813,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2209.dbc",
+  "competen": "2022-09",
+  "dbc_sha256": "2e48566528a59e9e9cfc42ae60a16d56134c6de5164cedaec8df4cbdfa6dcd25",
+  "status": "ok",
+  "rows": 34000,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2210.dbc",
+  "competen": "2022-10",
+  "dbc_sha256": "b8e73b49dafc1d6f5216870de4928ef5533a9cb3db405fa4e1870a4e471550f3",
+  "status": "ok",
+  "rows": 34099,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2211.dbc",
+  "competen": "2022-11",
+  "dbc_sha256": "74083d99164f1e2492ed25b5d7b19b9a0a6b4ff392a642c927ca855a1cfff92b",
+  "status": "ok",
+  "rows": 34191,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2212.dbc",
+  "competen": "2022-12",
+  "dbc_sha256": "bf3a8eace74f04c155d040da97977a94eeb062e85a197fc8faf5f3bcafe3460a",
+  "status": "ok",
+  "rows": 34321,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2301.dbc",
+  "competen": "2023-01",
+  "dbc_sha256": "c8b0dd28b3e5cd864ae34c1a801bf251716668db65773c40766415bb260c2b92",
+  "status": "ok",
+  "rows": 34252,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2302.dbc",
+  "competen": "2023-02",
+  "dbc_sha256": "3f3f79045da8204928d0281f9d9a997c7276ad7295d834f8cbeb19c2d84cf410",
+  "status": "ok",
+  "rows": 34316,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2303.dbc",
+  "competen": "2023-03",
+  "dbc_sha256": "b10a20bb718ed9eb4fe2b85248e44241b9ba60f16e0829a2d374308f06ac16c8",
+  "status": "ok",
+  "rows": 34403,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2304.dbc",
+  "competen": "2023-04",
+  "dbc_sha256": "f4434240b1460a5cc531934d1a016e1b22e397e5eb48028e785b4827ea50468f",
+  "status": "ok",
+  "rows": 34467,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2305.dbc",
+  "competen": "2023-05",
+  "dbc_sha256": "c99dc94673f838d7aa56569b77c8e72b1e2422de0564629e33f5db809722dda2",
+  "status": "ok",
+  "rows": 34531,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2306.dbc",
+  "competen": "2023-06",
+  "dbc_sha256": "4d2aca77d9d3f1f20889bb5006ea04257bf9cea0046930453d9fa6852ead060a",
+  "status": "ok",
+  "rows": 34665,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2307.dbc",
+  "competen": "2023-07",
+  "dbc_sha256": "63817bca3c29caaa61ea44e148ed3d37fde15ed8c5b76cba39806e858fabf939",
+  "status": "ok",
+  "rows": 34804,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2308.dbc",
+  "competen": "2023-08",
+  "dbc_sha256": "775c57aa83622b0ab1a72f42537e0da937d2bdd6b40c64190ab6345b7aed7fbf",
+  "status": "ok",
+  "rows": 34873,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2309.dbc",
+  "competen": "2023-09",
+  "dbc_sha256": "1f65b450db3bccb4d458ccced894c51dff0d8f2a9d6a4ef8b581e3f34935ff0c",
+  "status": "ok",
+  "rows": 34951,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2310.dbc",
+  "competen": "2023-10",
+  "dbc_sha256": "7552888304da6700868595f6bd65d88b617c39d70d906934ebf3163b7a158dc9",
+  "status": "ok",
+  "rows": 34986,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2311.dbc",
+  "competen": "2023-11",
+  "dbc_sha256": "7320da9f6c2adce522da9bb82e4a7c909aad93467c0cb4228d9f2566ede5c743",
+  "status": "ok",
+  "rows": 35084,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2312.dbc",
+  "competen": "2023-12",
+  "dbc_sha256": "e4c585c77329b92d68ca1348f5610ef4ce216061ecce6ac24b1033214146c24a",
+  "status": "ok",
+  "rows": 35062,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2401.dbc",
+  "competen": "2024-01",
+  "dbc_sha256": "0aa63ab34f1a1256d9a690058b902979934865a8f1b4e5f6526c1ea3febb54a6",
+  "status": "ok",
+  "rows": 35020,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2402.dbc",
+  "competen": "2024-02",
+  "dbc_sha256": "04035d380be6cad350ee83bd6988ec0ed04b63aeef909b06e4c52c68074dd441",
+  "status": "ok",
+  "rows": 35110,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2403.dbc",
+  "competen": "2024-03",
+  "dbc_sha256": "32b6e8c9ba62924788ba6dd62d4d9490ba5ecf6eba519ff93bd9159c65f7fcd8",
+  "status": "ok",
+  "rows": 35210,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2404.dbc",
+  "competen": "2024-04",
+  "dbc_sha256": "506264f1826a13e0476f2ad252dc4f05bcfa2544c09a58656cb0f42da7ed0be0",
+  "status": "ok",
+  "rows": 35352,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2405.dbc",
+  "competen": "2024-05",
+  "dbc_sha256": "ce7fbedbd5ff77a7e99a238460a8eed205e5e75d11763fcafde66bee87c453c6",
+  "status": "ok",
+  "rows": 35552,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2406.dbc",
+  "competen": "2024-06",
+  "dbc_sha256": "ec422dcec05732fc9707d803a21b1d5f207f30487c679e9b75bdeeca92e28e9f",
+  "status": "ok",
+  "rows": 36013,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2407.dbc",
+  "competen": "2024-07",
+  "dbc_sha256": "a1c4d7a6a6af53dd8c1b8d2627932eb988ac7ee20081bb57d798993775452f22",
+  "status": "ok",
+  "rows": 36150,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2408.dbc",
+  "competen": "2024-08",
+  "dbc_sha256": "8209ebafe43ff37074a9b726444ffe6c0f7730ff3d65ace5d9d10f00d6461237",
+  "status": "ok",
+  "rows": 36230,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2409.dbc",
+  "competen": "2024-09",
+  "dbc_sha256": "a8e1a35c1a2c2f10abf4eaedb524dbb64c0a7e56c4fd5e4e647925bbbedbdec6",
+  "status": "ok",
+  "rows": 37394,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2410.dbc",
+  "competen": "2024-10",
+  "dbc_sha256": "969323ed530fb905a72538a6dea8ffce43a0ba1eacb38e1c47f774d12d2592d8",
+  "status": "ok",
+  "rows": 37527,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2411.dbc",
+  "competen": "2024-11",
+  "dbc_sha256": "4bb3a26b3c8371766d4ab4145a4a673febb1d7ed94ee9720fd7756a247e981ef",
+  "status": "ok",
+  "rows": 37464,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2412.dbc",
+  "competen": "2024-12",
+  "dbc_sha256": "a69bbe52bfd653063a6d56bdb79b976c2c01884d0f2c844b751efd2678c018bb",
+  "status": "ok",
+  "rows": 37566,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2501.dbc",
+  "competen": "2025-01",
+  "dbc_sha256": "cf9f722144e7f649446246a7cb6256fcba3ad05b9bbf5e5cc4a78fced0ba6026",
+  "status": "ok",
+  "rows": 37612,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2502.dbc",
+  "competen": "2025-02",
+  "dbc_sha256": "b00a03e2edb8e6597bb593a6a38927c8113932d05939262c2186a012773fe5d0",
+  "status": "ok",
+  "rows": 37688,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2503.dbc",
+  "competen": "2025-03",
+  "dbc_sha256": "993ef4730404583550059015493a5b9164195031f5a122797d632c761492706f",
+  "status": "ok",
+  "rows": 37830,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2504.dbc",
+  "competen": "2025-04",
+  "dbc_sha256": "1449b08f1350320a931915da6cfab21cc20e608c0b5d5f3e24b017bf3c33bf8a",
+  "status": "ok",
+  "rows": 37898,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2505.dbc",
+  "competen": "2025-05",
+  "dbc_sha256": "f71f5b9483d4d2026c48fa113c7e38569ee16b2d86bcab0e2d196a0b542fe366",
+  "status": "ok",
+  "rows": 38043,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2506.dbc",
+  "competen": "2025-06",
+  "dbc_sha256": "e07e19df796fac1873bbd691dd4fb1ca8a3eb33837383d1cc3c1983a0865d5f2",
+  "status": "ok",
+  "rows": 38146,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2507.dbc",
+  "competen": "2025-07",
+  "dbc_sha256": "626fef822c7c15f268be261cb59ee5bed6519e680d73e10291d89c7a23a2fbfd",
+  "status": "ok",
+  "rows": 38294,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2508.dbc",
+  "competen": "2025-08",
+  "dbc_sha256": "e3af9dad5a6a29e7851cb2b4a8efce159493c3d28244aeae5b19248d220b2642",
+  "status": "ok",
+  "rows": 38352,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2509.dbc",
+  "competen": "2025-09",
+  "dbc_sha256": "f967581a7a114864b3902de8bbc4e7c9f64f1c494261ae6543183eebcbba3442",
+  "status": "ok",
+  "rows": 38561,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2510.dbc",
+  "competen": "2025-10",
+  "dbc_sha256": "9956e6ed298861b02f7c87a1bd077bd11877c6b1d90f268970eaacaf1375cf9b",
+  "status": "ok",
+  "rows": 39000,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2511.dbc",
+  "competen": "2025-11",
+  "dbc_sha256": "6fa2ae96e88273defaf195e781717f019a22ef25eabbe856b8ff0daf5d5bc015",
+  "status": "ok",
+  "rows": 39268,
+  "cols": 33
+ },
+ {
+  "file": "SRGO2512.dbc",
+  "competen": "2025-12",
+  "dbc_sha256": "8eb8faa3851ef98b24b7063540afbf90365e30bc890726b4f57b51172de28836",
+  "status": "ok",
+  "rows": 39471,
+  "cols": 33
+ }
+]

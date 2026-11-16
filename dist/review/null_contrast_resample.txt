@@ -1,0 +1,132 @@
+Cap test: does an at-cap pair or facility exceed its year-t cap in year t+1, and does that
+depend on whether surgeons, operating rooms or laparoscopes rose?
+
+Year t in {2023, 2024}, t+1 in {2024, 2025}. Built on the bootstrap's own Year class.
+
+AT CAP in year t, from the year-t optimum at point values (the paper's thresholds, as in
+scripts/model_urgent.py): facility if served / kappa_j > 0.95; pair if kappa_jp > 0.5 (not
+floored) and served / kappa_jp > 0.95. All other facilities / non-floored pairs are 'slack'.
+
+EXCEEDANCE in t+1, same in-state elective records and same construction:
+  roll   kappa_{t+1} > kappa_t   (next year's largest 3-month rolling mean beats this year's cap)
+  month  share of the 12 months of t+1 with volume > kappa_t
+
+COMPARISON: non-at-cap ('slack') facilities and non-floored pairs, same measures.
+
+PLACEBO: urgent surgical volume (group 04, CAR_INT != '01', in-state residents) at the same
+facilities and pairs, with the same groups. Urgent kappa_t and kappa_{t+1} are built the same way
+from urgent records; units with urgent kappa_t <= 0.5 are left out (no meaningful urgent cap).
+If at-cap units' urgent volume also beats its own prior maximum at a similar rate, elective
+exceedance reflects general growth rather than a binding cap being broken.
+
+RESOURCES ARE FACILITY-LEVEL. CNES PF and EQ record staff and equipment per facility, not per
+procedure, and rooms are per facility too. A pair is assigned its facility's change, so a
+pair-level split says whether the facility gained a resource, not whether that procedure did.
+
+RESOURCE ROSE DURING t+1 (facility level; pairs inherit their facility's value), start vs end of
+t+1, rose = strictly greater, a facility absent from a source in a month counts as 0:
+  surgeons     distinct CPF_PROF in CNES PF with an operating-surgeon CBO (225225 plus 18
+               specialty codes), January vs December of t+1
+  laparoscopes CNES EQ TIPEQUIP 03 / CODEQUIP 35 QT_EXIST, January vs December of t+1
+               (codes zero-padded: TIPEQUIP changed from '3' to '03' in 2025-09)
+  rooms        CNES base rlEstabInstFisiAssist CO_INSTALACAO 31 (centro cirurgico);
+               2024: 202401 vs 202501, 2025: 202501 vs 202512. No monthly series exists.
+
+
+=== 2023 -> 2024: observed at-cap facilities 76, pairs 259; null at-cap facilities mean 87.6 (range 71-101), pairs mean 291.9 (range 266-317) ===
+exceed = share with kappa_t+1 > kappa_t; size = median kappa_t+1/kappa_t - 1 among exceeders; null = mean [2.5,97.5 pct] over runs; p = share of runs with null exceed >= observed (ties count)
+
+ELECTIVE
+level    group                        n_obs obs exceed    null exceed [2.5,97.5]      p  obs size   null size  n_null
+facility at cap                          76      51.3%     47.9% [36.3,58.1]   0.235       71%         19%      87
+facility not at cap                      55      34.5%     41.1% [27.3,54.8]   0.845       52%         12%      43
+facility at cap, surgeons rose           28      78.6%     48.5% [30.5,65.7]   0.000      108%         21%      34
+facility at cap, surgeons did not        48      35.4%     47.5% [33.3,62.1]   0.945       50%         17%      53
+facility at cap, rooms rose               3      33.3%     55.3% [28.0,92.0]   0.941       65%         27%       5
+facility at cap, rooms did not           73      52.1%     47.8% [35.9,58.0]   0.220       73%         19%      84
+facility at cap, laparoscopes rose        1   (null: too few units)
+facility at cap, laparoscopes did not    75      52.0%     47.9% [35.9,58.3]   0.225       71%         19%      86
+facility at cap, any resource rose       29      75.9%     48.8% [29.7,66.7]   0.000      108%         21%      35
+facility at cap, none rose               47      36.2%     47.3% [32.6,61.5]   0.930       50%         17%      51
+pair     at cap                         259      41.7%     42.7% [36.7,48.6]   0.605       98%         30%     291
+pair     not at cap                     258      30.6%     37.6% [30.7,45.1]   0.975       38%         20%     216
+pair     at cap, surgeons rose          128      53.9%     41.9% [32.1,50.4]   0.010      144%         29%     139
+pair     at cap, surgeons did not       131      29.8%     43.6% [34.9,52.4]   1.000       67%         32%     152
+pair     at cap, rooms rose               6      66.7%     38.0% [ 0.0,80.0]   0.089       98%         33%       6
+pair     at cap, rooms did not          253      41.1%     42.9% [36.6,48.6]   0.690       96%         30%     285
+pair     at cap, laparoscopes rose        2   (null: too few units)
+pair     at cap, laparoscopes did not   257      41.6%     42.8% [36.7,48.6]   0.620      100%         30%     290
+pair     at cap, any resource rose      130      53.8%     41.9% [32.6,50.4]   0.010      145%         29%     142
+pair     at cap, none rose              129      29.5%     43.6% [35.0,53.2]   1.000       60%         32%     148
+
+URGENT
+level    group                        n_obs obs exceed    null exceed [2.5,97.5]      p  obs size   null size  n_null
+facility at cap                          54      38.9%     45.9% [33.3,57.8]   0.900       21%         12%      64
+facility not at cap                      45      35.6%     46.7% [30.9,63.4]   0.910       48%         12%      34
+facility at cap, surgeons rose           23      47.8%     47.1% [30.4,63.4]   0.525       28%         12%      28
+facility at cap, surgeons did not        31      32.3%     44.9% [30.2,59.5]   0.945       18%         12%      35
+facility at cap, rooms rose               2   (null: too few units)
+facility at cap, rooms did not           52      40.4%     45.9% [33.9,57.4]   0.810       21%         12%      62
+facility at cap, laparoscopes rose        0   (no observed units)
+facility at cap, laparoscopes did not    54      38.9%     46.0% [33.9,57.8]   0.900       21%         12%      64
+facility at cap, any resource rose       24      45.8%     47.2% [31.4,64.3]   0.565       28%         12%      29
+facility at cap, none rose               30      33.3%     44.7% [29.4,59.5]   0.905       18%         12%      34
+pair     at cap                         153      41.2%     39.7% [31.6,49.1]   0.310       50%         25%     172
+pair     not at cap                     173      40.5%     40.6% [32.0,49.0]   0.470       45%         23%     140
+pair     at cap, surgeons rose           86      40.7%     39.6% [29.9,52.8]   0.375      100%         25%      91
+pair     at cap, surgeons did not        67      41.8%     39.9% [28.9,50.7]   0.400       36%         25%      81
+pair     at cap, rooms rose               3       0.0%     33.1% [ 0.0,60.0]   1.000         -         38%       5
+pair     at cap, rooms did not          150      42.0%     39.8% [32.0,49.1]   0.240       50%         25%     168
+pair     at cap, laparoscopes rose        0   (no observed units)
+pair     at cap, laparoscopes did not   153      41.2%     39.7% [31.6,49.1]   0.310       50%         25%     172
+pair     at cap, any resource rose       87      40.2%     39.3% [30.0,52.2]   0.375      100%         25%      93
+pair     at cap, none rose               66      42.4%     40.2% [28.9,51.8]   0.380       36%         25%      79
+
+=== 2024 -> 2025: observed at-cap facilities 84, pairs 322; null at-cap facilities mean 97.4 (range 80-112), pairs mean 321.9 (range 294-346) ===
+exceed = share with kappa_t+1 > kappa_t; size = median kappa_t+1/kappa_t - 1 among exceeders; null = mean [2.5,97.5 pct] over runs; p = share of runs with null exceed >= observed (ties count)
+
+ELECTIVE
+level    group                        n_obs obs exceed    null exceed [2.5,97.5]      p  obs size   null size  n_null
+facility at cap                          84      52.4%     47.7% [37.5,56.9]   0.175       54%         21%      97
+facility not at cap                      48      31.2%     40.3% [24.2,55.9]   0.895       33%         12%      34
+facility at cap, surgeons rose           38      63.2%     50.0% [36.2,65.8]   0.050       51%         16%      46
+facility at cap, surgeons did not        46      43.5%     45.7% [32.7,58.9]   0.615       67%         25%      50
+facility at cap, rooms rose               1   (null: too few units)
+facility at cap, rooms did not           83      51.8%     47.5% [37.0,56.8]   0.220       52%         21%      95
+facility at cap, laparoscopes rose        2   (null: too few units)
+facility at cap, laparoscopes did not    82      53.7%     47.6% [37.2,56.8]   0.120       54%         21%      94
+facility at cap, any resource rose       39      61.5%     49.8% [36.2,64.5]   0.055       51%         16%      47
+facility at cap, none rose               45      44.4%     45.8% [33.3,60.0]   0.595       67%         25%      49
+pair     at cap                         322      42.5%     41.7% [35.3,47.7]   0.435       59%         29%     321
+pair     not at cap                     209      39.2%     37.5% [31.2,44.8]   0.295       34%         22%     192
+pair     at cap, surgeons rose          198      49.0%     42.3% [34.7,50.5]   0.075       64%         27%     199
+pair     at cap, surgeons did not       124      32.3%     40.8% [30.4,51.7]   0.935       50%         33%     122
+pair     at cap, rooms rose              15      53.3%     45.4% [17.6,73.3]   0.295       32%         22%      18
+pair     at cap, rooms did not          307      42.0%     41.5% [34.9,48.1]   0.500       60%         30%     303
+pair     at cap, laparoscopes rose       18      50.0%     44.6% [15.8,71.5]   0.395       27%         25%      18
+pair     at cap, laparoscopes did not   304      42.1%     41.5% [34.7,47.6]   0.450       62%         30%     303
+pair     at cap, any resource rose      200      49.0%     42.3% [34.6,50.5]   0.070       65%         27%     201
+pair     at cap, none rose              122      32.0%     40.8% [30.9,51.7]   0.940       50%         33%     120
+
+URGENT
+level    group                        n_obs obs exceed    null exceed [2.5,97.5]      p  obs size   null size  n_null
+facility at cap                          64      29.7%     44.1% [34.7,54.9]   0.995       41%         14%      71
+facility not at cap                      36      44.4%     45.0% [28.5,63.7]   0.460       23%         11%      25
+facility at cap, surgeons rose           32      28.1%     42.9% [27.0,59.0]   0.970       29%         14%      37
+facility at cap, surgeons did not        32      31.2%     45.4% [29.4,61.8]   0.945       42%         15%      34
+facility at cap, rooms rose               1   (null: too few units)
+facility at cap, rooms did not           63      28.6%     44.1% [34.8,55.0]   0.995       35%         14%      69
+facility at cap, laparoscopes rose        2   (null: too few units)
+facility at cap, laparoscopes did not    62      30.6%     43.9% [33.7,55.1]   0.990       41%         14%      68
+facility at cap, any resource rose       33      27.3%     43.1% [28.2,57.9]   0.985       29%         14%      38
+facility at cap, none rose               31      32.3%     45.2% [28.6,63.3]   0.940       42%         15%      33
+pair     at cap                         195      36.9%     40.3% [33.0,47.1]   0.815       40%         25%     193
+pair     not at cap                     126      37.3%     39.2% [30.8,47.9]   0.635       50%         25%     112
+pair     at cap, surgeons rose          129      40.3%     41.0% [33.1,50.0]   0.530       39%         22%     125
+pair     at cap, surgeons did not        66      30.3%     39.1% [27.3,54.1]   0.925       41%         31%      67
+pair     at cap, rooms rose              14      64.3%     43.5% [14.3,70.6]   0.100       27%         20%      15
+pair     at cap, rooms did not          181      34.8%     40.0% [32.6,47.9]   0.905       40%         25%     177
+pair     at cap, laparoscopes rose       13      30.8%     42.0% [10.5,69.2]   0.770       23%         24%      14
+pair     at cap, laparoscopes did not   182      37.4%     40.2% [32.9,47.0]   0.770       40%         25%     178
+pair     at cap, any resource rose      131      39.7%     41.0% [32.6,49.6]   0.590       39%         22%     127
+pair     at cap, none rose               64      31.2%     39.0% [26.8,53.3]   0.890       41%         31%      65

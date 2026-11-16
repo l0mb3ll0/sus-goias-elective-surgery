@@ -1,0 +1,247 @@
+cod6,nome,regiao_saude,macrorregiao_saude
+520005,Abadia de Goiás,Central,Centro-Oeste
+520010,Abadiânia,Pireneus,Centro-Norte
+520013,Acreúna,Sudoeste I,Sudoeste
+520015,Adelândia,Oeste II,Centro-Oeste
+520017,Água Fria de Goiás,Entorno Norte,Nordeste
+520020,Água Limpa,Sul,Centro-Sudeste
+520025,Águas Lindas de Goiás,Entorno Sul,Nordeste
+520030,Alexânia,Pireneus,Centro-Norte
+520050,Aloândia,Sul,Centro-Sudeste
+520055,Alto Horizonte,Serra da Mesa,Centro-Norte
+520060,Alto Paraíso de Goiás,Entorno Norte,Nordeste
+520080,Alvorada do Norte,Nordeste II,Nordeste
+520082,Amaralina,Serra da Mesa,Centro-Norte
+520085,Americano do Brasil,Rio Vermelho,Centro-Oeste
+520090,Amorinópolis,Oeste I,Centro-Oeste
+520110,Anápolis,Pireneus,Centro-Norte
+520120,Anhanguera,Estrada de Ferro,Centro-Sudeste
+520130,Anicuns,Central,Centro-Oeste
+520140,Aparecida de Goiânia,Centro Sul,Centro-Sudeste
+520145,Aparecida do Rio Doce,Sudoeste I,Sudoeste
+520150,Aporé,Sudoeste II,Sudoeste
+520160,Araçu,Central,Centro-Oeste
+520170,Aragarças,Oeste I,Centro-Oeste
+520180,Aragoiânia,Centro Sul,Centro-Sudeste
+520215,Araguapaz,Rio Vermelho,Centro-Oeste
+520235,Arenópolis,Oeste I,Centro-Oeste
+520250,Aruanã,Rio Vermelho,Centro-Oeste
+520260,Aurilândia,Oeste II,Centro-Oeste
+520280,Avelinópolis,Central,Centro-Oeste
+520310,Baliza,Oeste I,Centro-Oeste
+520320,Barro Alto,São Patrício II,Centro-Norte
+520330,Bela Vista de Goiás,Centro Sul,Centro-Sudeste
+520340,Bom Jardim de Goiás,Oeste I,Centro-Oeste
+520350,Bom Jesus de Goiás,Sul,Centro-Sudeste
+520355,Bonfinópolis,Centro Sul,Centro-Sudeste
+520357,Bonópolis,Norte,Centro-Norte
+520360,Brazabrantes,Central,Centro-Oeste
+520380,Britânia,Rio Vermelho,Centro-Oeste
+520390,Buriti Alegre,Sul,Centro-Sudeste
+520393,Buriti de Goiás,Oeste II,Centro-Oeste
+520396,Buritinópolis,Nordeste II,Nordeste
+520400,Cabeceiras,Entorno Norte,Nordeste
+520410,Cachoeira Alta,Sudoeste I,Sudoeste
+520420,Cachoeira de Goiás,Oeste II,Centro-Oeste
+520425,Cachoeira Dourada,Sul,Centro-Sudeste
+520430,Caçu,Sudoeste I,Sudoeste
+520440,Caiapônia,Sudoeste II,Sudoeste
+520450,Caldas Novas,Estrada de Ferro,Centro-Sudeste
+520455,Caldazinha,Centro Sul,Centro-Sudeste
+520460,Campestre de Goiás,Central,Centro-Oeste
+520465,Campinaçu,Norte,Centro-Norte
+520470,Campinorte,Serra da Mesa,Centro-Norte
+520480,Campo Alegre de Goiás,Estrada de Ferro,Centro-Sudeste
+520485,Campo Limpo de Goiás,Pireneus,Centro-Norte
+520490,Campos Belos,Nordeste I,Nordeste
+520495,Campos Verdes,São Patrício I,Centro-Norte
+520500,Carmo do Rio Verde,São Patrício I,Centro-Norte
+520505,Castelândia,Sudoeste I,Sudoeste
+520510,Catalão,Estrada de Ferro,Centro-Sudeste
+520520,Caturaí,Central,Centro-Oeste
+520530,Cavalcante,Nordeste I,Nordeste
+520540,Ceres,São Patrício I,Centro-Norte
+520545,Cezarina,Centro Sul,Centro-Sudeste
+520547,Chapadão do Céu,Sudoeste II,Sudoeste
+520549,Cidade Ocidental,Entorno Sul,Nordeste
+520551,Cocalzinho de Goiás,Pireneus,Centro-Norte
+520552,Colinas do Sul,Serra da Mesa,Centro-Norte
+520570,Córrego do Ouro,Oeste II,Centro-Oeste
+520580,Corumbá de Goiás,Pireneus,Centro-Norte
+520590,Corumbaíba,Estrada de Ferro,Centro-Sudeste
+520620,Cristalina,Entorno Sul,Nordeste
+520630,Cristianópolis,Centro Sul,Centro-Sudeste
+520640,Crixás,São Patrício I,Centro-Norte
+520650,Cromínia,Centro Sul,Centro-Sudeste
+520660,Cumari,Estrada de Ferro,Centro-Sudeste
+520670,Damianópolis,Nordeste II,Nordeste
+520680,Damolândia,Central,Centro-Oeste
+520690,Davinópolis,Estrada de Ferro,Centro-Sudeste
+520710,Diorama,Oeste I,Centro-Oeste
+520725,Doverlândia,Sudoeste II,Sudoeste
+520735,Edealina,Centro Sul,Centro-Sudeste
+520740,Edéia,Centro Sul,Centro-Sudeste
+520750,Estrela do Norte,Norte,Centro-Norte
+520753,Faina,Rio Vermelho,Centro-Oeste
+520760,Fazenda Nova,Oeste I,Centro-Oeste
+520780,Firminópolis,Oeste II,Centro-Oeste
+520790,Flores de Goiás,Entorno Norte,Nordeste
+520800,Formosa,Entorno Norte,Nordeste
+520810,Formoso,Norte,Centro-Norte
+520815,Gameleira de Goiás,Pireneus,Centro-Norte
+520830,Divinópolis de Goiás,Nordeste I,Nordeste
+520840,Goianápolis,Pireneus,Centro-Norte
+520850,Goiandira,Estrada de Ferro,Centro-Sudeste
+520860,Goianésia,São Patrício II,Centro-Norte
+520870,Goiânia,Central,Centro-Oeste
+520880,Goianira,Central,Centro-Oeste
+520890,Goiás,Rio Vermelho,Centro-Oeste
+520910,Goiatuba,Sul,Centro-Sudeste
+520915,Gouvelândia,Sul,Centro-Sudeste
+520920,Guapó,Central,Centro-Oeste
+520929,Guaraíta,Rio Vermelho,Centro-Oeste
+520940,Guarani de Goiás,Nordeste II,Nordeste
+520945,Guarinos,São Patrício I,Centro-Norte
+520960,Heitoraí,Rio Vermelho,Centro-Oeste
+520970,Hidrolândia,Centro Sul,Centro-Sudeste
+520980,Hidrolina,Serra da Mesa,Centro-Norte
+520990,Iaciara,Nordeste II,Nordeste
+520993,Inaciolândia,Sul,Centro-Sudeste
+520995,Indiara,Centro Sul,Centro-Sudeste
+521000,Inhumas,Central,Centro-Oeste
+521010,Ipameri,Estrada de Ferro,Centro-Sudeste
+521015,Ipiranga de Goiás,São Patrício I,Centro-Norte
+521020,Iporá,Oeste I,Centro-Oeste
+521030,Israelândia,Oeste I,Centro-Oeste
+521040,Itaberaí,Rio Vermelho,Centro-Oeste
+521056,Itaguari,Central,Centro-Oeste
+521060,Itaguaru,São Patrício II,Centro-Norte
+521080,Itajá,Sudoeste I,Sudoeste
+521090,Itapaci,São Patrício I,Centro-Norte
+521100,Itapirapuã,Rio Vermelho,Centro-Oeste
+521120,Itapuranga,Rio Vermelho,Centro-Oeste
+521130,Itarumã,Sudoeste I,Sudoeste
+521140,Itauçu,Central,Centro-Oeste
+521150,Itumbiara,Sul,Centro-Sudeste
+521160,Ivolândia,Oeste I,Centro-Oeste
+521170,Jandaia,Centro Sul,Centro-Sudeste
+521180,Jaraguá,São Patrício II,Centro-Norte
+521190,Jataí,Sudoeste II,Sudoeste
+521200,Jaupaci,Oeste I,Centro-Oeste
+521205,Jesúpolis,Central,Centro-Oeste
+521210,Joviânia,Sul,Centro-Sudeste
+521220,Jussara,Rio Vermelho,Centro-Oeste
+521225,Lagoa Santa,Sudoeste I,Sudoeste
+521230,Leopoldo de Bulhões,Centro Sul,Centro-Sudeste
+521250,Luziânia,Entorno Sul,Nordeste
+521260,Mairipotaba,Centro Sul,Centro-Sudeste
+521270,Mambaí,Nordeste II,Nordeste
+521280,Mara Rosa,Serra da Mesa,Centro-Norte
+521290,Marzagão,Estrada de Ferro,Centro-Sudeste
+521295,Matrinchã,Rio Vermelho,Centro-Oeste
+521300,Maurilândia,Sudoeste I,Sudoeste
+521305,Mimoso de Goiás,São Patrício II,Centro-Norte
+521308,Minaçu,Norte,Centro-Norte
+521310,Mineiros,Sudoeste II,Sudoeste
+521340,Moiporá,Oeste I,Centro-Oeste
+521350,Monte Alegre de Goiás,Nordeste I,Nordeste
+521370,Montes Claros de Goiás,Oeste I,Centro-Oeste
+521375,Montividiu,Sudoeste I,Sudoeste
+521377,Montividiu do Norte,Norte,Centro-Norte
+521380,Morrinhos,Sul,Centro-Sudeste
+521385,Morro Agudo de Goiás,São Patrício I,Centro-Norte
+521390,Mossâmedes,Rio Vermelho,Centro-Oeste
+521400,Mozarlândia,Rio Vermelho,Centro-Oeste
+521405,Mundo Novo,Norte,Centro-Norte
+521410,Mutunópolis,Norte,Centro-Norte
+521440,Nazário,Central,Centro-Oeste
+521450,Nerópolis,Central,Centro-Oeste
+521460,Niquelândia,Serra da Mesa,Centro-Norte
+521470,Nova América,São Patrício I,Centro-Norte
+521480,Nova Aurora,Estrada de Ferro,Centro-Sudeste
+521483,Nova Crixás,Rio Vermelho,Centro-Oeste
+521486,Nova Glória,São Patrício I,Centro-Norte
+521487,Nova Iguaçu de Goiás,Serra da Mesa,Centro-Norte
+521490,Nova Roma,Nordeste II,Nordeste
+521500,Nova Veneza,Central,Centro-Oeste
+521520,Novo Brasil,Oeste I,Centro-Oeste
+521523,Novo Gama,Entorno Sul,Nordeste
+521525,Novo Planalto,Norte,Centro-Norte
+521530,Orizona,Centro Sul,Centro-Sudeste
+521540,Ouro Verde de Goiás,Central,Centro-Oeste
+521550,Ouvidor,Estrada de Ferro,Centro-Sudeste
+521560,Padre Bernardo,São Patrício II,Centro-Norte
+521565,Palestina de Goiás,Oeste I,Centro-Oeste
+521570,Palmeiras de Goiás,Oeste II,Centro-Oeste
+521580,Palmelo,Estrada de Ferro,Centro-Sudeste
+521590,Palminópolis,Oeste II,Centro-Oeste
+521600,Panamá,Sul,Centro-Sudeste
+521630,Paranaiguara,Sudoeste I,Sudoeste
+521640,Paraúna,Oeste II,Centro-Oeste
+521645,Perolândia,Sudoeste II,Sudoeste
+521680,Petrolina de Goiás,Central,Centro-Oeste
+521690,Pilar de Goiás,São Patrício I,Centro-Norte
+521710,Piracanjuba,Centro Sul,Centro-Sudeste
+521720,Piranhas,Oeste I,Centro-Oeste
+521730,Pirenópolis,Pireneus,Centro-Norte
+521740,Pires do Rio,Estrada de Ferro,Centro-Sudeste
+521760,Planaltina,Entorno Norte,Nordeste
+521770,Pontalina,Centro Sul,Centro-Sudeste
+521800,Porangatu,Norte,Centro-Norte
+521805,Porteirão,Sudoeste I,Sudoeste
+521810,Portelândia,Sudoeste II,Sudoeste
+521830,Posse,Nordeste II,Nordeste
+521839,Professor Jamil,Centro Sul,Centro-Sudeste
+521850,Quirinópolis,Sudoeste I,Sudoeste
+521860,Rialma,São Patrício I,Centro-Norte
+521870,Rianápolis,São Patrício I,Centro-Norte
+521878,Rio Quente,Estrada de Ferro,Centro-Sudeste
+521880,Rio Verde,Sudoeste I,Sudoeste
+521890,Rubiataba,São Patrício I,Centro-Norte
+521900,Sanclerlândia,Oeste II,Centro-Oeste
+521910,Santa Bárbara de Goiás,Central,Centro-Oeste
+521920,Santa Cruz de Goiás,Estrada de Ferro,Centro-Sudeste
+521925,Santa Fé de Goiás,Rio Vermelho,Centro-Oeste
+521930,Santa Helena de Goiás,Sudoeste I,Sudoeste
+521935,Santa Isabel,São Patrício I,Centro-Norte
+521940,Santa Rita do Araguaia,Sudoeste II,Sudoeste
+521945,Santa Rita do Novo Destino,São Patrício II,Centro-Norte
+521950,Santa Rosa de Goiás,Central,Centro-Oeste
+521960,Santa Tereza de Goiás,Norte,Centro-Norte
+521970,Santa Terezinha de Goiás,São Patrício I,Centro-Norte
+521971,Santo Antônio da Barra,Sudoeste I,Sudoeste
+521973,Santo Antônio de Goiás,Central,Centro-Oeste
+521975,Santo Antônio do Descoberto,Entorno Sul,Nordeste
+521980,São Domingos,Nordeste II,Nordeste
+521990,São Francisco de Goiás,Central,Centro-Oeste
+522000,São João d'Aliança,Entorno Norte,Nordeste
+522005,São João da Paraúna,Oeste II,Centro-Oeste
+522010,São Luís de Montes Belos,Oeste II,Centro-Oeste
+522015,São Luiz do Norte,São Patrício I,Centro-Norte
+522020,São Miguel do Araguaia,Norte,Centro-Norte
+522026,São Miguel do Passa Quatro,Centro Sul,Centro-Sudeste
+522028,São Patrício,São Patrício I,Centro-Norte
+522040,São Simão,Sudoeste I,Sudoeste
+522045,Senador Canedo,Centro Sul,Centro-Sudeste
+522050,Serranópolis,Sudoeste II,Sudoeste
+522060,Silvânia,Centro Sul,Centro-Sudeste
+522068,Simolândia,Nordeste II,Nordeste
+522070,Sítio d'Abadia,Nordeste II,Nordeste
+522100,Taquaral de Goiás,Central,Centro-Oeste
+522108,Teresina de Goiás,Nordeste I,Nordeste
+522119,Terezópolis de Goiás,Pireneus,Centro-Norte
+522130,Três Ranchos,Estrada de Ferro,Centro-Sudeste
+522140,Trindade,Central,Centro-Oeste
+522145,Trombas,Norte,Centro-Norte
+522150,Turvânia,Oeste II,Centro-Oeste
+522155,Turvelândia,Sudoeste I,Sudoeste
+522157,Uirapuru,São Patrício I,Centro-Norte
+522160,Uruaçu,Serra da Mesa,Centro-Norte
+522170,Uruana,São Patrício I,Centro-Norte
+522180,Urutaí,Estrada de Ferro,Centro-Sudeste
+522185,Valparaíso de Goiás,Entorno Sul,Nordeste
+522190,Varjão,Centro Sul,Centro-Sudeste
+522200,Vianópolis,Centro Sul,Centro-Sudeste
+522205,Vicentinópolis,Centro Sul,Centro-Sudeste
+522220,Vila Boa,Entorno Norte,Nordeste
+522230,Vila Propício,São Patrício II,Centro-Norte

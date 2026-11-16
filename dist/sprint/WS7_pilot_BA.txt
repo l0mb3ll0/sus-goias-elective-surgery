@@ -1,0 +1,67 @@
+12 files to fetch
+[1/12] RDBA2301     ok           70518
+[2/12] RDBA2303     ok           73354
+[3/12] RDBA2302     ok           66875
+[4/12] RDBA2304     ok           73638
+[5/12] RDBA2305     ok           78248
+[6/12] RDBA2306     ok           75679
+[7/12] RDBA2309     ok           75231
+[8/12] RDBA2307     ok           80509
+[9/12] RDBA2308     ok           80337
+[10/12] RDBA2312     ok           71654
+[11/12] RDBA2311     ok           74877
+[12/12] RDBA2310     ok           78427
+
+12/12 files, 899,347 new rows
+manifest -> data/pilot/BA/manifest_sih_20261104T121701Z.json
+Traceback (most recent call last):
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1358, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1404, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1353, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1113, in _send_output
+    self.send(msg)
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1057, in send
+    self.connect()
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1492, in connect
+    super().connect()
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/http/client.py", line 1023, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/l0mb3ll0/sos/scripts/state_pilot.py", line 19, in <module>
+    raw = urllib.request.urlopen(req, timeout=60).read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/l0mb3ll0/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+exit 1

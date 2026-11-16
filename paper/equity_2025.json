@@ -1,0 +1,85 @@
+{
+ "year": "2025",
+ "runs": [
+  {
+   "tau": null,
+   "feasible": true,
+   "mean_cost": 0.6418849551102537,
+   "mean_cost_rise_pct": 0.0,
+   "worst_muni_cost": 2.68918918918919,
+   "worst_muni": "Iaciara",
+   "n_muni_over_1": 182
+  },
+  {
+   "tau": 3.0,
+   "feasible": true,
+   "mean_cost": 0.6418849551102533,
+   "mean_cost_rise_pct": -5.551115123125783e-14,
+   "worst_muni_cost": 2.836734693877551,
+   "worst_muni": "Indiara",
+   "n_muni_over_1": 183
+  },
+  {
+   "tau": 2.75,
+   "feasible": true,
+   "mean_cost": 0.6418849551102533,
+   "mean_cost_rise_pct": -5.551115123125783e-14,
+   "worst_muni_cost": 2.75,
+   "worst_muni": "Indiara",
+   "n_muni_over_1": 183
+  },
+  {
+   "tau": 2.5,
+   "feasible": true,
+   "mean_cost": 0.6434812325495324,
+   "mean_cost_rise_pct": 0.24868590961202308,
+   "worst_muni_cost": 2.5000000000000004,
+   "worst_muni": "Divin\u00f3polis de Goi\u00e1s",
+   "n_muni_over_1": 184
+  },
+  {
+   "tau": 2.25,
+   "feasible": false
+  },
+  {
+   "tau": 2.0,
+   "feasible": false
+  },
+  {
+   "tau": 1.9,
+   "feasible": false
+  },
+  {
+   "tau": 1.8,
+   "feasible": false
+  },
+  {
+   "tau": 1.7,
+   "feasible": false
+  },
+  {
+   "tau": 1.65,
+   "feasible": false
+  },
+  {
+   "tau": 1.6,
+   "feasible": false
+  },
+  {
+   "tau": 1.55,
+   "feasible": false
+  },
+  {
+   "tau": 1.5,
+   "feasible": false
+  },
+  {
+   "tau": 1.25,
+   "feasible": false
+  },
+  {
+   "tau": 1.0,
+   "feasible": false
+  }
+ ]
+}

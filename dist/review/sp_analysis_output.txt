@@ -1,0 +1,128 @@
+# scripts/sp_analysis.py rerun 2026-11-04T01:20:06Z, repo HEAD 649342f
+# script unmodified (md5 82cba0bf9596266d9e7c022fd1dcb1fc); run via dist/review/run_sp_analysis.py, which only projects read_parquet to the columns the script uses (full read was OOM-killed)
+
+WINDOW: 24 month(s) 2024-01..2025-12  11,545,359 act rows, 900,372 AIHs
+
+=== D. identifier stability ===
+  SP_PF_DOC length distribution: {15: 3860573}
+  non-numeric ids: 0
+  SP_PF_CBO length distribution: {6: 3860573}
+           rows  cbo_pct  doc_pct  profs
+cm                                      
+2024-01  429615     32.8     32.8   3411
+2024-02  428035     33.3     33.3   3591
+2024-03  474890     32.8     32.8   3776
+2024-04  485699     33.1     33.1   3828
+2024-05  473263     33.3     33.3   3836
+2024-06  449598     34.2     34.2   3780
+2024-07  485294     32.6     32.6   3894
+2024-08  480150     32.6     32.6   3818
+2024-09  467438     33.7     33.7   3785
+2024-10  463237     34.0     34.0   3828
+2024-11  439596     33.4     33.4   3757
+2024-12  460438     32.8     32.8   3742
+2025-01  479739     33.2     33.2   3814
+2025-02  477352     33.2     33.2   3964
+2025-03  505116     34.0     34.0   4031
+2025-04  489238     34.0     34.0   4008
+2025-05  526267     32.6     32.6   4128
+2025-06  502473     32.8     32.8   4093
+2025-07  523401     33.5     33.5   4097
+2025-08  515373     33.9     33.9   4195
+2025-09  495075     34.5     34.5   4307
+2025-10  514668     34.5     34.5   4251
+2025-11  495506     34.2     34.2   4184
+2025-12  483898     33.5     33.5   4137
+  CBO population rate range across months: 32.6% - 34.5% (spread 1.9pp)
+  CBO and DOC populate on the same rows: True
+  ids carrying >1 CBO across the window: 724 of 8865 (8.2%), max 5 CBOs
+  months present per id: median 8, appearing in only one month 1308 (14.8%), in all 24 1172 (13.2%)
+  first appearance by month: {'2024-01': 3411, '2024-02': 700, '2024-03': 498, '2024-04': 330, '2024-05': 239, '2024-06': 244, '2024-07': 249, '2024-08': 175, '2024-09': 188, '2024-10': 204, '2024-11': 135, '2024-12': 126, '2025-01': 164, '2025-02': 252, '2025-03': 200, '2025-04': 208, '2025-05': 228, '2025-06': 189, '2025-07': 162, '2025-08': 229, '2025-09': 250, '2025-10': 194, '2025-11': 138, '2025-12': 152}
+
+  CBO 225225 act rows 203,085, distinct professionals 585
+
+=== A. surgeon throughput (CBO 225225) ===
+
+  -- cholecystectomy: 19,196 AIHs, 362 surgeons
+  cases/month per surgeon: n=362  median=2.8  p75=5.3  p90=10.2  p95=16.6  max=54.6
+  largest 3-month rolling mean: n=362  median=3.0  p75=7.7  p90=18.0  p95=28.0  max=93.3
+  surgeons accounting for half of volume: 32 of 362 (8.8%)
+  of 585 surgeons on 225225, 362 perform any (61.9%)
+  top decile = top 58 of 585: 68.6% of volume (16,082 of 23,454 cases)
+  annual cases per performing surgeon: median 16, p90 200, max 1311
+
+  -- all group-04 elective: 102,184 AIHs, 570 surgeons
+  cases/month per surgeon: n=570  median=4.8  p75=12.2  p90=25.9  p95=41.4  max=309.0
+  largest 3-month rolling mean: n=570  median=7.3  p75=19.3  p90=47.1  p95=79.2  max=418.7
+  surgeons accounting for half of volume: 41 of 570 (7.2%)
+  of 585 surgeons on 225225, 570 perform any (97.4%)
+  top decile = top 58 of 585: 59.2% of volume (68,044 of 114,884 cases)
+  annual cases per performing surgeon: median 52, p90 546, max 3576
+
+=== B0. surgeons carrying a second CBO ===
+  of 585 surgeons on 225225, 300 carry a second CBO (51.3%)
+  their other CBOs (top 6): {'225125': 35975, '225285': 11211, '225290': 10657, '225250': 9302, '225270': 5789, '225124': 3577}
+
+  concentration with and without the second-CBO surgeons:
+  ALL 225225 surgeons: 585 surgeons, 362 performing, 23,454 cases
+    half of volume from 32 surgeons (8.8% of performers); top decile (58) carries 68.6%
+    facilities: 109; exactly one surgeon 34; >=90% from one surgeon 50; median surgeons/facility 2
+  EXCLUDING second-CBO surgeons: 285 surgeons, 200 performing, 15,266 cases
+    half of volume from 17 surgeons (8.5% of performers); top decile (28) carries 65.8%
+    facilities: 74; exactly one surgeon 29; >=90% from one surgeon 36; median surgeons/facility 2
+
+=== B. multi-facility surgeons (priority) ===
+  facilities per surgeon: {1: 414, 2: 117, 3: 41, 4: 9, 5: 1, 6: 2, 7: 1}
+  >1 facility, POOLED over 24 months: 171 of 585 (29.2%)   max 7
+  >1 facility, PER MONTH then averaged: 19.0% (range 16.0%-20.9% across months)
+  municipalities per surgeon: {1: 454, 2: 101, 3: 25, 4: 1, 5: 2, 6: 1, 7: 1}
+  >1 municipality: 131 of 585 (22.4%)
+  share at their busiest facility, multi-facility only: n=171  median=0.8  p75=0.9  p90=1.0  p95=1.0  max=1.0
+
+  facilities with cholecystectomy volume: 109
+  share of facility chol volume by non-exclusive surgeons: n=109  median=0.9  p75=1.0  p90=1.0  p95=1.0  max=1.0
+  facilities where ALL cholecystectomy volume is performed by non-exclusive surgeons: 41 of 109
+
+  -- dependence on a single surgeon --
+  distinct 225225 surgeons per facility: {1: 34, 2: 21, 3: 21, 4: 7, 5: 8, 6: 2, 7: 3, 8: 2, 10: 2, 11: 1, 13: 1, 17: 2, 23: 1, 25: 1, 33: 1, 42: 1, 45: 1}
+  surgeons per facility: n=109  median=2.0  p75=4.0  p90=8.4  p95=17.0  max=45.0
+  share of facility volume from its busiest surgeon: n=109  median=0.9  p75=1.0  p90=1.0  p95=1.0  max=1.0
+  facilities with exactly ONE 225225 surgeon: 34 of 109 (31.2%), carrying 1,792 of 19,196 cholecystectomy AIHs
+  facilities with >=75% of volume from one surgeon: 65 of 109 (59.6%)
+  facilities with >=90% of volume from one surgeon: 50 of 109 (45.9%)
+   CNES  chol_aihs  aihs_nonexcl    share  n_surgeons  top_surgeon_share
+9680977       1780          1054 0.592135          42           0.736517
+5419662       1019          1019 1.000000           6           0.527969
+6665322        994           724 0.728370          17           0.431590
+2673932        962           949 0.986486          23           0.443867
+2338734        868             0 0.000000           1           1.000000
+0547484        749           423 0.564753           6           0.435247
+5095808        723           433 0.598893          45           0.327801
+7743068        663           528 0.796380          33           0.310709
+2534967        573           548 0.956370           5           0.534031
+2340194        530           456 0.860377          13           0.784906
+2382474        529           126 0.238185          10           0.623819
+2437783        508           441 0.868110          25           0.350394
+
+=== C. team composition on cholecystectomy AIHs ===
+  distinct professionals per AIH, all: n=20457  median=3.0  p75=4.0  p90=6.0  p95=7.0  max=32.0
+  team size, laparoscopic: n=12188  median=3.0  p75=4.0  p90=6.0  p95=7.0  max=32.0
+  team size, open: n=8269  median=3.0  p75=3.0  p90=5.0  p95=7.0  max=23.0
+
+  AIHs whose facility is absent from the master record: 64 (reported, not dropped)
+  team size by registered laparoscopic equipment: HELD -- requires the room panel, not the 202606 snapshot
+
+  team size by facility, top 10 by volume:
+         size  mean  median
+cnes                       
+9680977  1795  3.71     4.0
+6665322  1058  6.29     6.0
+5419662  1028  2.54     2.0
+2673932   962  4.37     4.0
+2338734   868  2.06     2.0
+0547484   751  4.06     4.0
+5095808   725  2.66     3.0
+7743068   674  3.35     3.0
+2534967   576  2.87     3.0
+2382474   532  4.93     4.0
+# exit 0

@@ -1,0 +1,590 @@
+[
+ {
+  "file": "STGO1901.dbc",
+  "rows": 10411,
+  "sha256": "da4958da1a7a9e9a2559b33bc05d231142909af8032efc00ac763d2335e6c897",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1902.dbc",
+  "rows": 10476,
+  "sha256": "b59a2fb30558a8ddf0e0f1099d53a5a29fb548e4fec18e235dd365f1609d6a62",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1903.dbc",
+  "rows": 10579,
+  "sha256": "ab2e3d1bd5c9acd6117cb69d2a5e1a55f9d1d3641ee051dec37c16656c39300c",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1904.dbc",
+  "rows": 10635,
+  "sha256": "62bfae5ea13ef4673c14ab9f83d75c876eac48bcd666ab72f25b11b7f1d88283",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1905.dbc",
+  "rows": 10701,
+  "sha256": "bdf6178bdd4a234c87df00e0c4222a71dbdb53227433031321f8b65dd87c31c8",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1906.dbc",
+  "rows": 10752,
+  "sha256": "cdc93bd92717ca30a3f3e52692f367f70c3982f31892a1f20fcbf17b771ad522",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1907.dbc",
+  "rows": 10836,
+  "sha256": "19754bb9914258577350a4488130eb922598561d90d4134edc1cd51c68b81264",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1908.dbc",
+  "rows": 10875,
+  "sha256": "27cbeb228d40748ac8e6253a823fa5c9500b7b808fc7e3e3d325f2b559419377",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1909.dbc",
+  "rows": 10940,
+  "sha256": "f8b10a0bb8a2af95b51366c8c0868b1d6ee79e0213adf2df81595f8ff7d6e3b5",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1910.dbc",
+  "rows": 10982,
+  "sha256": "e0d9dbc4d0dbd6cd059604a345ac20116f6073b6cbfc2b2f92b6ebcb3d0c698b",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1911.dbc",
+  "rows": 11035,
+  "sha256": "72de2286bd241b98ceda9d538d17371dded2a98a33838abcd644f5184af33e82",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO1912.dbc",
+  "rows": 11080,
+  "sha256": "3b60e98d33985859e34a17878b86baff0ac949b71197c46708d287719fa88952",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2001.dbc",
+  "rows": 11129,
+  "sha256": "62cd750c70c72c6699f7cfe259976e1a54fe7ffd5545fbf9d318eb06f2e6e1c7",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2002.dbc",
+  "rows": 11033,
+  "sha256": "dc184436f61f77a8db835b745ff854139be025ea2e179013450643d4d3f47d68",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2003.dbc",
+  "rows": 11175,
+  "sha256": "23e601549eef2989320738ecae1cd62ac5eebd3105c3654bf937e2ded900cea5",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2004.dbc",
+  "rows": 11206,
+  "sha256": "ba5064b0b7ee66ddf5ef4b2257eeddfb3d6f72892e68e0e8b73909e51e4f8c89",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2005.dbc",
+  "rows": 11233,
+  "sha256": "7450b22c014bfe4f544afdb630a9e1542da7009db151fe24b1d426418d62c930",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2006.dbc",
+  "rows": 11237,
+  "sha256": "6469157dee0ce84293e5ecd798dbd6a841275f596b687af94145ea9995cd4d4a",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2007.dbc",
+  "rows": 11305,
+  "sha256": "3c431c49dedfd3a25110cd23b058589e4835887f4e9fb96084a835330b4d8ec3",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2008.dbc",
+  "rows": 11355,
+  "sha256": "2e458bdef542b494cdb42845c3acd4ecb3ddd40d01b01eef9920a0609f6a8619",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2009.dbc",
+  "rows": 11390,
+  "sha256": "b28628ef761bc300346547b7a6271d4a69201c05b104755f70984943c3800d04",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2010.dbc",
+  "rows": 11445,
+  "sha256": "f3f592afd6c48e60c04449aae37cdd705a3617c7011ce334aedcf01d342dbf3d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2011.dbc",
+  "rows": 11488,
+  "sha256": "d6abd8fdfcdcc8e8b2e75a56070bf525d8e54cc4acafd19d0a87c70c84591552",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2012.dbc",
+  "rows": 11483,
+  "sha256": "d5b7847d245ef9d5f6570f482c47f377394ad593db1854ba0e51a4d8fac32158",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2101.dbc",
+  "rows": 11528,
+  "sha256": "f0888a1a78d05b8d06ce44e2d26e5d9b14483587cd3ab10f22beffe044d61a76",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2102.dbc",
+  "rows": 11593,
+  "sha256": "a6d9750c208850f0af1c31fea4992bb635de315346231881079b8c3211a2653d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2103.dbc",
+  "rows": 11661,
+  "sha256": "db094d56d4f8f37d615307a203737ae3a48d4a8eb38859fb7df783f3152e7dad",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2104.dbc",
+  "rows": 11778,
+  "sha256": "04275d5620d91b2db83da152dcedc6b90db01819fc2446cb621de9e82453ca35",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2105.dbc",
+  "rows": 11849,
+  "sha256": "353dd3943d3da8556b3e41eb4f487c4cdb131e0851bd0438a759af75f434e747",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2106.dbc",
+  "rows": 11897,
+  "sha256": "bae31b06172ade1d4e88ff43e0dfd09cdb55d01d0dad4c50b9b402d602ef0f48",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2107.dbc",
+  "rows": 11958,
+  "sha256": "b8d5c35725b0ec8edaa48d148aeb61438803c6db62b7ee34a3b7423209abceff",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2108.dbc",
+  "rows": 12081,
+  "sha256": "1c69f9f1155ecfd4a9a8b74f8dead072d1ae4e0bc6a5e83f6cad6a3d6bb7671f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2109.dbc",
+  "rows": 12146,
+  "sha256": "81a3329039992b47ab6a2a72f1d2ed16cb4fea4565906561e086ce36af383ca2",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2110.dbc",
+  "rows": 12237,
+  "sha256": "3d8a04135a9a6db2800bc45fc80b91427a7b2e0be45744cd24b6a888202e4620",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2111.dbc",
+  "rows": 12313,
+  "sha256": "f1aea972a6192dddd53ac80e5eb2a3e098840732285bd69cb86396444df225ab",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2112.dbc",
+  "rows": 12359,
+  "sha256": "b85e9a51a4f1a996b579c1bbec430f01fd875970e7777cfa6474987d814f3ca7",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2201.dbc",
+  "rows": 12403,
+  "sha256": "b920a7a8585f3f9f3a846b8ee59daf79d18ac41667cbd425ef1a32a7dee420dc",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2202.dbc",
+  "rows": 12442,
+  "sha256": "cfce56ea6aa36a7a8aa01cc7962439f257a7b4305640150455f07eb271680f0e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2203.dbc",
+  "rows": 12512,
+  "sha256": "fc8cefb4b2a66ca0b6d95f6707d019aae1d77078a56c794a0458c891aa00a79d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2204.dbc",
+  "rows": 12565,
+  "sha256": "d31bfc2c4a8a71f52c6fe74b368b476e95ba646c34c588a48a7622e3ff059d18",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2205.dbc",
+  "rows": 12616,
+  "sha256": "a7e9ea103359a09148a8f43cb96f6808969c3865669443fc81b11617a90c4610",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2206.dbc",
+  "rows": 12648,
+  "sha256": "25ac7a6fd204cd7d08800febc974a59379fed6bd81c9c2b8121435b67d43a69d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2207.dbc",
+  "rows": 12693,
+  "sha256": "119aa3737daeb9ddcf6dc9f58205b99370bfebcc99630531c3279e1808eb5b0e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2208.dbc",
+  "rows": 12760,
+  "sha256": "0e15aaec95c178127d5610ef46491bdd39b4b664c35a6f1b4c4ab22e23653354",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2209.dbc",
+  "rows": 12782,
+  "sha256": "c3fe998dbdd783cade59a68f5560a7ef134dc6968bab29e682d11b4d868ef222",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2210.dbc",
+  "rows": 12814,
+  "sha256": "c41965b2e7d1a59ad39d9f5be42ee3ab4e47f5afe7eea79196e003923176feb6",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2211.dbc",
+  "rows": 12840,
+  "sha256": "a5c9b49f7e2538c29e444d3ab497d90b99b9319c9d560e5378cc27effb7893cb",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2212.dbc",
+  "rows": 12871,
+  "sha256": "937a511c326380677757e72f66f919d07d2f7db644bbbaec7ed8d63c656dbaac",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2301.dbc",
+  "rows": 12836,
+  "sha256": "d160e3044db70a59cf11966b98d80aaeb218aa9c59f3c3da0a214b22169bf2ae",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2302.dbc",
+  "rows": 12862,
+  "sha256": "a116bfadada8bf056876a6b48680225f744b278ea66f2ba6e5a9a3a1346f154a",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2303.dbc",
+  "rows": 12912,
+  "sha256": "d759cf9f06ed0671f2809b1bfdb4dcf0b79f1d41087832d671c486075c4ade46",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2304.dbc",
+  "rows": 12994,
+  "sha256": "9778cc39e387a30f76916557c3da01659f9df2eea273f0c5d3b83dd7479d4cee",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2305.dbc",
+  "rows": 13043,
+  "sha256": "8c019382534084dda373af97113af001269e1e1a7e3e5615a0d00b25a8059f38",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2306.dbc",
+  "rows": 13122,
+  "sha256": "dd9f6336cd0dc74e1282d7caeaeb53e1ee8e7baf66d272be681451d85733b21b",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2307.dbc",
+  "rows": 13144,
+  "sha256": "c9fc53a40385dfdcb38f259175a5a1f7a729c236a3f91927457e8694bcf10bde",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2308.dbc",
+  "rows": 13223,
+  "sha256": "7ce0dd61f02d1cff0ec2bdf2dd2a0ee143141e688b81c2a93b51ffa654999054",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2309.dbc",
+  "rows": 13270,
+  "sha256": "06e7b31ce52e874d74d2ac9c0c2ae92a0bae3d81844e786f161b8fa12b9ca508",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2310.dbc",
+  "rows": 13291,
+  "sha256": "0b8252463132eb658af9404488ea779a99b760b59016647c7ce199cd5c8cd65f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2311.dbc",
+  "rows": 13389,
+  "sha256": "7ef42bf61799ec4fde21502ba8fdd0ea14f83448639668942311adf22bca2ce2",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2312.dbc",
+  "rows": 13448,
+  "sha256": "473ea9ba85c7a187717bbf7ffb8344af823e30f61dbba1539509f02b4fe860ab",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2401.dbc",
+  "rows": 13521,
+  "sha256": "5b3fd82afa813f1ddd53cfb6f899b3aecf85473dd5b6f857b0fd58c3e7f5ca1e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2402.dbc",
+  "rows": 13604,
+  "sha256": "3a2dc70a9e72a25daf7319063c056a0486cff0fbe82d396943e280c89c7a387c",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2403.dbc",
+  "rows": 13738,
+  "sha256": "95ee2dbbb1d50bb2aa30d2bc8839c8befedd120afb113ad8c8b4748a617d3f3d",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2404.dbc",
+  "rows": 13846,
+  "sha256": "b635c4c3aa73a554a17589b14e9a9d24fe09f1ee8b5c85393a769926a66a5ca3",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2405.dbc",
+  "rows": 13946,
+  "sha256": "f8f47ef3b8de1a67814cfc9af69b3101cfaef128c1ee38dcca40675b59cea493",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2406.dbc",
+  "rows": 14012,
+  "sha256": "caef603e48084b13d8926cec075b7a3ec0076ceafadee697a94f47d50a902246",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2407.dbc",
+  "rows": 14102,
+  "sha256": "fec6ee12ee2927238515997c0686d72543a03a4ff26e5682804ec9c5f78d9ccb",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2408.dbc",
+  "rows": 14175,
+  "sha256": "337df4d2ab9015aa5b82fe29f40c1074b178107a64c83b7bd40d7d7e016484bc",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2409.dbc",
+  "rows": 14236,
+  "sha256": "a81231c8ef6f8b0aacef091b1d34c49425ca96ee56e647d6a124721e39f0e395",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2410.dbc",
+  "rows": 14294,
+  "sha256": "e7834ec0049e9392e500ac64788e08ec0138a32cd91ede6cc366c4a9a446ce16",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2411.dbc",
+  "rows": 14292,
+  "sha256": "cf4e8957af424b25cb2c3fdc8a29d58162e94b1b7ebf2fb2beac30c4125d8086",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2412.dbc",
+  "rows": 14368,
+  "sha256": "0e3493be2d5795901ff7dfb5806ab8ceddd3b6432f56fc563957394dbd7d5744",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2501.dbc",
+  "rows": 14434,
+  "sha256": "31c7f2e134fe6829046b6b0f0275c5188bd999d993fdd380c1010787bfc4d26e",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2502.dbc",
+  "rows": 14516,
+  "sha256": "a081083db54e0435e7c34b390932a04bb211e632344704f87a81f2c9b1d20804",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2503.dbc",
+  "rows": 14624,
+  "sha256": "6ee4862574213ce7db8dd1ab88d0acb5204f9d084db8fad8bff3637a6ec722d9",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2504.dbc",
+  "rows": 14633,
+  "sha256": "05507c6cc6bd423e398b0de51c8ccd9931925083ada98b1220b26a39c805ba4c",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2505.dbc",
+  "rows": 14703,
+  "sha256": "625a730b63dc6e7f8b1253a77aa47adde6663d8c12f8d10575d409255212e7b6",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2506.dbc",
+  "rows": 14751,
+  "sha256": "5e0a58c661ae3fa27a70bda8f593fd23b42254c05ba20e3270f8a167db1b7155",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2507.dbc",
+  "rows": 14844,
+  "sha256": "c01857c65b1f98c4ab5c3868227e592d7396febf45f35454f6336c6c50b457a5",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2508.dbc",
+  "rows": 14921,
+  "sha256": "325355c93f928a51eb463a33600e815de2a4af7c88b9d9e299fe14aa92e5a00f",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2509.dbc",
+  "rows": 15038,
+  "sha256": "f63eb82511899982d5fb7396d22dd246c8df9a1a4e21f67bd8766e111a4da5d8",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2510.dbc",
+  "rows": 15080,
+  "sha256": "27a62df7a191529868604a3386ba82faf7b62185198206a39ef2d76346501088",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2511.dbc",
+  "rows": 15153,
+  "sha256": "fbe331036e210ae0a26e8b5c5fb3451eab96aac59931eaec7351760f920a6779",
+  "fetched": false,
+  "status": "ok"
+ },
+ {
+  "file": "STGO2512.dbc",
+  "rows": 15192,
+  "sha256": "5d29365542d737e1e5e0d70af5df4eee7547f9f15ca5075b3b2d8bd0b59d8df9",
+  "fetched": false,
+  "status": "ok"
+ }
+]

@@ -1,0 +1,30 @@
+SP act rows 11545359 row-level id share 33.4
+RD elective group-04 AIHs 181,839; present in SP 100.0%
+  of those: >=1 identified professional 100.0%   >=1 identified 225225 30.9%
+cholecystectomy AIHs in SP 20,457: >=1 identified professional 100.0%  >=1 identified 225225 93.8%
+  AIHs where all rows unidentified (invisible to every surgeon figure): 0.0%
+facility-level AIH id coverage (facilities with >=100 AIHs, n=246): min 100% p25 100% median 100% p75 100% max 100%
+  facilities with ZERO identified rows: 0 of 268; with >=1: 268
+
+--- what the unidentified rows are: SP_ATOPROF (act type) by identified flag, share of rows ---
+        size   mean  share_rows
+ato                            
+02   5467843  0.004       0.474
+03   3251230  0.794       0.282
+04   1806327  0.694       0.156
+08    805867  0.002       0.070
+07    191716  0.000       0.017
+06     13067  0.000       0.001
+05      9266  0.538       0.001
+01        43  0.860       0.000
+identified rows per AIH: median 3.0 p10 1.0 p90 8.0
+top CBOs among identified rows of elective group-04 AIHs (share of identified rows):
+SP_PF_CBO
+225151    0.311
+225225    0.129
+225270    0.093
+223605    0.071
+225250    0.055
+223505    0.037
+225285    0.034
+223710    0.033

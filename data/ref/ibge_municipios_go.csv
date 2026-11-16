@@ -1,0 +1,247 @@
+cod6,cod7,nome,reg_imediata,reg_intermediaria
+520005,5200050,Abadia de Goiás,Goiânia,Goiânia
+520010,5200100,Abadiânia,Anápolis,Goiânia
+520013,5200134,Acreúna,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+520015,5200159,Adelândia,Inhumas - Itaberaí - Anicuns,Goiânia
+520017,5200175,Água Fria de Goiás,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+520020,5200209,Água Limpa,Caldas Novas-Morrinhos,Itumbiara
+520025,5200258,Águas Lindas de Goiás,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+520030,5200308,Alexânia,Anápolis,Goiânia
+520050,5200506,Aloândia,Itumbiara,Itumbiara
+520055,5200555,Alto Horizonte,Uruaçu - Niquelândia,Porangatu - Uruaçu
+520060,5200605,Alto Paraíso de Goiás,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+520080,5200803,Alvorada do Norte,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520082,5200829,Amaralina,Uruaçu - Niquelândia,Porangatu - Uruaçu
+520085,5200852,Americano do Brasil,Inhumas - Itaberaí - Anicuns,Goiânia
+520090,5200902,Amorinópolis,Iporá,São Luís de Montes Belos - Iporá
+520110,5201108,Anápolis,Anápolis,Goiânia
+520120,5201207,Anhanguera,Catalão,Goiânia
+520130,5201306,Anicuns,Inhumas - Itaberaí - Anicuns,Goiânia
+520140,5201405,Aparecida de Goiânia,Goiânia,Goiânia
+520145,5201454,Aparecida do Rio Doce,Rio Verde,Rio Verde
+520150,5201504,Aporé,Jataí-Mineiros,Rio Verde
+520160,5201603,Araçu,Inhumas - Itaberaí - Anicuns,Goiânia
+520170,5201702,Aragarças,Iporá,São Luís de Montes Belos - Iporá
+520180,5201801,Aragoiânia,Goiânia,Goiânia
+520215,5202155,Araguapaz,Goiás - Itapuranga,Goiânia
+520235,5202353,Arenópolis,Iporá,São Luís de Montes Belos - Iporá
+520250,5202502,Aruanã,Goiás - Itapuranga,Goiânia
+520260,5202601,Aurilândia,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+520280,5202809,Avelinópolis,Inhumas - Itaberaí - Anicuns,Goiânia
+520310,5203104,Baliza,Iporá,São Luís de Montes Belos - Iporá
+520320,5203203,Barro Alto,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520330,5203302,Bela Vista de Goiás,Goiânia,Goiânia
+520340,5203401,Bom Jardim de Goiás,Iporá,São Luís de Montes Belos - Iporá
+520350,5203500,Bom Jesus de Goiás,Itumbiara,Itumbiara
+520355,5203559,Bonfinópolis,Goiânia,Goiânia
+520357,5203575,Bonópolis,Porangatu,Porangatu - Uruaçu
+520360,5203609,Brazabrantes,Goiânia,Goiânia
+520380,5203807,Britânia,Goiás - Itapuranga,Goiânia
+520390,5203906,Buriti Alegre,Itumbiara,Itumbiara
+520393,5203939,Buriti de Goiás,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+520396,5203962,Buritinópolis,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520400,5204003,Cabeceiras,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+520410,5204102,Cachoeira Alta,Rio Verde,Rio Verde
+520420,5204201,Cachoeira de Goiás,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+520425,5204250,Cachoeira Dourada,Itumbiara,Itumbiara
+520430,5204300,Caçu,Rio Verde,Rio Verde
+520440,5204409,Caiapônia,Jataí-Mineiros,Rio Verde
+520450,5204508,Caldas Novas,Caldas Novas-Morrinhos,Itumbiara
+520455,5204557,Caldazinha,Goiânia,Goiânia
+520460,5204607,Campestre de Goiás,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+520465,5204656,Campinaçu,Porangatu,Porangatu - Uruaçu
+520470,5204706,Campinorte,Uruaçu - Niquelândia,Porangatu - Uruaçu
+520480,5204805,Campo Alegre de Goiás,Catalão,Goiânia
+520485,5204854,Campo Limpo de Goiás,Anápolis,Goiânia
+520490,5204904,Campos Belos,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520495,5204953,Campos Verdes,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520500,5205000,Carmo do Rio Verde,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520505,5205059,Castelândia,Rio Verde,Rio Verde
+520510,5205109,Catalão,Catalão,Goiânia
+520520,5205208,Caturaí,Goiânia,Goiânia
+520530,5205307,Cavalcante,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+520540,5205406,Ceres,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520545,5205455,Cezarina,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+520547,5205471,Chapadão do Céu,Jataí-Mineiros,Rio Verde
+520549,5205497,Cidade Ocidental,Luziânia,Luziânia - Águas Lindas de Goiás
+520551,5205513,Cocalzinho de Goiás,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+520552,5205521,Colinas do Sul,Uruaçu - Niquelândia,Porangatu - Uruaçu
+520570,5205703,Córrego do Ouro,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+520580,5205802,Corumbá de Goiás,Anápolis,Goiânia
+520590,5205901,Corumbaíba,Caldas Novas-Morrinhos,Itumbiara
+520620,5206206,Cristalina,Luziânia,Luziânia - Águas Lindas de Goiás
+520630,5206305,Cristianópolis,Piracanjuba,Itumbiara
+520640,5206404,Crixás,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520650,5206503,Cromínia,Piracanjuba,Itumbiara
+520660,5206602,Cumari,Catalão,Goiânia
+520670,5206701,Damianópolis,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520680,5206800,Damolândia,Inhumas - Itaberaí - Anicuns,Goiânia
+520690,5206909,Davinópolis,Catalão,Goiânia
+520710,5207105,Diorama,Iporá,São Luís de Montes Belos - Iporá
+520725,5207253,Doverlândia,Jataí-Mineiros,Rio Verde
+520735,5207352,Edealina,Piracanjuba,Itumbiara
+520740,5207402,Edéia,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+520750,5207501,Estrela do Norte,Porangatu,Porangatu - Uruaçu
+520753,5207535,Faina,Goiás - Itapuranga,Goiânia
+520760,5207600,Fazenda Nova,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+520780,5207808,Firminópolis,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+520790,5207907,Flores de Goiás,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+520800,5208004,Formosa,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+520810,5208103,Formoso,Porangatu,Porangatu - Uruaçu
+520815,5208152,Gameleira de Goiás,Anápolis,Goiânia
+520830,5208301,Divinópolis de Goiás,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520840,5208400,Goianápolis,Anápolis,Goiânia
+520850,5208509,Goiandira,Catalão,Goiânia
+520860,5208608,Goianésia,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520870,5208707,Goiânia,Goiânia,Goiânia
+520880,5208806,Goianira,Goiânia,Goiânia
+520890,5208905,Goiás,Goiás - Itapuranga,Goiânia
+520910,5209101,Goiatuba,Itumbiara,Itumbiara
+520915,5209150,Gouvelândia,Quirinópolis,Rio Verde
+520920,5209200,Guapó,Goiânia,Goiânia
+520929,5209291,Guaraíta,Goiás - Itapuranga,Goiânia
+520940,5209408,Guarani de Goiás,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520945,5209457,Guarinos,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+520960,5209606,Heitoraí,Inhumas - Itaberaí - Anicuns,Goiânia
+520970,5209705,Hidrolândia,Goiânia,Goiânia
+520980,5209804,Hidrolina,Uruaçu - Niquelândia,Porangatu - Uruaçu
+520990,5209903,Iaciara,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+520993,5209937,Inaciolândia,Quirinópolis,Rio Verde
+520995,5209952,Indiara,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521000,5210000,Inhumas,Inhumas - Itaberaí - Anicuns,Goiânia
+521010,5210109,Ipameri,Catalão,Goiânia
+521015,5210158,Ipiranga de Goiás,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521020,5210208,Iporá,Iporá,São Luís de Montes Belos - Iporá
+521030,5210307,Israelândia,Iporá,São Luís de Montes Belos - Iporá
+521040,5210406,Itaberaí,Inhumas - Itaberaí - Anicuns,Goiânia
+521056,5210562,Itaguari,Inhumas - Itaberaí - Anicuns,Goiânia
+521060,5210604,Itaguaru,Inhumas - Itaberaí - Anicuns,Goiânia
+521080,5210802,Itajá,Rio Verde,Rio Verde
+521090,5210901,Itapaci,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521100,5211008,Itapirapuã,Goiás - Itapuranga,Goiânia
+521120,5211206,Itapuranga,Goiás - Itapuranga,Goiânia
+521130,5211305,Itarumã,Rio Verde,Rio Verde
+521140,5211404,Itauçu,Inhumas - Itaberaí - Anicuns,Goiânia
+521150,5211503,Itumbiara,Itumbiara,Itumbiara
+521160,5211602,Ivolândia,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+521170,5211701,Jandaia,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521180,5211800,Jaraguá,Anápolis,Goiânia
+521190,5211909,Jataí,Jataí-Mineiros,Rio Verde
+521200,5212006,Jaupaci,Iporá,São Luís de Montes Belos - Iporá
+521205,5212055,Jesúpolis,Anápolis,Goiânia
+521210,5212105,Joviânia,Itumbiara,Itumbiara
+521220,5212204,Jussara,Goiás - Itapuranga,Goiânia
+521225,5212253,Lagoa Santa,Rio Verde,Rio Verde
+521230,5212303,Leopoldo de Bulhões,Anápolis,Goiânia
+521250,5212501,Luziânia,Luziânia,Luziânia - Águas Lindas de Goiás
+521260,5212600,Mairipotaba,Piracanjuba,Itumbiara
+521270,5212709,Mambaí,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+521280,5212808,Mara Rosa,Uruaçu - Niquelândia,Porangatu - Uruaçu
+521290,5212907,Marzagão,Caldas Novas-Morrinhos,Itumbiara
+521295,5212956,Matrinchã,Goiás - Itapuranga,Goiânia
+521300,5213004,Maurilândia,Rio Verde,Rio Verde
+521305,5213053,Mimoso de Goiás,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+521308,5213087,Minaçu,Porangatu,Porangatu - Uruaçu
+521310,5213103,Mineiros,Jataí-Mineiros,Rio Verde
+521340,5213400,Moiporá,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+521350,5213509,Monte Alegre de Goiás,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+521370,5213707,Montes Claros de Goiás,Iporá,São Luís de Montes Belos - Iporá
+521375,5213756,Montividiu,Rio Verde,Rio Verde
+521377,5213772,Montividiu do Norte,Porangatu,Porangatu - Uruaçu
+521380,5213806,Morrinhos,Caldas Novas-Morrinhos,Itumbiara
+521385,5213855,Morro Agudo de Goiás,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521390,5213905,Mossâmedes,Goiás - Itapuranga,Goiânia
+521400,5214002,Mozarlândia,Goiás - Itapuranga,Goiânia
+521405,5214051,Mundo Novo,Porangatu,Porangatu - Uruaçu
+521410,5214101,Mutunópolis,Porangatu,Porangatu - Uruaçu
+521440,5214408,Nazário,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521450,5214507,Nerópolis,Goiânia,Goiânia
+521460,5214606,Niquelândia,Uruaçu - Niquelândia,Porangatu - Uruaçu
+521470,5214705,Nova América,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521480,5214804,Nova Aurora,Catalão,Goiânia
+521483,5214838,Nova Crixás,Goiás - Itapuranga,Goiânia
+521486,5214861,Nova Glória,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521487,5214879,Nova Iguaçu de Goiás,Uruaçu - Niquelândia,Porangatu - Uruaçu
+521490,5214903,Nova Roma,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+521500,5215009,Nova Veneza,Goiânia,Goiânia
+521520,5215207,Novo Brasil,Goiás - Itapuranga,Goiânia
+521523,5215231,Novo Gama,Luziânia,Luziânia - Águas Lindas de Goiás
+521525,5215256,Novo Planalto,Porangatu,Porangatu - Uruaçu
+521530,5215306,Orizona,Pires do Rio,Goiânia
+521540,5215405,Ouro Verde de Goiás,Anápolis,Goiânia
+521550,5215504,Ouvidor,Catalão,Goiânia
+521560,5215603,Padre Bernardo,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+521565,5215652,Palestina de Goiás,Iporá,São Luís de Montes Belos - Iporá
+521570,5215702,Palmeiras de Goiás,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521580,5215801,Palmelo,Pires do Rio,Goiânia
+521590,5215900,Palminópolis,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521600,5216007,Panamá,Itumbiara,Itumbiara
+521630,5216304,Paranaiguara,Quirinópolis,Rio Verde
+521640,5216403,Paraúna,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521645,5216452,Perolândia,Jataí-Mineiros,Rio Verde
+521680,5216809,Petrolina de Goiás,Anápolis,Goiânia
+521690,5216908,Pilar de Goiás,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521710,5217104,Piracanjuba,Piracanjuba,Itumbiara
+521720,5217203,Piranhas,Iporá,São Luís de Montes Belos - Iporá
+521730,5217302,Pirenópolis,Anápolis,Goiânia
+521740,5217401,Pires do Rio,Pires do Rio,Goiânia
+521760,5217609,Planaltina,Águas Lindas de Goiás,Luziânia - Águas Lindas de Goiás
+521770,5217708,Pontalina,Piracanjuba,Itumbiara
+521800,5218003,Porangatu,Porangatu,Porangatu - Uruaçu
+521805,5218052,Porteirão,Rio Verde,Rio Verde
+521810,5218102,Portelândia,Jataí-Mineiros,Rio Verde
+521830,5218300,Posse,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+521839,5218391,Professor Jamil,Piracanjuba,Itumbiara
+521850,5218508,Quirinópolis,Quirinópolis,Rio Verde
+521860,5218607,Rialma,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521870,5218706,Rianápolis,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521878,5218789,Rio Quente,Caldas Novas-Morrinhos,Itumbiara
+521880,5218805,Rio Verde,Rio Verde,Rio Verde
+521890,5218904,Rubiataba,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521900,5219001,Sanclerlândia,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+521910,5219100,Santa Bárbara de Goiás,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+521920,5219209,Santa Cruz de Goiás,Pires do Rio,Goiânia
+521925,5219258,Santa Fé de Goiás,Goiás - Itapuranga,Goiânia
+521930,5219308,Santa Helena de Goiás,Rio Verde,Rio Verde
+521935,5219357,Santa Isabel,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521940,5219407,Santa Rita do Araguaia,Jataí-Mineiros,Rio Verde
+521945,5219456,Santa Rita do Novo Destino,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521950,5219506,Santa Rosa de Goiás,Anápolis,Goiânia
+521960,5219605,Santa Tereza de Goiás,Porangatu,Porangatu - Uruaçu
+521970,5219704,Santa Terezinha de Goiás,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+521971,5219712,Santo Antônio da Barra,Rio Verde,Rio Verde
+521973,5219738,Santo Antônio de Goiás,Goiânia,Goiânia
+521975,5219753,Santo Antônio do Descoberto,Luziânia,Luziânia - Águas Lindas de Goiás
+521980,5219803,São Domingos,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+521990,5219902,São Francisco de Goiás,Anápolis,Goiânia
+522000,5220009,São João d'Aliança,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+522005,5220058,São João da Paraúna,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+522010,5220108,São Luís de Montes Belos,São Luís de Montes Belos,São Luís de Montes Belos - Iporá
+522015,5220157,São Luiz do Norte,Uruaçu - Niquelândia,Porangatu - Uruaçu
+522020,5220207,São Miguel do Araguaia,Porangatu,Porangatu - Uruaçu
+522026,5220264,São Miguel do Passa Quatro,Anápolis,Goiânia
+522028,5220280,São Patrício,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+522040,5220405,São Simão,Quirinópolis,Rio Verde
+522045,5220454,Senador Canedo,Goiânia,Goiânia
+522050,5220504,Serranópolis,Jataí-Mineiros,Rio Verde
+522060,5220603,Silvânia,Anápolis,Goiânia
+522068,5220686,Simolândia,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+522070,5220702,Sítio d'Abadia,Posse-Campos Belos,Luziânia - Águas Lindas de Goiás
+522100,5221007,Taquaral de Goiás,Inhumas - Itaberaí - Anicuns,Goiânia
+522108,5221080,Teresina de Goiás,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+522119,5221197,Terezópolis de Goiás,Goiânia,Goiânia
+522130,5221304,Três Ranchos,Catalão,Goiânia
+522140,5221403,Trindade,Goiânia,Goiânia
+522145,5221452,Trombas,Porangatu,Porangatu - Uruaçu
+522150,5221502,Turvânia,Palmeiras de Goiás,São Luís de Montes Belos - Iporá
+522155,5221551,Turvelândia,Rio Verde,Rio Verde
+522157,5221577,Uirapuru,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+522160,5221601,Uruaçu,Uruaçu - Niquelândia,Porangatu - Uruaçu
+522170,5221700,Uruana,Ceres - Rialma - Goianésia,Porangatu - Uruaçu
+522180,5221809,Urutaí,Pires do Rio,Goiânia
+522185,5221858,Valparaíso de Goiás,Luziânia,Luziânia - Águas Lindas de Goiás
+522190,5221908,Varjão,Goiânia,Goiânia
+522200,5222005,Vianópolis,Anápolis,Goiânia
+522205,5222054,Vicentinópolis,Piracanjuba,Itumbiara
+522220,5222203,Vila Boa,Flores de Goiás,Luziânia - Águas Lindas de Goiás
+522230,5222302,Vila Propício,Ceres - Rialma - Goianésia,Porangatu - Uruaçu

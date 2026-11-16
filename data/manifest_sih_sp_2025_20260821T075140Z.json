@@ -1,0 +1,86 @@
+[
+ {
+  "file": "SPGO2501.dbc",
+  "sha256": "b5785ce4e080b68a11ad48478e3006bb08e92ea98b2dbc153f52be4ca54dc7eb",
+  "rows": 479739,
+  "pulled_at": "2026-08-21T02:10:21.247984+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2502.dbc",
+  "sha256": "850283a5dceb76f32afb45d198ec02fbb29b1c80e19f5ca2ecade4d75434c341",
+  "rows": 477352,
+  "pulled_at": "2026-08-21T02:10:48.899017+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2503.dbc",
+  "sha256": "e2b79f92e4d193f00a6bb8f0da9fee83776deeca9c282d0cc15021e76645cc2d",
+  "rows": 505116,
+  "pulled_at": "2026-08-21T02:11:13.334854+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2504.dbc",
+  "sha256": "8d80c6d77e3bf30edf1335a163f8a380bba0de6252b66995cb3e39d3537fc508",
+  "rows": 489238,
+  "pulled_at": "2026-08-21T02:11:37.439705+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2505.dbc",
+  "sha256": "af6dbf724e088cadec9c778eeea47ba1488c22c723d8643f862f988e5a3fa648",
+  "rows": 526267,
+  "pulled_at": "2026-08-21T02:12:03.274518+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2506.dbc",
+  "sha256": "a79de10c0c1c03b30edff2745418f413578cb7faf92f3649cf2bec96c396d956",
+  "rows": 502473,
+  "pulled_at": "2026-08-21T02:12:26.948964+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2507.dbc",
+  "sha256": "e586ee4c9549e7cd5a3ac9981b3806e91cb52ebb7ff6f6c713f9eb9c48519d08",
+  "rows": 523401,
+  "pulled_at": "2026-08-21T02:12:52.224912+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2508.dbc",
+  "sha256": "019bf3890ec9884870f7097105f2fd5165bd7fcaaaa6e348714b3be933f35020",
+  "rows": 515373,
+  "pulled_at": "2026-08-21T07:17:15.470111+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2509.dbc",
+  "sha256": "9e3fdfb280c53a52273b013eb7085413b421cde6dd856cc41e5ac83fdc0ebc6d",
+  "rows": 495075,
+  "pulled_at": "2026-08-21T07:34:35.168134+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2510.dbc",
+  "sha256": "4b62761565ed4c655e4019047e7d5340384c33156b25b702f1a2f3878f39a9a5",
+  "rows": 514668,
+  "pulled_at": "2026-08-21T07:50:20.031472+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2511.dbc",
+  "sha256": "28545846666c75cea8221d73ccf7f33c67179814a478d2bd02e0f07ac23b18f9",
+  "rows": 495506,
+  "pulled_at": "2026-08-21T07:50:45.827332+00:00",
+  "status": "ok"
+ },
+ {
+  "file": "SPGO2512.dbc",
+  "sha256": "37957357899a7e55812681799511a3df3882684baeba7aacdd498d2ae929b5f2",
+  "rows": 483898,
+  "pulled_at": "2026-08-21T07:51:21.824494+00:00",
+  "status": "ok"
+ }
+]

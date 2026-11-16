@@ -1,0 +1,194 @@
+[
+ {
+  "file": "PFGO2401.dbc",
+  "competen": "2024-01",
+  "dbc_sha256": "d54d54cf859bb7758c8d652c9c345e7541ff404a0697c928795f25cbf9f1f601",
+  "status": "ok",
+  "rows": 171690,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2402.dbc",
+  "competen": "2024-02",
+  "dbc_sha256": "e8ec5a1900d70416eb879144de9429f439de80fe9929c6b09b064c7e77f18f41",
+  "status": "ok",
+  "rows": 172535,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2403.dbc",
+  "competen": "2024-03",
+  "dbc_sha256": "0450ec5f3f28c8672015300ca4923cefa1b1314ad101928b4ef6114744cb6e75",
+  "status": "ok",
+  "rows": 173525,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2404.dbc",
+  "competen": "2024-04",
+  "dbc_sha256": "89a3262309813a229e765d5f818ae1a8837a270daec10f63157712c93b7c25a1",
+  "status": "ok",
+  "rows": 174437,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2405.dbc",
+  "competen": "2024-05",
+  "dbc_sha256": "a5a64afea9a834a09a80647e77e37469ef63d5c5ebbc02276147c4edee54ee11",
+  "status": "ok",
+  "rows": 175265,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2406.dbc",
+  "competen": "2024-06",
+  "dbc_sha256": "0fec848e8cc054b38ef67876c93c4cbca0c47f6093bf1d5d570a043a03f64f9c",
+  "status": "ok",
+  "rows": 176452,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2407.dbc",
+  "competen": "2024-07",
+  "dbc_sha256": "0f601a9d5697da87730939e045647f67c54a39057f454f98fbc10782bff84af9",
+  "status": "ok",
+  "rows": 178536,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2408.dbc",
+  "competen": "2024-08",
+  "dbc_sha256": "b4f5f2d9e1d758d730a5355858b7617b929b94a7b95849a31adcf565251a781b",
+  "status": "ok",
+  "rows": 179438,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2409.dbc",
+  "competen": "2024-09",
+  "dbc_sha256": "7e90f5c06db7995e0a3bc01de196dafb6b4655c073730d1f0fdf517029b03641",
+  "status": "ok",
+  "rows": 181123,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2410.dbc",
+  "competen": "2024-10",
+  "dbc_sha256": "41b1fa2b932e202c911fec9285d78aa4a4113ec2d9486e06dc2dfbd7f34925d2",
+  "status": "ok",
+  "rows": 181652,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2411.dbc",
+  "competen": "2024-11",
+  "dbc_sha256": "5d63b0ea028ff6309e0402bf7c5e08923664aaaf9c26abe2d0db17af43b7f36d",
+  "status": "ok",
+  "rows": 181980,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2412.dbc",
+  "competen": "2024-12",
+  "dbc_sha256": "45f3793b3093ec4996d6c4bacefa9921867dbd7f24850cc6e020b8f241a65497",
+  "status": "ok",
+  "rows": 182766,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2501.dbc",
+  "competen": "2025-01",
+  "dbc_sha256": "3eb511f7ffa0a370ef576acb8f29f13806c577051fe97a28fa3515a2389fbcae",
+  "status": "ok",
+  "rows": 182679,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2502.dbc",
+  "competen": "2025-02",
+  "dbc_sha256": "88cd4efa3448d588007c8eb375eb67e228eb45f655ae55e4a4e939f7f2873b61",
+  "status": "ok",
+  "rows": 183104,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2503.dbc",
+  "competen": "2025-03",
+  "dbc_sha256": "f22bdb4454ac0c424f657cd357712d63f84be90c3d43ecf4b6ffb724d795dabb",
+  "status": "ok",
+  "rows": 184205,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2504.dbc",
+  "competen": "2025-04",
+  "dbc_sha256": "b2739759bb28f405ceb7f7de8f15369a9742cef0a82c1f42e88d7399c00a17de",
+  "status": "ok",
+  "rows": 185339,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2505.dbc",
+  "competen": "2025-05",
+  "dbc_sha256": "e2490b1cbb149135c030bc0bad53a93b38bfd9dc4ca52bb4a8a9170d982e0646",
+  "status": "ok",
+  "rows": 186710,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2506.dbc",
+  "competen": "2025-06",
+  "dbc_sha256": "aeb51cf6840b411c4443f5b1cc05c3bb8a5144bb0bd380446fb361b38b4d9955",
+  "status": "ok",
+  "rows": 187918,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2507.dbc",
+  "competen": "2025-07",
+  "dbc_sha256": "9f9bd805e836a9927ed5ee2518bd670b2b9740b0c692adfa0e49416627121d22",
+  "status": "ok",
+  "rows": 188789,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2508.dbc",
+  "competen": "2025-08",
+  "dbc_sha256": "7ecbecd182b03e6170b9dd33a1d226fb9a719e1f2043cfd33b1a5be2d3379e66",
+  "status": "ok",
+  "rows": 190185,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2509.dbc",
+  "competen": "2025-09",
+  "dbc_sha256": "7a63aca36fb8c345f1846d6fd96e961c2f1fba1dca3ad89bdbd3afb88f337b03",
+  "status": "ok",
+  "rows": 191095,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2510.dbc",
+  "competen": "2025-10",
+  "dbc_sha256": "9051ff71f638491751b8bfe5b2e8d2ebf176ac0ff8606647c00a0f565be3fda5",
+  "status": "ok",
+  "rows": 191726,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2511.dbc",
+  "competen": "2025-11",
+  "dbc_sha256": "56e12226491d12685924c0213e86ec6eef4f218c281e9c682101d7935d66970c",
+  "status": "ok",
+  "rows": 191316,
+  "cols": 41
+ },
+ {
+  "file": "PFGO2512.dbc",
+  "competen": "2025-12",
+  "dbc_sha256": "76ba021d7413edb6beb23cb82b5d4a6771cf82977dc40573f3b99226a717fa25",
+  "status": "ok",
+  "rows": 191933,
+  "cols": 41
+ }
+]
